@@ -1,0 +1,45 @@
+# Konfiguracja pluginu AfteroweBackupy
+# Serwer Discord na którym pomagamy z konfiguracją serwera: https://discord.aftermc.pl
+# Dołącz na serwer już teraz! :)
+#  
+# Komendy:
+# /backup <gracz> (afterowebackupy.backup) - Lista backupow gracza
+# /backup reload (afterowebackupy.reload) - Przeladowanie pliku config.yml oraz messages.yml
+#  
+# Po jakim czasie mają się automaczycznie usuwać backupy
+deleteBackupTime: 7d
+# Wyglad przedmiotow w GUI
+backupItem:
+  material: ENDER_CHEST
+  item-meta:
+    display-name: '&7Unikatowe ID: &a{UUID}'
+    lore:
+    - ''
+    - ' &8• &7Data śmierci: &e{DATE}'
+    - ' &8• &7Poziom: &e{LEVEL}'
+    - ' &8• &7Zabity przez: &e{KILLER}'
+    - ''
+    - ' &a&nKliknij aby sprawdzić przedmioty'
+    - ''
+restoreItemsAdmin:
+  material: GREEN_WOOL
+  item-meta:
+    display-name: '&aPrzywróc przedmioty sobie'
+restoreItemsAdminNoPermission:
+  material: RED_WOOL
+  item-meta:
+    display-name: '&cNie możesz przywrócić przedmiotów sobie'
+restoreItemsPlayer:
+  material: GREEN_WOOL
+  item-meta:
+    display-name: '&aPrzywróc przedmioty graczowi'
+restoreItemsPlayerLimit:
+  material: RED_WOOL
+  item-meta:
+    display-name: '&cPrzedmioty zostały już przywrócone graczowi'
+# Konfiguracja bazy danych
+database:
+  # Typ bazy danych (AFTEROWEDB, FLAT)
+  type: FLAT
+  # Nazwa tabelki (w przypadku wybrania AFTEROWEDB)
+  tableName: backups

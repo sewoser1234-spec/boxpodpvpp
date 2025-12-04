@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 31.6.64.55
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1761832564135
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1761846954565
+  login: 1761846665465
+money: '239.16'
+last-account-name: eziaczek2200
+lastlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: -6.30852206754901
+  y: 124.0
+  z: 217.32949371222952
+  yaw: 98.625
+  pitch: 12.384510040283203
+logoutlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: 25.5402355072556
+  y: 145.0
+  z: 116.74966183289152
+  yaw: 143.5162353515625
+  pitch: 6.832630157470703

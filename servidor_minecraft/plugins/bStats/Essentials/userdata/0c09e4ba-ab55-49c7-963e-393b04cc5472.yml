@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 185.122.61.13
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1761331729903
+  login: 1761331548950
+money: '0'
+last-account-name: NaviMMA
+lastlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: -60.5
+  y: 88.0
+  z: 36.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: 24.812717053058922
+  y: 145.0
+  z: 98.08865232916305
+  yaw: -15.0479736328125
+  pitch: 17.482500076293945

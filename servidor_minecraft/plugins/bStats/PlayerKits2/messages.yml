@@ -1,0 +1,47 @@
+prefix: '&6&lKITY &8» &7'
+kitDoesNotExists: '&cZestaw &7%kit% &cnie istnieje.'
+kitNoPermissions: '&cNie masz uprawnień, aby odebrać ten zestaw.'
+noSpaceError: '&cNie masz wystarczającej ilości miejsca w ekwipunku.'
+commandReload: '&aKonfiguracja została ponownie załadowana.'
+commandGiveError: '&cMusisz użyć: &7/kit give <kit> <player>'
+commandGiveError2: '&cWystąpił błąd podczas podawania zestawu: &7%error%'
+commandGiveCorrect: '&aZestaw &7%kit% &adane &e%player%&a!'
+commandClaimError: '&cMusisz użyć: &7/kit claim <kit>'
+commandCreateError: '&cMusisz użyć: &7/kit create <name>'
+commandDeleteError: '&cMusisz użyć: &7/kit delete <name>'
+commandResetError: '&cMusisz użyć: &7/kit reset <kit> <player>'
+commandEditError: '&cMusisz użyć: &7/kit edit <kit>'
+commandPreviewError: '&cMusisz użyć: &7/kit preview <kit>'
+commandDoesNotExists: '&cTo polecenie nie istnieje.'
+playerNotOnline: '&cGracz &7%player% &cjest offline.'
+oneTimeError: '&cNie możesz ponownie ubiegać się o ten zestaw.'
+cooldownError: '&cMusisz poczekać &7%time% &caby ponownie odebrać ten zestaw.'
+kitReceived: '&aOdebrales zestaw &2%kit%.'
+kitAlreadyExists: '&cZestaw &7%kit% &cjuż istnieje w konfiguracji.'
+inventoryEmpty: '&cAby stworzyć zestaw, potrzebujesz co najmniej 1 przedmiotu w swoim
+  ekwipunku.'
+kitCreated: '&aZestaw &7%kit% &autworzony poprawnie.'
+kitNotAddedToInventory: '&eNie było możliwości automatycznego dodania zestawu do ekwipunku.
+  Nie ma już miejsca.'
+kitAddedToInventory: '&eElement zestawu dodany do &7%inventory% &edomyślny ekwipunek
+  w slocie &7%slot%&e!'
+noPermissions: '&cNie masz do tego uprawnień.'
+kitDeleted: '&aZestaw &7%kit% &apoprawnie usunięte.'
+playerDataNotFound: '&cNie znaleziono danych dla gracza &7%player%&c.'
+kitResetCorrect: '&aZestaw &7%kit% &azresetować dla &7%player%&a!'
+cantPreviewError: '&cNie możesz wyświetlić podglądu tego zestawu.'
+requirementsMessageStatusSymbolTrue: '&a&l✔'
+requirementsMessageStatusSymbolFalse: '&c&l✖'
+requirementsError: '&cNie masz wymagań niezbędnych do zakupu tego!'
+seconds: s
+minutes: m
+hours: h
+days: d
+cooldownPlaceholderReady: '&a&lReady!'
+pluginCriticalErrors: '&cWtyczka wykryła pewne błędy. Sprawdź je za pomocą &7/kit
+  verify'
+kitPreviewDisabled: '&cPodgląd zestawu jest wyłączony.'
+commandOpenError: '&cYou need to use: &7/kit open <inventory> <player>'
+inventoryNotExists: '&cThat inventory doesn''t exists.'
+
+

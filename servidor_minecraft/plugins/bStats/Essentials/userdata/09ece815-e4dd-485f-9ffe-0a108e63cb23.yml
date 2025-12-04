@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 37.31.0.44
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1761752392512
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1761752939142
+  login: 1761752179389
+money: '0.0'
+last-account-name: GGCRAFTNAJLEPSZY
+lastlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: 1.3551719862203133
+  y: 124.0
+  z: 143.6933434233384
+  yaw: -168.411865234375
+  pitch: 3.6253981590270996
+logoutlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: 22.018870059240808
+  y: 145.0
+  z: 94.68635767343787
+  yaw: -14.809326171875
+  pitch: 31.965911865234375

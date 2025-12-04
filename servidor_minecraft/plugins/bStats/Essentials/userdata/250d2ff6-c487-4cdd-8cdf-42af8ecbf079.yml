@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 94.254.132.185
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1761820939027
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1761831428014
+  login: 1761831406914
+money: '38.8'
+last-account-name: Dark_THEBOSS
+lastlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: 19.6010262918299
+  y: 124.0
+  z: 168.66463910139956
+  yaw: 168.85272216796875
+  pitch: 11.33303451538086
+logoutlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: 30.567251216384204
+  y: 145.0
+  z: 109.97581598530977
+  yaw: 37.98846435546875
+  pitch: 90.0

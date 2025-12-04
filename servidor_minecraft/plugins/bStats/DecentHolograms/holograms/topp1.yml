@@ -1,0 +1,39 @@
+location: world:28.438:149.500:93.456
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&2&l★ &f&lᴛᴏᴘᴋᴀ ᴘᴜɴᴋᴛᴏᴡ &2&l★'
+    height: 0.3
+  - content: '&8&l↓↓'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&2&l★ &7&lTOP 1 &f%getclan_top_points_1_name% &7&l» &f%getclan_top_points_1_value%  &f&lᴘᴏɴᴋᴛᴏᴡ
+      &2&l★'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&2&l★ &7&lTOP 2 &f%getclan_top_points_2_name% &7&l» &f%getclan_top_points_2_value%  &f&lᴘᴏɴᴋᴛᴏᴡ
+      &2&l★'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&2&l★ &7&lTOP 3 &f%getclan_top_points_3_name% &7&l» &f%getclan_top_points_3_value%  &f&lᴘᴏɴᴋᴛᴏᴡ
+      &2&l★'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&2&l★ &7&lTOP 4 &f%getclan_top_points_4_name% &7&l» &f%getclan_top_points_4_value%  &f&lᴘᴏɴᴋᴛᴏᴡ
+      &2&l★'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&2&l★ &7&lTOP 5 &f%getclan_top_points_5_name% &7&l» &f%getclan_top_points_5_value%  &f&lᴘᴏɴᴋᴛᴏᴡ
+      &2&l★'
+    height: 0.3
+  actions: {}

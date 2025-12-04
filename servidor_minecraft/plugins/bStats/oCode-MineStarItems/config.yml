@@ -1,0 +1,3119 @@
+##
+## oCode-MineStarItems (Plugin-Config) ##
+##
+
+# Skonfiguruj wyswietlanie sie actionbara:
+actionbar: false
+
+# Skonfiguruj menu edytora itemków:
+dropMenu:
+  title: '&6&lDrop z {name}'
+  rows: 6
+  items:
+  - slot: 0
+    itemStack:
+      material: ORANGE_STAINED_GLASS_PANE
+    customModelData: 0
+  - slot: 8
+    itemStack:
+      material: ORANGE_STAINED_GLASS_PANE
+    customModelData: 0
+  - slot: 45
+    itemStack:
+      material: ORANGE_STAINED_GLASS_PANE
+    customModelData: 0
+  - slot: 53
+    itemStack:
+      material: ORANGE_STAINED_GLASS_PANE
+    customModelData: 0
+  - slot: 1
+    itemStack:
+      material: YELLOW_STAINED_GLASS_PANE
+    customModelData: 0
+  - slot: 7
+    itemStack:
+      material: YELLOW_STAINED_GLASS_PANE
+    customModelData: 0
+  - slot: 9
+    itemStack:
+      material: YELLOW_STAINED_GLASS_PANE
+    customModelData: 0
+  - slot: 17
+    itemStack:
+      material: YELLOW_STAINED_GLASS_PANE
+    customModelData: 0
+  - slot: 36
+    itemStack:
+      material: YELLOW_STAINED_GLASS_PANE
+    customModelData: 0
+  - slot: 44
+    itemStack:
+      material: YELLOW_STAINED_GLASS_PANE
+    customModelData: 0
+  - slot: 46
+    itemStack:
+      material: YELLOW_STAINED_GLASS_PANE
+    customModelData: 0
+  - slot: 52
+    itemStack:
+      material: YELLOW_STAINED_GLASS_PANE
+    customModelData: 0
+  - slot: 2
+    itemStack:
+      material: WHITE_STAINED_GLASS_PANE
+    customModelData: 0
+  - slot: 3
+    itemStack:
+      material: WHITE_STAINED_GLASS_PANE
+    customModelData: 0
+  - slot: 5
+    itemStack:
+      material: WHITE_STAINED_GLASS_PANE
+    customModelData: 0
+  - slot: 6
+    itemStack:
+      material: WHITE_STAINED_GLASS_PANE
+    customModelData: 0
+  - slot: 18
+    itemStack:
+      material: WHITE_STAINED_GLASS_PANE
+    customModelData: 0
+  - slot: 26
+    itemStack:
+      material: WHITE_STAINED_GLASS_PANE
+    customModelData: 0
+  - slot: 27
+    itemStack:
+      material: WHITE_STAINED_GLASS_PANE
+    customModelData: 0
+  - slot: 35
+    itemStack:
+      material: WHITE_STAINED_GLASS_PANE
+    customModelData: 0
+  - slot: 47
+    itemStack:
+      material: WHITE_STAINED_GLASS_PANE
+    customModelData: 0
+  - slot: 48
+    itemStack:
+      material: WHITE_STAINED_GLASS_PANE
+    customModelData: 0
+  - slot: 50
+    itemStack:
+      material: WHITE_STAINED_GLASS_PANE
+    customModelData: 0
+  - slot: 51
+    itemStack:
+      material: WHITE_STAINED_GLASS_PANE
+    customModelData: 0
+
+# Skonfiguruj dodatkowy opis:
+additionalLore:
+- ''
+- ' &8» &7Szansa: &f{chance}%'
+
+# Skonfiguruj ignorowane sloty:
+dropIgnoredSlots:
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 17
+- 18
+- 26
+- 27
+- 35
+- 36
+- 44
+- 45
+- 46
+- 47
+- 48
+- 49
+- 50
+- 51
+- 52
+- 53
+
+# Skonfiguruj menu edytora itemków:
+itemsCreatorMenu:
+  title: '&8Edytuj przedmioty'
+  rows: 6
+  items:
+  - slot: 48
+    itemStack:
+      material: BARRIER
+      item-meta:
+        display-name: '&cPowrót'
+    customModelData: 0
+  - slot: 51
+    itemStack:
+      material: COMPARATOR
+      item-meta:
+        display-name: '&6Specjalne ustawienia'
+        lore:
+        - ' &8» &7Tutaj edytujesz specjalne ustawienia!'
+        - ''
+        - ' &8» &aKliknij &2LEWYM&a, aby edytować ustawienia!'
+    customModelData: 0
+
+# Skonfiguruj przycisk poprzedniej strony:
+itemsCreatorPreviousPage:
+  slot: 47
+  itemStack:
+    material: ARROW
+    item-meta:
+      display-name: '&cPoprzednia strona'
+  customModelData: 0
+
+# Skonfiguruj przycisk następniej strony:
+itemsCreatorNextPage:
+  slot: 49
+  itemStack:
+    material: ARROW
+    item-meta:
+      display-name: '&cNastępna strona'
+  customModelData: 0
+
+# Skonfiguruj item opisu:
+itemsCreatorPresenter:
+  material: PAPER
+  item-meta:
+    display-name: '&6Wybierz przedmiot'
+    lore:
+    - ' &8» &7Nazwa: &f{name}'
+    - ''
+    - ' &8» &aKliknij &2LEWYM&a, aby edytować przedmiot!'
+
+# Skonfiguruj slot pod którym znajduje się przycisk powrotu:
+itemsCreatorReturnSlot: 48
+
+# Skonfiguruj slot pod którym znajduje się przycisk powrotu:
+itemsCreatorSettingsSlot: 51
+
+# Skonfiguruj ignorowane sloty:
+itemsCreatorIgnoredSlots:
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 17
+- 18
+- 26
+- 27
+- 35
+- 36
+- 44
+- 45
+- 46
+- 47
+- 48
+- 49
+- 50
+- 51
+- 52
+- 53
+
+# Skonfiguruj menu edytora itemków:
+itemEditorMenu:
+  title: '&8Edytuj przedmiot'
+  rows: 3
+  items:
+  - slot: 10
+    itemStack:
+      material: OAK_SIGN
+      item-meta:
+        display-name: '&6Edytuj nazwę itemu'
+        lore:
+        - ' &8» &7Obecna nazwa: &f{name}'
+        - ''
+        - ' &8» &aKliknij &2LEWYM&a, aby edytować nazwę!'
+    customModelData: 0
+  - slot: 11
+    itemStack:
+      material: WRITABLE_BOOK
+      item-meta:
+        display-name: '&6Edytuj opis itemu'
+        lore:
+        - ''
+        - ' &8» &aKliknij &2LEWYM&a, aby edytować opis!'
+    customModelData: 0
+  - slot: 12
+    itemStack:
+      material: COMMAND_BLOCK
+      item-meta:
+        display-name: '&6Edytuj typ itemu'
+        lore:
+        - ' &8» &7Obecna typ: &f{type}'
+        - ''
+        - ' &8» &aKliknij &2LEWYM&a, aby edytować typ!'
+    customModelData: 0
+  - slot: 13
+    itemStack:
+      material: PAPER
+      item-meta:
+        display-name: '&6Edytuj custom model data'
+        lore:
+        - ' &8» &7Obecna CMD: &f{cmd}'
+        - ''
+        - ' &8» &aKliknij &2LEWYM&a, aby edytować cmd!'
+    customModelData: 0
+  - slot: 14
+    itemStack:
+      material: STRUCTURE_VOID
+      item-meta:
+        display-name: '&6Edytuj zablokowane regiony'
+        lore:
+        - ''
+        - ' &8» &aKliknij &2LEWYM&a, aby edytować regiony!'
+    customModelData: 0
+  - slot: 16
+    itemStack:
+      material: LIME_DYE
+      item-meta:
+        display-name: '&aPotwierdź zmiany'
+        lore:
+        - ''
+        - ' &8» &aKliknij &2LEWYM&a, aby potwierdzić!'
+    customModelData: 0
+
+# Skonfiguruj slot pod którym znajduje się przycisk edytacji nazwy:
+itemEditorNameSlot: 10
+
+# Skonfiguruj slot pod którym znajduje się przycisk edytacji opisu:
+itemEditorLoreSlot: 11
+
+# Skonfiguruj slot pod którym znajduje się przycisk edytacji typu:
+itemEditorTypeSlot: 12
+
+# Skonfiguruj slot pod którym znajduje się przycisk edytacji cmd:
+itemEditorCmdSlot: 13
+
+# Skonfiguruj slot pod którym znajduje się przycisk edytacji regionu:
+itemEditorRegionSlot: 14
+
+# Skonfiguruj slot pod którym znajduje się przycisk potwierdzenia:
+itemEditorConfirmSlot: 16
+
+# Skonfiguruj menu edytora itemków:
+itemsTypeEditorMenu:
+  title: '&8Wybierz typ'
+  rows: 6
+  items:
+  - slot: 49
+    itemStack:
+      material: BARRIER
+      item-meta:
+        display-name: '&cPowrót'
+    customModelData: 0
+
+# Skonfiguruj przycisk poprzedniej strony:
+itemsTypeEditorPreviousPage:
+  slot: 48
+  itemStack:
+    material: ARROW
+    item-meta:
+      display-name: '&cPoprzednia strona'
+  customModelData: 0
+
+# Skonfiguruj przycisk następniej strony:
+itemsTypeEditorNextPage:
+  slot: 50
+  itemStack:
+    material: ARROW
+    item-meta:
+      display-name: '&cNastępna strona'
+  customModelData: 0
+
+# Skonfiguruj item opisu:
+itemsTypeEditorPresenter:
+  material: PAPER
+  item-meta:
+    lore:
+    - ' &8» &7Typ: &f{type}'
+    - ''
+    - ' &8» &aKliknij &2LEWYM&a, aby wybrać typ!'
+
+# Skonfiguruj slot pod którym znajduje się przycisk powrotu:
+itemsTypeEditorReturnSlot: 49
+
+# Skonfiguruj ignorowane sloty:
+itemsTypeEditorIgnoredSlots:
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 17
+- 18
+- 26
+- 27
+- 35
+- 36
+- 44
+- 45
+- 46
+- 47
+- 48
+- 49
+- 50
+- 51
+- 52
+- 53
+
+# Skonfiguruj menu kreatora kostiumów (przedmiot):
+itemsLoreEditorMenu:
+  title: '&8Edytuj opis'
+  rows: 6
+  items:
+  - slot: 48
+    itemStack:
+      material: BARRIER
+      item-meta:
+        display-name: '&cPowrót'
+    customModelData: 0
+  - slot: 51
+    itemStack:
+      material: LIME_DYE
+      item-meta:
+        display-name: '&6Stwórz nową linię'
+        lore:
+        - ' &8» &7Tutaj dodasz nową linię do opisu!'
+        - ''
+        - ' &8» &aKliknij &2LEWYM&a, aby stworzyć linię!'
+    customModelData: 0
+
+# Skonfiguruj przycisk poprzedniej strony:
+itemsLoreEditorPreviousPage:
+  slot: 47
+  itemStack:
+    material: ARROW
+    item-meta:
+      display-name: '&cPoprzednia strona'
+  customModelData: 0
+
+# Skonfiguruj przycisk następniej strony:
+itemsLoreEditorNextPage:
+  slot: 49
+  itemStack:
+    material: ARROW
+    item-meta:
+      display-name: '&cNastępna strona'
+  customModelData: 0
+
+# Skonfiguruj item opisu:
+itemsLoreEditorPresenter:
+  material: PAPER
+  item-meta:
+    display-name: '&6Wybierz linie'
+    lore:
+    - ' &8» &7Linia: &f{line}'
+    - ''
+    - ' &8» &aKliknij &2LEWYM&a, aby edytować linię!'
+    - ' &8» &aKliknij &2SHIFT + LEWYM&a, aby usunąć linie!'
+
+# Skonfiguruj slot pod którym znajduje się przycisk powrotu:
+itemsLoreEditorReturnSlot: 48
+
+# Skonfiguruj slot pod którym znajduje się przycisk dodania nowej lini:
+itemsLoreEditorAddLineSlot: 51
+
+# Skonfiguruj ignorowane sloty:
+itemsLoreEditorIgnoredSlots:
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 17
+- 18
+- 26
+- 27
+- 35
+- 36
+- 44
+- 45
+- 46
+- 47
+- 48
+- 49
+- 50
+- 51
+- 52
+- 53
+
+# Skonfiguruj menu:
+activePotionsMenu:
+  title: '&8Aktywne eliksiry'
+  rows: 6
+  items:
+  - slot: 49
+    itemStack:
+      material: BARRIER
+      item-meta:
+        display-name: '&cPowrót'
+    customModelData: 0
+
+# Skonfiguruj slot pod którym znajduje się przycisk powrotu:
+activePotionsMenuReturnSlot: 49
+
+# Skonfiguruj menu:
+itemsCooldownsMenu:
+  title: '&8Skonfiguruj cooldowny'
+  rows: 6
+  items:
+  - slot: 49
+    itemStack:
+      material: BARRIER
+      item-meta:
+        display-name: '&cPowrót'
+    customModelData: 0
+
+# Skonfiguruj przycisk poprzedniej strony:
+itemsCooldownsPreviousPage:
+  slot: 48
+  itemStack:
+    material: ARROW
+    item-meta:
+      display-name: '&cPoprzednia strona'
+  customModelData: 0
+
+# Skonfiguruj przycisk następniej strony:
+itemsCooldownsNextPage:
+  slot: 50
+  itemStack:
+    material: ARROW
+    item-meta:
+      display-name: '&cNastępna strona'
+  customModelData: 0
+
+# Skonfiguruj slot pod którym znajduje się przycisk powrotu:
+itemsCooldownsReturnSlot: 49
+
+# Skonfiguruj slot pod którym znajduje się przycisk dodania regionu:
+itemsCooldownsAddRegionSlot: 51
+
+# Skonfiguruj item cooldownu:
+itemsCooldownsPresenter:
+  material: PAPER
+  item-meta:
+    display-name: '&6Wybierz przedmiot'
+    lore:
+    - ' &8» &7Przedmiot: &f{name}'
+    - ' &8» &7Cooldown: &f{cooldown}'
+    - ''
+    - ' &8» &7Po kliknięciu gui zostanie &czamknięte'
+    - ' &8» &7i będziesz musiał wpisać wartość na &echacie'
+    - ''
+    - ' &8» &aKliknij &2LEWYM&a, aby edytować cooldown!'
+
+# Skonfiguruj ignorowane sloty:
+itemsCooldownsIgnoredSlots:
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 17
+- 18
+- 26
+- 27
+- 35
+- 36
+- 44
+- 45
+- 46
+- 47
+- 48
+- 49
+- 50
+- 51
+- 52
+- 53
+
+# Skonfiguruj menu:
+blockedRegionsMenu:
+  title: '&8Skonfiguruj regiony'
+  rows: 6
+  items:
+  - slot: 48
+    itemStack:
+      material: BARRIER
+      item-meta:
+        display-name: '&cPowrót'
+    customModelData: 0
+  - slot: 51
+    itemStack:
+      material: LIME_DYE
+      item-meta:
+        display-name: '&aDodaj region'
+    customModelData: 0
+
+# Skonfiguruj przycisk poprzedniej strony:
+blockedRegionsPreviousPage:
+  slot: 47
+  itemStack:
+    material: ARROW
+    item-meta:
+      display-name: '&cPoprzednia strona'
+  customModelData: 0
+
+# Skonfiguruj przycisk następniej strony:
+blockedRegionsNextPage:
+  slot: 49
+  itemStack:
+    material: ARROW
+    item-meta:
+      display-name: '&cNastępna strona'
+  customModelData: 0
+
+# Skonfiguruj slot pod którym znajduje się przycisk powrotu:
+blockedRegionsReturnSlot: 48
+
+# Skonfiguruj item cooldownu:
+blockedRegionsPresenter:
+  material: PAPER
+  item-meta:
+    display-name: '&6Wybierz przedmiot'
+    lore:
+    - ' &8» &7Region: &f{name}'
+    - ''
+    - ' &8» &aKliknij &2LEWYM&a, aby usunąć region!'
+
+# Skonfiguruj ignorowane sloty:
+blockedRegionsIgnoredSlots:
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 17
+- 18
+- 26
+- 27
+- 35
+- 36
+- 44
+- 45
+- 46
+- 47
+- 48
+- 49
+- 50
+- 51
+- 52
+- 53
+
+# Skonfiguruj menu:
+noticeMenu:
+  title: '&8Ustawienia powiadomień'
+  rows: 3
+  items:
+  - slot: 11
+    itemStack:
+      material: LIME_DYE
+      item-meta:
+        display-name: '&6Powiadomienia cooldowny'
+        lore:
+        - ' &8» &7Status: &f{status}'
+        - ''
+        - ' &8» &aKliknij &2LEWYM&a, aby przełączyć status!'
+    customModelData: 0
+  - slot: 13
+    itemStack:
+      material: LIME_DYE
+      item-meta:
+        display-name: '&6Wszystkie powiadomienia'
+        lore:
+        - ' &8» &7Status: &f{status}'
+        - ''
+        - ' &8» &aKliknij &2LEWYM&a, aby przełączyć status!'
+    customModelData: 0
+  - slot: 15
+    itemStack:
+      material: LIME_DYE
+      item-meta:
+        display-name: '&6Wszystkie czasy trwania'
+        lore:
+        - ' &8» &7Status: &f{status}'
+        - ''
+        - ' &8» &aKliknij &2LEWYM&a, aby przełączyć status!'
+    customModelData: 0
+
+# Skonfiguruj slot pod którym znajduje się przycisk przełączania wszytskich powiadomień:
+noticeMenuToggleAllSlot: 13
+
+# Skonfiguruj slot pod którym znajduje się przycisk przełączania powiadomień coolodownow:
+noticeMenuToggleCooldownsSlot: 11
+
+# Skonfiguruj slot pod którym znajduje się przycisk przełączania powiadomień czasów trwania:
+noticeMenuToggleDurationsSlot: 15
+
+# Skonfiguruj menu:
+animationMenu:
+  title: '&8Losowanie...'
+  rows: 3
+  items: []
+
+# Skonfiguruj nazwy typow dropow:
+dropNames:
+  BIG_GIFT: Duży Upominek
+  SMALL_PRESENT: Mały Prezent
+  BIG_PRESENT: Duży Prezent
+  LUCKY_BLOCK: LuckyBlock
+  SMALL_GIFT: Mały Upominek
+
+# Skonfiguruj zablokowane regiony:
+blockedRegions:
+- spawn
+
+# Skonfiguruj lodową różdżkę:
+iceWand:
+  name: ice-wand
+  item:
+    material: BONE
+    item-meta:
+      display-name: '&#5790FF&lʟ&#6298F9&lᴏ&#6CA1F2&lᴅ&#77A9EC&lᴏ&#82B2E6&lᴡ&#8CBADF&lᴀ
+        &#A2CBD3&lʀ&#ADD3CD&lᴏ&#B7DBC6&lᴢ&#C2E4C0&lᴅ&#CDECBA&lᴢ&#D7F5B3&lᴋ&#E2FDAD&lᴀ'
+      lore:
+      - '&8✕ &fPo użyciu zabiera przeciwnikom wokół'
+      - '&8✕ &fwszystkie &dpozytywne efekty potek'
+      - ''
+      - '&8✕ &fPrzedmiot można trafić w &b&lLodowej &fSkrzyni'
+      - ''
+      - '&eKilknij prawym, aby użyć'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+iceWandRange: 10
+iceWandEffects:
+- HEAL
+- ABSORPTION
+- REGENERATION
+- DAMAGE_RESISTANCE
+- INCREASE_DAMAGE
+
+# Skonfiguruj hak:
+hook:
+  name: hook
+  item:
+    material: FISHING_ROD
+    item-meta:
+      display-name: '&#FF5757&lH&#FF3A3A&la&#FF1C1C&lk'
+      lore:
+      - '&8✕ &7Przyciąga cię w miejsce &crzucenia &7haka'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &bᴀғᴋ 2024'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+
+# Skonfiguruj złotą czaszkę:
+goldenSkull:
+  name: golden-skull
+  item:
+    material: PLAYER_HEAD
+    item-meta:
+      display-name: '&#989000&lᴢ&#A19800&lʟ&#A9A000&lᴏ&#B2A900&lᴛ&#BAB100&lᴀ &#CCC100&lᴄ&#D4C900&lᴢ&#DDD100&lᴀ&#E5DA00&ls&#EEE200&lᴢ&#F6EA00&lᴋ&#FFF200&lᴀ'
+      lore:
+      - '&8✕ &fPosiadając ją w ekwipunku, po śmierci'
+      - '&8✕ &anie stracimy &fżadnych przedmiotów'
+      - ''
+      - '&8✕ &4&lUwaga! &cPrzedmiot jest jednorazowy'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &eᴘᴏsᴢᴜᴋɪᴡᴀᴄᴢᴇ sᴋᴀʀʙóᴡ 2024'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+goldenSkullValue: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWI1MjIxYjI3NjRjZWY2Nzg2YWMxNWVhMDc1NzY4N2UyM2I5NTM2ODY0NTIwMzI0ZGQ0MzkzYjdhYmVhZDFkMSJ9fX0=
+
+# Skonfiguruj nos olafa:
+olafNose:
+  name: olaf-nose
+  item:
+    material: CARROT
+    item-meta:
+      display-name: '&#FFFFFF&lɴ&#FFF1DF&lᴏ&#FFE4BF&ls &#FFC880&lᴏ&#FFBA60&lʟ&#FFAD40&lᴀ&#FF9F20&lғ&#FF9100&lᴀ'
+      lore:
+      - '&8✕ &fPo uderzeniu gracza odpycha go'
+      - '&8✕ &fprzy pomocy zaklęcia &cOdrzut IV'
+      - ''
+      - '&8✕ &fPrzedmiot można trafić w &b&lLodowej &fSkrzyni'
+      enchantments:
+        KNOCKBACK: 4
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+
+# Skonfiguruj sierść niedźwiedzia:
+bearFur:
+  name: bear-fur
+  item:
+    material: PRISMARINE_CRYSTALS
+    item-meta:
+      display-name: '&#A9FFFD&ls&#ACFFFD&lɪ&#AFFFFD&lᴇ&#B2FFFD&lʀ&#B5FFFD&ls&#B8FFFD&lᴄ
+        &#BFFFFE&lɴ&#C2FFFE&lɪ&#C5FFFE&lᴇ&#C8FFFE&lᴅ&#CBFFFE&lᴢ&#CEFFFE&lᴡ&#D1FFFE&lɪ&#D4FFFE&lᴇ&#D7FFFE&lᴅ&#DAFFFE&lᴢ&#DDFFFE&lɪ&#E0FFFE&lᴀ
+        &#E6FFFE&lᴘ&#EAFFFF&lᴏ&#EDFFFF&lʟ&#F0FFFF&lᴀ&#F3FFFF&lʀ&#F6FFFF&lɴ&#F9FFFF&lᴇ&#FCFFFF&lɢ&#FFFFFF&lᴏ'
+      lore:
+      - '&8✕ &fPo użyciu przez kilka sekund &ctracimy'
+      - '&8✕ &fo &c50% mnij zdrowia &fgdy jesteśmy atakowani'
+      - ''
+      - '&8✕ &fPrzedmiot można trafić w &b&lLodowej &fSkrzyni'
+      - ''
+      - '&eKilknij prawym, aby użyć'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+bearFurDuration:
+  seconds: 20
+  minutes: 0
+  hours: 0
+  days: 0
+
+# Skonfiguruj listy do mikolaja:
+santaLetters:
+  name: santa-letters
+  item:
+    material: PAPER
+    item-meta:
+      display-name: '&#A9CAFF&lʟ&#AFC4FA&lɪ&#B4BFF4&ls&#BAB9EF&lᴛ &#C6AEE4&lᴅ&#CBA8DF&lᴏ
+        &#D79DD4&lᴍ&#DD98CE&lɪ&#E292C9&lᴋ&#E88CC4&lᴏ&#EE87BE&lʟ&#F481B9&lᴀ&#F97CB3&lᴊ&#FF76AE&lᴀ'
+      lore:
+      - '&8✕ &fPo połączeniu w kowadle z innym'
+      - '&8✕ &fprzedmiotem &azostanie on z nami &fpo śmierci'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &bśᴡɪąᴛᴇᴄᴢɴᴇɢᴏ 2024'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+santaLettersLore:
+- '&8✕ &6Ten przedmiot jest &achroniony &6i &anie zniknie &6po &cśmierci&6!'
+- '&l&6'
+
+# Skonfiguruj wchlaniacz serc:
+hearthAbsorption:
+  name: hearth-absorption
+  item:
+    material: CONDUIT
+    item-meta:
+      display-name: '&#5A5A5A&lᴡ&#605459&lᴄ&#674D58&lʜ&#6D4756&lʟ&#734055&lᴀ&#7A3A54&lɴ&#803353&lɪ&#872D52&lᴀ&#8D2750&lᴄ&#93204F&lᴢ
+        &#A0134D&ls&#A60D4B&lᴇ&#AD064A&lʀ&#B30049&lᴄ'
+      lore:
+      - ''
+      - '&8✕ &fPo uderzeniu przeciwnika zabieramy mu kilka serc'
+      - '&8✕ &fSerca wracają do niego dopiero po upłynięciu &eokreślonego czasu'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &dᴡᴀʟᴇɴᴛʏɴᴋᴏᴡᴇɢᴏ 2024'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+hearthAbsorptionAmount: 8
+hearthAbsorptionDuration:
+  seconds: 20
+  minutes: 0
+  hours: 0
+  days: 0
+
+# Skonfiguruj bombonierke:
+bomb:
+  name: bomb
+  item:
+    material: TNT
+    item-meta:
+      display-name: '&#FFD747&lʙ&#F3D359&lᴏ&#E7CF6C&lᴍ&#DBCB7E&lʙ&#CFC791&lᴏ&#C3C4A3&lɴ&#B6C0B5&lɪ&#AABCC8&lᴇ&#9EB8DA&lʀ&#92B4ED&lᴋ&#86B0FF&lᴀ'
+      lore:
+      - ''
+      - '&8✕ &fPo użyciu i uderzeniu przeciwnika, wysyłamy do jego EQ &3tykającą bombe'
+      - '&8✕ &fBomba wybucha w przedziale od &e10 &fdo &e15 sekund'
+      - '&8✕ &fPrzeciwnik może ją &czdeaktywować &fpoprzez wyrzucenie jej z ekwipunku'
+      - ''
+      - '&4&lUwaga! &cPrzedmiot jest jednorazowy'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &dᴡᴀʟᴇɴᴛʏɴᴋᴏᴡᴇɢᴏ 2024'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+bombElement:
+  material: POPPED_CHORUS_FRUIT
+  item-meta:
+    display-name: '&#FFD747&lʙ&#F3D359&lᴏ&#E7CF6C&lᴍ&#DBCB7E&lʙ&#CFC791&lᴏ&#C3C4A3&lɴ&#B6C0B5&lɪ&#AABCC8&lᴇ&#9EB8DA&lʀ&#92B4ED&lᴋ&#86B0FF&lᴀ'
+    enchantments:
+      VANISHING_CURSE: 1
+bombElementCmd: 0
+bombEffect:
+  amplifier: 5
+  duration: 100
+  type: SLOW
+bombDuration:
+  seconds: 15
+  minutes: 0
+  hours: 0
+  days: 0
+
+# Skonfiguruj smocza fajerwerke:
+dragonFirework:
+  name: dragon-firework
+  item:
+    material: FIREWORK_ROCKET
+    item-meta:
+      display-name: '&#8300FF&lS&#8900FC&lm&#8F00F9&lo&#9500F5&lc&#9C00F2&lz&#A200EF&la
+        &#AE00E9&lF&#B400E6&la&#BA00E2&lj&#C000DF&le&#C600DC&lr&#CD00D9&lw&#D300D6&le&#D900D2&lr&#DF00CF&lk&#E500CC&la'
+      lore:
+      - '&8✕ &7Nieskończona fajerwerka'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &bᴀғᴋ 2024'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+
+# Skonfiguruj koze:
+goat:
+  name: goat
+  item:
+    material: IRON_BARS
+    item-meta:
+      display-name: '&7&lᴄᴇʟᴀ'
+      lore:
+      - '&8✕ &fᴘᴏ ᴜᴢʏᴄɪᴜ ɴᴀ ᴘʀᴢᴇᴄɪᴡɴɪᴋᴜ'
+      - '&8✕ &fᴢᴀᴍʏᴋᴀᴄɪᴇ ѕɪᴇ ᴡ ᴋʟᴀᴛᴄᴇ 1ᴠѕ1 ɴᴀ 10ѕ'
+      - ''
+      - '&8✕ &4ᴄᴏᴏʟᴅᴏᴡɴ 4 ᴍɪɴ'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+goatTime: 10
+goatSize: 15.0
+goatChance: 100.0
+goatBossBarTitle: '&4⚔ &cCzas do końca: &f{time} &4⚔'
+goatBossBarColor: RED
+goatBossBarStyle: SOLID
+goatDuration:
+  seconds: 10
+  minutes: 0
+  hours: 0
+  days: 0
+
+# Skonfiguruj slodkie jablko:
+sweetApple:
+  name: sweet-apple
+  item:
+    material: GOLDEN_APPLE
+    item-meta:
+      display-name: '&#FF4BE2&ls&#FF54E3&lʟ&#FF5DE5&lᴏ&#FF65E6&lᴅ&#FF6EE8&lᴋ&#FF77E9&lɪ&#FF80EA&lᴇ
+        &#FF91ED&lᴊ&#FF9AEE&lᴀ&#FFA3F0&lʙ&#FFABF1&lʟ&#FFB4F3&lᴋ&#FFBDF4&lᴏ'
+      lore:
+      - '&8✕ &fPo zjedzeniu mamy szanse na'
+      - '&8✕ &fotrzymanie większej ilości &edodatkowych serc'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &6ʜᴀʟʟᴏᴡᴇᴇɴ 2024'
+      - ''
+      - '&8Przedmiot z trybu (BOXPVP)'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+sweetAppleChance: 25
+
+# Skonfiguruj slodkie jablko:
+skypvpApple:
+  name: skypvp-apple
+  item:
+    material: GOLDEN_APPLE
+    item-meta:
+      display-name: '&#FF4BE2&ls&#FF54E3&lʟ&#FF5DE5&lᴏ&#FF65E6&lᴅ&#FF6EE8&lᴋ&#FF77E9&lɪ&#FF80EA&lᴇ
+        &#FF91ED&lᴊ&#FF9AEE&lᴀ&#FFA3F0&lʙ&#FFABF1&lʟ&#FFB4F3&lᴋ&#FFBDF4&lᴏ'
+      lore:
+      - '&8✕ &fPo zjedzeniu mamy szanse na'
+      - '&8✕ &fotrzymanie większej ilości &edodatkowych serc'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &6ʜᴀʟʟᴏᴡᴇᴇɴ 2024'
+      - ''
+      - '&8Przedmiot z trybu (SKYPVP)'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+skypvpAppleChance: 25
+
+# Skonfiguruj lupe oswiecenia:
+magnifyingGlass:
+  name: magnifying-glass
+  item:
+    material: SOUL_TORCH
+    item-meta:
+      display-name: '&#F6FFC5&lʟ&#E4FFC9&lᴜ&#D3FFCD&lᴘ&#C1FFD1&lᴀ &#9EFFDA&lᴏ&#8DFFDE&lś&#7BFFE2&lᴡ&#69FFE6&lɪ&#58FFEA&lᴇ&#46FFEE&lᴄ&#35FFF3&lᴇ&#23FFF7&lɴ&#12FFFB&lɪ&#00FFFF&lᴀ'
+      lore:
+      - '&8✕ &fPo uderzeniu nim gracza, dostajemy informację'
+      - '&8✕ &fna czacie o &bstanie jego zbroi &foraz ilości &6totemów &fw ekwipunku'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &cᴅᴢɪᴇń ᴅᴢɪᴇᴄᴋᴀ 2024'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+
+# Skonfiguruj poke ball:
+pokeBall:
+  name: poke-ball
+  item:
+    material: RECOVERY_COMPASS
+    item-meta:
+      display-name: '&4&lᴍᴇɢ&b&lɴᴇᴛᴏ'
+      lore:
+      - '&8✕ &fᴘᴏ ᴋʟɪᴋɴɪᴇᴄɪᴜ ᴢᴏѕᴛᴀᴊᴇ ᴡʏѕᴢᴄᴢᴇʟᴏɴᴀ ѕᴢᴄᴢᴀʟᴀ'
+      - '&8✕ &fᴋᴛᴏʀᴀ ᴘᴏ ᴛʀᴀꜰɪᴇɴɪᴜ ᴘʀᴢʏᴄɪᴀɢᴀ ᴅᴏ ᴄɪᴇʙɪᴇ ɢʀᴀᴄᴢ'
+      - ''
+      - '&8✕ &4ᴄᴏᴏʟᴅᴏᴡɴ 3ᴍɪɴ'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+pokeBallChance: 90
+
+# Skonfiguruj piernik:
+gingerbread:
+  name: gingerbread
+  item:
+    material: COOKIE
+    item-meta:
+      display-name: '&#FFB763&lᴘ&#FFBE71&lɪ&#FFC47F&lᴇ&#FFCB8D&lʀ&#FFD19B&lɴ&#FFD8A9&lɪ&#FFDEB7&lᴋ'
+      lore:
+      - '&8✕ &cPrzedmiot jest jednorazowy'
+      - ''
+      - '&8✕ &fPo użyciu otrzymujesz silny &cefekt regenracji &fzdrowia'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &bśᴡɪąᴛᴇᴄᴢɴᴇɢᴏ 2024'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+gingerbreadEffect:
+  amplifier: 4
+  duration: 200
+  type: REGENERATION
+
+# Skonfiguruj gumke:
+rubber:
+  name: rubber
+  item:
+    material: FIRE_CHARGE
+    item-meta:
+      display-name: '&#FF76C2&lɢ&#FF8ECD&lᴜ&#FFA6D8&lᴍ&#FFBEE2&lᴋ&#FFD6ED&lᴀ'
+      lore:
+      - '&8✕ &fPo użyciu, wszystkie bloki w obrębie'
+      - '&8✕ &fkilku kratek zostają &cwymazane'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &esᴢᴋᴏʟɴᴇɢᴏ 2024'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+rubberAllowedBlocks:
+- COBWEB
+- OAK_PLANKS
+rubberRangeY: 6
+rubberRangeX: 6
+
+# Skonfiguruj puszke pandory:
+pandoraBox:
+  name: pandora-box
+  item:
+    material: FLOWER_POT
+    item-meta:
+      display-name: '&#7F00BC&lᴘ&#870FC1&lᴜ&#8E1FC6&ls&#962ECB&lᴢ&#9D3ED1&lᴋ&#A54DD6&lᴀ
+        &#B46CE0&lᴘ&#BC7CE5&lᴀ&#C48BEA&lɴ&#CB9BF0&lᴅ&#D3AAF5&lᴏ&#DABAFA&lʀ&#E2C9FF&lʏ'
+      lore:
+      - '&8✕ &fPo użyciu, mamy szansę na otrzymanie pozytywnego'
+      - '&8✕ &fefektu &cSiły II &flub negatywnego &3Spowolnienia'
+      - ''
+      - '&8✕ &4&lUwaga! &cPrzedmiot jest jednorazowy'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &eᴘᴏsᴢᴜᴋɪᴡᴀᴄᴢᴇ sᴋᴀʀʙóᴡ 2024'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+pandoraBoxEffects:
+- amplifier: 1
+  duration: 100
+  type: INCREASE_DAMAGE
+- amplifier: 0
+  duration: 100
+  type: SLOW
+
+# Skonfiguruj horus ucieczki:
+escapeHorus:
+  name: escape-horus
+  item:
+    material: CHORUS_FRUIT
+    item-meta:
+      display-name: '&#FF8AF6&lᴄ&#FB8DF2&lʜ&#F78FEF&lᴏ&#F292EB&lʀ&#EE94E7&lᴜ&#EA97E4&ls
+        &#E29CDD&lᴜ&#DD9FD9&lᴄ&#D9A1D5&lɪ&#D5A4D2&lᴇ&#D1A6CE&lᴄ&#CCA9CA&lᴢ&#C8ABC7&lᴋ&#C4AEC3&lɪ'
+      lore:
+      - '&8✕ &fPo użyciu mamy szanse na &dprzeteleportowanie'
+      - '&8✕ &fsię do &elosowego gracza &fw obrębie kilku kratek'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &cᴅᴢɪᴇń ᴅᴢɪᴇᴄᴋᴀ 2024'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+escapeHorusRange: 3
+
+# Skonfiguruj rozdzke wiedzmy:
+witchWand:
+  name: witch-wand
+  item:
+    material: END_ROD
+    item-meta:
+      display-name: '&#5B7FFF&lʀ&#5786F4&ló&#538DE9&lż&#4F93DE&lᴅ&#4C9AD3&lż&#48A1C8&lᴋ&#44A8BD&lᴀ
+        &#3CB5A8&lᴡ&#38BC9D&lɪ&#34C392&lᴇ&#31CA87&lᴅ&#2DD07C&lź&#29D771&lᴍ&#25DE66&lʏ'
+      lore:
+      - '&8✕ &fPotężna róźdżka posiadająca &dwiele zaklęć&f!'
+      - '&8✕ &fKliknij &eLPM&f, aby rzucić czas &bszybkości'
+      - '&8✕ &fKliknij &ePPM&f, aby rzucić czas &dlewitacji'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &6ʜᴀʟʟᴏᴡᴇᴇɴ 2024'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+witchWandRadius: 7
+witchWandLeftEffect:
+  amplifier: 0
+  duration: 140
+  type: SPEED
+witchWandRightEffect:
+  amplifier: 1
+  duration: 140
+  type: LEVITATION
+
+# Skonfiguruj klątwę górnika:
+curseOfMiner:
+  name: curse-of-miner
+  item:
+    material: GOLDEN_PICKAXE
+    item-meta:
+      display-name: '&#00BC08&lᴋ&#0EBD16&lʟ&#1DBF24&lᴀ&#2BC031&lᴛ&#39C23F&lᴡ&#48C34D&lᴀ
+        &#64C668&lɢ&#72C876&ló&#81C984&lʀ&#8FCB92&lɴ&#9DCC9F&lɪ&#ACCEAD&lᴋ&#BACFBB&lᴀ'
+      lore:
+      - '&8✕ &fPo uderzeniu nim gracza, mamy szansę na zebranie'
+      - '&8✕ &fmu możliwości &6rozkopywania bloków &fprzez kilka sekund'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &cᴅᴢɪᴇń ᴅᴢɪᴇᴄᴋᴀ 2024'
+      item-flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+  cmd: 0
+  blockedRegions: []
+curseOfMinerDuration:
+  seconds: 20
+  minutes: 0
+  hours: 0
+  days: 0
+
+# Skonfiguruj torbe kangura:
+kangarooBag:
+  name: kangaroo-bag
+  item:
+    material: ORANGE_SHULKER_BOX
+    item-meta:
+      display-name: '&#FFBF65&lᴛ&#FFC15D&lᴏ&#FFC354&lʀ&#FFC64C&lʙ&#FFC843&lᴀ &#FFCC33&lᴋ&#FFCE2A&lᴀ&#FFD022&lɴ&#FFD319&lɢ&#FFD511&lᴜ&#FFD708&lʀ&#FFD900&lᴀ'
+      lore:
+      - '&8✕ &fTrzymając torbę w ekwipunku trafiają do niej'
+      - '&8✕ &fwszystkie &ecenne &fprzedmioty z &czabitych graczy'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &cᴅᴢɪᴇń ᴅᴢɪᴇᴄᴋᴀ 2024'
+      - ''
+      - '&8✕ &6Kliknij prawym, aby otworzyć!'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+kangarooBagAllowed:
+- NETHERITE_HELMET
+- NETHERITE_CHESTPLATE
+- NETHERITE_LEGGINGS
+- NETHERITE_BOOTS
+- NETHERITE_SWORD
+- NETHERITE_PICKAXE
+- ENCHANTED_GOLDEN_APPLE
+- GOLDEN_APPLE
+
+# Skonfiguruj trójząb zniszczenia:
+tridentOfDestroy:
+  name: trident-of-destroy
+  item:
+    material: TRIDENT
+    item-meta:
+      display-name: '&#3AB4FF&lᴛ&#3DB5FF&lʀ&#41B6FF&ló&#44B7FF&lᴊ&#48B7FF&lᴢ&#4BB8FF&lᴀ&#4FB9FF&lʙ
+        &#56BBFF&lᴢ&#59BCFF&lɴ&#5CBCFF&lɪ&#60BDFF&ls&#63BEFF&lᴢ&#67BFFF&lᴄ&#6AC0FF&lᴢ&#6EC1FF&lᴇ&#71C1FF&lɴ&#75C2FF&lɪ&#78C3FF&lᴀ'
+      lore:
+      - '&8✕ &fGdy uderzamy gracza, nadajemy'
+      - '&8✕ &fmu potężną serie &bpiorónów &foraz mamy szanse na &cczęściowe zniszczenie
+        &fjego zbroi'
+      enchantments:
+        LOYALTY: 3
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+tridentOfDestroyDuration:
+  seconds: 10
+  minutes: 0
+  hours: 0
+  days: 0
+
+# Skonfiguruj gwiezdny napierśnik:
+spaceChestplate:
+  name: space-chestplate
+  item:
+    material: CHAINMAIL_CHESTPLATE
+    item-meta:
+      display-name: '&#FF0000&lɢ&#FF2A00&lᴡ&#FF5500&lɪ&#FF7F00&lᴇ&#FFAA00&lᴢ&#FFD400&lᴅ&#FFFF00&lɴ&#AAFF00&lʏ
+        &#00FF00&lɴ&#00AA55&lᴀ&#0055AA&lᴘ&#0000FF&lɪ&#1900D5&lᴇ&#3200AC&lʀ&#4B0082&lś&#63009D&lɴ&#7C00B8&lɪ&#9400D3&lᴋ'
+      lore:
+      - '&#3F58FF&l[&#3A61FC&l❤&#356BF9&l] &#2A7DF2&lO&#2586EF&lc&#2090EC&lh&#1A99E9&lr&#15A2E6&lo&#10ABE3&ln&#0BB5DF&la
+        &#00C7D9&l44'
+      - ''
+      - '&8✕ &6Przedmiot jedyny w swoim rodzaju!'
+      - '&8✕ &7Posiada go &etylko jedna osoba &7na całym serwerze'
+      - '&8✕ &7oraz nie da się go &c&lzniszczyć &7w żaden sposób!'
+      - ''
+      - '&8☰ &eBonusy &7po założeniu:'
+      - '&8➥ &cSiła II'
+      - '&8➥ &bSzybkość I'
+      - '&8➥ &dSzanse na zablokowanie uderzenia'
+      enchantments:
+        PROTECTION_ENVIRONMENTAL: 44
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+  cmd: 0
+  blockedRegions: []
+spaceChestplateChance: 10
+
+# Skonfiguruj laskę cukrową:
+sugarCane:
+  name: sugar-cane
+  item:
+    material: SUGAR_CANE
+    item-meta:
+      display-name: '&#FF4F4F&lʟ&#FF5C5C&lᴀ&#FF6A6A&ls&#FF7777&lᴋ&#FF8484&lᴀ &#FF9F9F&lᴄ&#FFACAC&lᴜ&#FFB9B9&lᴋ&#FFC6C6&lʀ&#FFD4D4&lᴏ&#FFE1E1&lᴡ&#FFEEEE&lᴀ'
+      lore:
+      - '&8✕ &fTrzymając w drugiej ręce otrzymujesz &c5&4❤ &fi efekt &aSaturacji'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &bśᴡɪąᴛᴇᴄᴢɴᴇɢᴏ 2024'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+
+# Skonfiguruj lasso:
+lasso:
+  name: lasso
+  item:
+    material: LEAD
+    item-meta:
+      display-name: '&#FFDC5F&lʟ&#FFD555&lᴀ&#FFCF4C&ls&#FFC842&ls&#FFC138&lᴏ'
+      lore:
+      - '&8✕ &fPo zarzuceniu nim na wroga, nie może się on'
+      - '&8✕ &fod nas oddalić &epowyżej 10 kratek'
+      - '&8✕ &fPo ponowym kliknięciu &aprzyciąga go &fdo nas'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &eᴘᴏsᴢᴜᴋɪᴡᴀᴄᴢᴇ sᴋᴀʀʙóᴡ 2024'
+      - ''
+      - '&8✕ &6Kliknij prawym na gracza, aby aktywować!'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+lassoDuration:
+  seconds: 10
+  minutes: 0
+  hours: 0
+  days: 0
+
+# Skonfiguruj dyniowy granat:
+pumpkinGrenade:
+  name: pumpkin-grenade
+  item:
+    material: JACK_O_LANTERN
+    item-meta:
+      display-name: '&#FFAB57&lᴅ&#FCA752&lʏ&#F9A24C&lɴ&#F59E47&lɪ&#F29A41&lᴏ&#EF953C&lɢ&#EC9136&lʟ&#E88D31&lᴏ&#E5892C&lᴡ&#E28426&lʏ
+        &#DB7C1B&lɢ&#D87716&lʀ&#D57310&lᴀ&#D26F0B&lɴ&#CE6A05&lᴀ&#CB6600&lᴛ'
+      lore:
+      - '&8✕ &fJednorazowy przedmiot rzucany, po użyciu hełmy'
+      - '&8✕ &fosób dotkniętych czarem zostaje &6zmienione w dynie'
+      - '&8✕ &fna okres &akilku sekund&f!'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &6ʜᴀʟʟᴏᴡᴇᴇɴ 2024'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+pumpkinGrenadeRange: 5
+pumpkinGrenadeDuration:
+  seconds: 10
+  minutes: 0
+  hours: 0
+  days: 0
+pumpkinGrenadeElement:
+  material: CARVED_PUMPKIN
+  item-meta:
+    display-name: '&#FFAB57&lᴅ&#FCA752&lʏ&#F9A24C&lɴ&#F59E47&lɪ&#F29A41&lᴏ&#EF953C&lɢ&#EC9136&lʟ&#E88D31&lᴏ&#E5892C&lᴡ&#E28426&lʏ
+      &#DB7C1B&lɢ&#D87716&lʀ&#D57310&lᴀ&#D26F0B&lɴ&#CE6A05&lᴀ&#CB6600&lᴛ'
+    enchantments:
+      BINDING_CURSE: 1
+      VANISHING_CURSE: 1
+
+# Skonfiguruj mały upominek:
+smallGift:
+  name: small-gift
+  item:
+    material: HORN_CORAL_BLOCK
+    item-meta:
+      display-name: '&#FEFC8D&lᴍ&#FEFC94&lᴀ&#FEFC9B&lʟ&#FEFDA2&lʏ &#FEFDB0&lᴜ&#FFFDB8&lᴘ&#FFFDBF&lᴏ&#FFFDC6&lᴍ&#FFFECD&lɪ&#FFFED4&lɴ&#FFFEDB&lᴇ&#FFFEE2&lᴋ'
+      lore:
+      - '&8✕ &fPrzedmiot ten skrywa wiele ukrytych nagród, aby'
+      - '&8✕ &fotworzyć postaw go na ziemie'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+smallGiftCount: 2
+
+# Skonfiguruj duży upominek:
+bigGift:
+  name: big-gift
+  item:
+    material: BRAIN_CORAL_BLOCK
+    item-meta:
+      display-name: '&#EF9EFF&lᴅ&#F0A6FF&lᴜ&#F2AEFF&lż&#F3B6FF&lʏ &#F6C6FF&lᴜ&#F7CEFF&lᴘ&#F8D6FF&lᴏ&#FADEFF&lᴍ&#FBE6FF&lɪ&#FCEEFF&lɴ&#FEF6FF&lᴇ&#FFFEFF&lᴋ'
+      lore:
+      - '&8✕ &fPrzedmiot ten skrywa wiele ukrytych nagród, aby'
+      - '&8✕ &fotworzyć postaw go na ziemie'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+bigGiftCount: 3
+
+# Skonfiguruj serce:
+heart:
+  name: heart
+  item:
+    material: RED_DYE
+    item-meta:
+      display-name: '&c&lSerce'
+      lore:
+      - '&8✕ &fPo kliknięciu otrzymujesz &41❤'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+heartLimit: 20
+
+# Skonfiguruj ulepszone serce:
+upgradedHeart:
+  name: upgraded-heart
+  item:
+    material: ORANGE_DYE
+    item-meta:
+      display-name: '&#FFA900&lᴜ&#FFAE0A&lʟ&#FFB214&lᴇ&#FFB71E&lᴘ&#FFBC29&ls&#FFC033&lᴢ&#FFC53D&lᴏ&#FFCA47&lɴ&#FFCE51&lᴇ
+        &#FFD765&ls&#FFDC70&lᴇ&#FFE17A&lʀ&#FFE584&lᴄ&#FFEA8E&lᴇ'
+      lore:
+      - '&8✕ &fPo kliknięciu otrzymujesz &41❤'
+      - '&8✕ &fMożesz użyć posiadając od &e30❤'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+upgradedHeartLimit: 30
+
+# Skonfiguruj rozge:
+stick:
+  name: stick
+  item:
+    material: STICK
+    item-meta:
+      display-name: '&#6D5D3F&lʀ&#837252&ló&#998765&lᴢ&#AE9B77&lɢ&#C4B08A&lᴀ'
+      lore:
+      - '&8✕ &fPo uderzeniu przeciwnika &cblokujemy &fmu'
+      - '&8✕ &fmożliwość korzystania z &7elytry'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z &6sᴋʀᴢʏɴɪ ᴍɪᴋᴏʟᴀᴊᴀ 2024'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+stickDuration:
+  seconds: 10
+  minutes: 0
+  hours: 0
+  days: 0
+
+# Skonfiguruj kwiatuszek:
+flower:
+  name: flower
+  item:
+    material: POPPY
+    item-meta:
+      display-name: '&#FF7887&lᴋ&#F5848A&lᴡ&#EA908D&lɪ&#E09B91&lᴀ&#D6A794&lᴛ&#CBB397&lᴜ&#C1BF9A&ls&#B7CA9E&lᴢ&#ACD6A1&lᴇ&#A2E2A4&lᴋ'
+      lore:
+      - ''
+      - '&8✕ &7Po uderzeniu gracza odpycha go'
+      - '&8✕ &7przy pomocy zaklęcia &cOdrzut IV'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &dᴡᴀʟᴇɴᴛʏɴᴋᴏᴡᴇɢᴏ 2024'
+      enchantments:
+        KNOCKBACK: 4
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+
+# Skonfiguruj miecz chwały:
+glorySword:
+  name: glory-sword
+  item:
+    material: NETHERITE_SWORD
+    item-meta:
+      display-name: '&#32FF96&lᴍ&#43FF88&lɪ&#55FF7B&lᴇ&#66FF6D&lᴄ&#77FF5F&lᴢ &#9AFF44&lᴄ&#ACFF37&lʜ&#BDFF29&lᴡ&#CEFF1B&lᴀ&#E0FF0E&lʟ&#F1FF00&lʏ'
+      lore:
+      - '&8✕ &fPosiada zaklęcie &cOstrość VI'
+      - ''
+      - '&8✕ &fUderzając gracza tym mieczem, mamy szansę'
+      - '&8✕ &fna postawienie mu &epajęczyny &fpod nogami'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &esᴢᴋᴏʟɴᴇɢᴏ 2024'
+      enchantments:
+        DAMAGE_ALL: 6
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+glorySwordChance: 20
+
+# Skonfiguruj kolce jeza:
+hedgehogSpikes:
+  name: hedgehog-spikes
+  item:
+    material: WEEPING_VINES
+    item-meta:
+      display-name: '&#D89D2B&lᴋ&#DCA63C&lᴏ&#E1AE4D&lʟ&#E5B75E&lᴄ&#E9C06F&lᴇ &#F2D190&lᴊ&#F6DAA1&lᴇ&#FBE2B2&lż&#FFEBC3&lᴀ'
+      lore:
+      - '&8✕ &fPo użyciu przez kilka sekund mamy szansę na blokowanie'
+      - '&8✕ &fuderzeń oraz oddawanie &cotrzymanych obrażeń &frywalowi'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &cᴅᴢɪᴇń ᴅᴢɪᴇᴄᴋᴀ 2024'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+hedgehogSpikesDuration:
+  seconds: 5
+  minutes: 0
+  hours: 0
+  days: 0
+
+# Skonfiguruj łuk kupidyna:
+cupidBow:
+  name: cupid-bow
+  item:
+    material: BOW
+    item-meta:
+      display-name: '&#FF676B&lʟ&#FF6872&lᴜ&#FF6879&lᴋ &#FF6988&lᴋ&#FF6A8F&lᴜ&#FF6A96&lᴘ&#FF6B9D&lɪ&#FF6BA4&lᴅ&#FF6CAC&lʏ&#FF6CB3&lɴ&#FF6DBA&lᴀ'
+      lore:
+      - ''
+      - '&8✕ &fSłuży do strzelania na &6&lᴍᴀᴘɪᴇ ᴇᴠᴇɴᴛᴏᴡᴇᴊ &f(&e/event&f)'
+      - '&8✕ &fMożesz go ulepszyć u NPC &c&lᴜʟᴇᴘsᴢ sᴡóᴊ ʟᴜᴋ'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &dᴡᴀʟᴇɴᴛʏɴᴋᴏᴡᴇɢᴏ 2025'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+
+# Skonfiguruj miłosną torbę:
+loveBag:
+  name: love-bag
+  item:
+    material: PINK_SHULKER_BOX
+    item-meta:
+      display-name: '&#FF676B&lᴍ&#FF716B&lɪ&#FF7C6B&lʟ&#FF866C&lᴏ&#FF906C&ls&#FF9B6C&lɴ&#FFA56C&lᴀ
+        &#FFBA6C&lᴛ&#FFC46D&lᴏ&#FFCE6D&lʀ&#FFD96D&lʙ&#FFE36D&lᴀ'
+      lore:
+      - '&8✕ &fTrzymając torbę w ekwipunku trafiają do niej'
+      - '&8✕ &fwszystkie &ecenne &fprzedmioty z &czabitych graczy'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &dᴡᴀʟᴇɴᴛʏɴᴋᴏᴡᴇɢᴏ 2025'
+      - ''
+      - '&8✕ &6Kliknij prawym, aby otworzyć!'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+loveBagAllowed:
+- NETHERITE_HELMET
+- NETHERITE_CHESTPLATE
+- NETHERITE_LEGGINGS
+- NETHERITE_BOOTS
+- NETHERITE_SWORD
+- NETHERITE_PICKAXE
+- ENCHANTED_GOLDEN_APPLE
+- GOLDEN_APPLE
+
+# Skonfiguruj duży prezent:
+bigPresent:
+  name: big-present
+  item:
+    material: WARPED_WART_BLOCK
+    item-meta:
+      display-name: '&#FFC400&lᴅ&#FFC003&lᴜ&#FFBC07&lż&#FFB90A&lʏ &#FFB111&lᴘ&#FFAD14&lʀ&#FFAD14&lᴇ&#FFAD14&lᴢ&#FFAD14&lᴇ&#FFAD14&lɴ&#FFAD14&lᴛ'
+      lore:
+      - '&8✕ &fPrzedmiot ten skrywa wiele ukrytych nagród, aby'
+      - '&8✕ &fotworzyć postaw go na ziemie'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+bigPresentMaxCount: 6
+
+# Skonfiguruj mały prezent:
+smallPresent:
+  name: small-present
+  item:
+    material: NETHER_WART_BLOCK
+    item-meta:
+      display-name: '&#FF676B&lᴍ&#FF7474&lᴀ&#FF817D&lʟ&#FF8E86&lʏ &#FFA898&lᴘ&#FFB4A0&lʀ&#FFC1A9&lᴇ&#FFCEB2&lᴢ&#FFDBBB&lᴇ&#FFE8C4&lɴ&#FFF5CD&lᴛ'
+      lore:
+      - '&8✕ &fPrzedmiot ten skrywa wiele ukrytych nagród, aby'
+      - '&8✕ &fotworzyć postaw go na ziemie'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+smallPresentMaxCount: 3
+
+# Skonfiguruj tornado:
+tornado:
+  name: tornado
+  item:
+    material: PHANTOM_MEMBRANE
+    item-meta:
+      display-name: '&#BC4FFF&lᴛ&#C059FF&lᴏ&#C362FF&lʀ&#C76CFF&lɴ&#CB75FF&lᴀ&#CE7FFF&lᴅ&#D288FF&lᴏ'
+      lore:
+      - '&8✕ &fPo użyciu przyciąga do nas'
+      - '&8✕ &ewszystkich graczy &fw odrębie kilku kratek'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &cᴅᴢɪᴇń ᴅᴢɪᴇᴄᴋᴀ 2025'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+tornadoRadius: 6
+
+# Skonfiguruj kołczan ze strzałami:
+quiver:
+  name: quiver
+  item:
+    material: HOPPER
+    item-meta:
+      display-name: '&#FF67AF&lᴋ&#FD62A9&lᴏ&#FB5CA2&lʟ&#F9579C&lᴄ&#F75195&lᴢ&#F54C8F&lᴀ&#F34688&lɴ
+        &#EF3C7C&lᴢ&#ED3675&lᴇ &#E92B68&ls&#E72662&lᴛ&#E5215C&lʀ&#E31B55&lᴢ&#E1164F&lᴀ&#DF1048&lʟ&#DD0B42&lᴀ&#DB053B&lᴍ&#D90035&lɪ'
+      lore:
+      - ''
+      - '&8✕ &FPo użyciu tego przedmiotu otrzymujesz'
+      - '&8✕ &fod &e100 do 50 &fstrzał miłości, które możesz'
+      - '&8✕ &fużyć aby ulepszyć łuk miłości u NPC &dᴜʟᴇᴘsᴢᴇɴɪᴀ ʟᴜᴋᴜ ᴍɪʟᴏśᴄɪ'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &dᴡᴀʟᴇɴᴛʏɴᴋᴏᴡᴇɢᴏ 2025'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+quiverMin: 50
+quiverMax: 100
+
+# Skonfiguruj strzałę miłości:
+loveArrow:
+  name: love-arrow
+  item:
+    material: ARROW
+    item-meta:
+      display-name: '&#E3B5FF&ls&#E3B5FF&lᴛ&#E3B5FF&lʀ&#E3B5FF&lᴢ&#E3B5FF&lᴀ&#E3B5FF&lʟ&#E3B5FF&lᴀ
+        &#E3B5FF&lᴍ&#E3B5FF&lɪ&#E3B5FF&lʟ&#E3B5FF&lᴏ&#E3B5FF&lś&#E3B5FF&lᴄ&#E3B5FF&lɪ'
+      lore:
+      - ''
+      - '&8✕ &fPrzedmiot potrzebny do &awymian &fna &6&lᴍᴀᴘɪᴇ ᴇᴠᴇɴᴛᴏᴡᴇᴊ &4(&e/event&4)'
+      - '&8✕ &aWymiany &fmożesz dokonać u NPC &#FFEFB5&lᴡ&#FFEEB0&lʏ&#FFEDAA&lᴛ&#FFEBA5&lᴡ&#FFEA9F&lᴀ&#FFE99A&lʀ&#FFE894&lᴢ&#FFE78F&lᴀ&#FFE589&lɴ&#FFE484&lɪ&#FFE37E&lᴇ
+        &#FFE173&lᴜ&#FFDF6E&lᴘ&#FFDE68&lᴏ&#FFDD63&lᴍ&#FFDC5D&lɪ&#FFDB58&lɴ&#FFD952&lᴋ&#FFD84D&ló&#FFD747&lᴡ'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &dᴡᴀʟᴇɴᴛʏɴᴋᴏᴡᴇɢᴏ 2025'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+
+# Skonfiguruj usuwacz pajeczyn:
+cobwebRemover:
+  name: cobweb-remover
+  item:
+    material: BONE
+    item-meta:
+      display-name: '&f&lᴀɴᴛɪᴄᴏʙᴡᴇʙ'
+      lore:
+      - '&7ɪᴛᴇᴍ ᴅᴏ ᴜѕᴜᴡᴀɴɪᴀ ᴄᴏʙᴡᴇʙᴏᴡ ᴢ ᴏᴋᴏʟɪᴄʏ'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+
+# Skonfiguruj oko yeti:
+yetiEye:
+  name: yeti-eye
+  item:
+    material: ENDER_EYE
+    item-meta:
+      display-name: '&#E351FF&lᴏ&#C36AE4&lᴋ&#A283CA&lᴏ &#61B495&lʏ&#41CD7A&lᴇ&#20E660&lᴛ&#00FF45&lɪ'
+      lore:
+      - '&8✕ &fPo użyciu osoby wokół dostają &aefekt osłabienia'
+      - ''
+      - '&8✕ &fPrzedmiot można trafić w &b&lLodowej &fSkrzyni'
+      - ''
+      - '&eKliknij prawym, aby użyć'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+yetiEyeEffects:
+- amplifier: 0
+  duration: 200
+  type: CONFUSION
+- amplifier: 0
+  duration: 200
+  type: INVISIBILITY
+yetiEyeRange: 6
+yetiEyeDuration:
+  seconds: 10
+  minutes: 0
+  hours: 0
+  days: 0
+
+# Skonfiguruj mikstura odmłodzenia:
+regenPotion:
+  name: regen-potion
+  item:
+    material: HONEY_BOTTLE
+    item-meta:
+      display-name: '&#FF51EA&lᴍ&#F755EB&lɪ&#F059EC&lᴋ&#E85DED&ls&#E061EE&lᴛ&#D964F0&lᴜ&#D168F1&lʀ&#C96CF2&lᴀ
+        &#BA74F4&lᴏ&#B278F5&lᴅ&#AA7CF6&lᴍ&#A380F7&lʟ&#9B84F8&lᴏ&#9388F9&lᴅ&#8C8BFB&lᴢ&#848FFC&lᴇ&#7C93FD&lɴ&#7597FE&lɪ&#6D9BFF&lᴀ'
+      lore:
+      - '&8✕ &fPo wypiciu, natychmiastowo regeneruje'
+      - '&8✕ &fnasze &azdrowie &fdo pełna'
+      - ''
+      - '&8✕ &fPrzedmiot można trafić w &b&lLodowej &fSkrzyni'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+regenPotionAmount: 9
+
+# Skonfiguruj milosc na zaboj:
+loveForDead:
+  name: love-for-dead
+  item:
+    material: GOLD_NUGGET
+    item-meta:
+      display-name: '&#B5EFFF&lᴍ&#BAF0F3&lɪ&#BFF1E8&lʟ&#C4F2DC&lᴏ&#CAF4D1&ls&#CFF5C5&lᴄ
+        &#D9F7AE&lɴ&#DEF8A2&lᴀ &#E8FA8B&lᴢ&#EEFC80&lᴀ&#F3FD74&lʙ&#F8FE69&lᴏ&#FDFF5D&lᴊ'
+      lore:
+      - ''
+      - '&8✕ &fPo użyciu, losowe osoby &az naszego klanu &fktóre są'
+      - '&8✕ &fw pobliżu na, otrzymają &e10 dodatkowych serc'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &dᴡᴀʟᴇɴᴛʏɴᴋᴏᴡᴇɢᴏ 2025'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+loveForDeadAmount: 4
+
+# Skonfiguruj topor piglina:
+piglinAxe:
+  name: piglin-axe
+  item:
+    material: GOLDEN_AXE
+    item-meta:
+      display-name: '&#FF9C28&lT&#FFA132&lo&#FFA53C&lp&#FFAA46&ló&#FFAE4F&lr &#FFB763&lP&#FFBC6D&li&#FFC077&lg&#FFC581&ll&#FFC98A&li&#FFCE94&ln&#FFD29E&la'
+      lore:
+      - '&8✕ &7Po uderzeniu gracza spada na niego deszcz'
+      - '&8✕ &7piorunów oraz mamy szanse na zabranie'
+      - '&8✕ &7mu efektu &6odporności na ogień'
+      item-flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+piglinAxeChance: 50
+
+# Skonfiguruj łuk teleportacji:
+teleportBow:
+  name: teleport-bow
+  item:
+    material: BOW
+    item-meta:
+      display-name: '&#576EFF&lʟ&#5D75FF&lᴜ&#627BFF&lᴋ &#6D89FF&lᴛ&#7390FF&lᴇ&#7996FF&lʟ&#7E9DFF&lᴇ&#84A4FF&lʀ&#89ABFF&lᴘ&#8FB1FF&lᴏ&#95B8FF&lᴛ&#9ABFFF&lᴀ&#A0C6FF&lᴄ&#A5CCFF&lᴊ&#ABD3FF&lɪ'
+      lore:
+      - ''
+      - '&8✕ &fStrzelając w wybrane miejsce, zostaniesz'
+      - '&8✕ &ftam &eprzeteleportowany natychmiastowo po doleceniu strzały'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+
+# Skonfiguruj łuk uwiązania:
+blockBow:
+  name: block-bow
+  item:
+    material: BOW
+    item-meta:
+      display-name: '&#FF5799&lʟ&#FF64A1&lᴜ&#FF71A9&lᴋ &#FF8BB8&lᴜ&#FF98C0&lᴡ&#FFA5C8&lɪ&#FFB1D0&lę&#FFBED8&lᴢ&#FFCBE0&lɪ&#FFD8E7&lᴇ&#FFE5EF&lɴ&#FFF2F7&lɪ&#FFFFFF&lᴀ'
+      lore:
+      - ''
+      - '&8✕ &fStrzelacjąc w przeciwnika, &eprzeciągamy go &fdo siebie'
+      - '&8✕ &foraz uniemożliwiamy mu ucieczkę przez kilka sekund'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+blockBowDuration:
+  seconds: 5
+  minutes: 0
+  hours: 0
+  days: 0
+
+# Skonfiguruj śnieżkę teleportacji:
+teleportSnowball:
+  name: teleport-snowball
+  item:
+    material: SNOWBALL
+    item-meta:
+      display-name: '&#7CA1FF&ls&#7FA5FF&lɴ&#81AAFF&lɪ&#84AEFF&lᴇ&#86B2FF&lż&#89B7FE&lᴋ&#8BBBFE&lᴀ
+        &#91C4FE&lᴛ&#93C8FE&lᴇ&#96CCFE&lʟ&#98D0FE&lᴇ&#9BD5FE&lᴘ&#9ED9FE&lᴏ&#A0DDFE&lʀ&#A3E2FD&lᴛ&#A5E6FD&lᴀ&#A8EAFD&lᴄ&#AAEFFD&lᴊ&#ADF3FD&lɪ'
+      lore:
+      - ''
+      - '&8✕ &fRzucając nią w gracza mamy szansę na'
+      - '&8✕ &fprzetelportowanie się do niego oraz &bzamrożenia &fgracza'
+      - ''
+      - '&8✕ &7Przedmiot można trafić w &d&lᴍɪsᴛʏᴄᴢɴᴇᴊ sᴋʀᴢʏɴɪ'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+teleportSnowballChance: 50
+teleportSnowballEffect:
+  amplifier: 0
+  duration: 100
+  type: SLOW
+
+# Skonfiguruj smoczą siekiere:
+dragonAxe:
+  name: dragon-axe
+  item:
+    material: NETHERITE_AXE
+    item-meta:
+      display-name: '&#FF003E&ls&#F6033D&lᴍ&#EE063C&lᴏ&#E5093B&lᴄ&#DC0C3A&lᴢ&#D30F39&lᴀ
+        &#C21538&ls&#B91737&lɪ&#B11A36&lᴇ&#A81D35&lᴋ&#9F2034&lɪ&#962333&lᴇ&#8E2632&lʀ&#852931&lᴀ'
+      lore:
+      - ''
+      - '&8✕ &fKopiąc nią jest szansa na wydropienie &5&lSmoczych Odłamków'
+      - '&8✕ &fSiekierę można ulepszyć w &7&lKowadle'
+      - ''
+      - '&8✕ &7Przedmiot można trafić w &d&lᴍɪsᴛʏᴄᴢɴᴇᴊ sᴋʀᴢʏɴɪ'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+dragonAxeChance: 5
+dragonShard:
+  material: PRISMARINE_SHARD
+  item-meta:
+    display-name: '&5&lSmoczy odłamek'
+    item-flags:
+    - HIDE_UNBREAKABLE
+dragonShardCmd: 0
+
+# Skonfiguruj buty sonica:
+sonicBoots:
+  name: sonic-boots
+  item:
+    material: DIAMOND_BOOTS
+    item-meta:
+      display-name: '&#7CCFFF&lʙ&#73CCFF&lᴜ&#6BC9FF&lᴛ&#62C5FF&lʏ &#51BFFF&ls&#48BCFF&lᴏ&#3FB9FF&lɴ&#36B5FF&lɪ&#2EB2FF&lᴄ&#25AFFF&lᴀ'
+      lore:
+      - ''
+      - '&8✕ &fSą to buty które nadają efekt &bSzybkości IV'
+      - '&8✕ &fprzez co stajesz się &7szybszy &fod innych graczy'
+      enchantments:
+        PROTECTION_ENVIRONMENTAL: 4
+      item-flags:
+      - HIDE_ENCHANTS
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+
+# Skonfiguruj serce wardena:
+wardenHeart:
+  name: warden-heart
+  item:
+    material: FERMENTED_SPIDER_EYE
+    item-meta:
+      display-name: '&#2C7A5B&ls&#2B7762&lᴇ&#2B7569&lʀ&#2A7271&lᴄ&#297078&lᴇ &#286B86&lᴡ&#27688D&lᴀ&#266594&lʀ&#25639C&lᴅ&#2560A3&lᴇ&#245EAA&lɴ&#235BB1&lᴀ'
+      lore:
+      - ''
+      - '&8✕ &fPo kliknieciu osoby wokół dostają &cefekt oślepienia'
+      - ''
+      - '&8✕ &7Przedmiot można trafić w &d&lᴍɪsᴛʏᴄᴢɴᴇᴊ sᴋʀᴢʏɴɪ'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+wardenHeartRadius: 6
+wardenHeartEffect:
+  amplifier: 0
+  duration: 80
+  type: BLINDNESS
+
+# Skonfiguruj granat uwiazania:
+blockGrenade:
+  name: block-grenade
+  item:
+    material: SPLASH_POTION
+    item-meta:
+      display-name: '&#D6005F&lɢ&#D60059&lʀ&#D60053&lᴀ&#D6004D&lɴ&#D60047&lᴀ&#D60041&lᴛ
+        &#D60035&lᴜ&#D60030&lᴡ&#D6002A&lɪ&#D60024&lę&#D6001E&lᴢ&#D60018&lɪ&#D60012&lᴇ&#D6000C&lɴ&#D60006&lɪ&#D60000&lᴀ'
+      lore:
+      - ''
+      - '&8✕ &fPo wyrzuceniu tworzy &7pułapkę &fz pajęczyn'
+      - ''
+      - '&8✕ &7Przedmiot można trafić w &d&lᴍɪsᴛʏᴄᴢɴᴇᴊ sᴋʀᴢʏɴɪ'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+
+# Skonfiguruj granat odpychania:
+punchGrenade:
+  name: punch-grenade
+  item:
+    material: SPLASH_POTION
+    item-meta:
+      display-name: '&#E39400&lɢ&#E39200&lʀ&#E29100&lᴀ&#E28F00&lɴ&#E28D00&lᴀ&#E28B00&lᴛ
+        &#E18800&lᴏ&#E18600&lᴅ&#E18500&lᴇ&#E08300&lᴘ&#E08100&lᴄ&#E07F00&lʜ&#DF7E00&lɴ&#DF7C00&lɪ&#DF7A00&lᴇ&#DF7800&lᴄ&#DE7700&lɪ&#DE7500&lᴀ'
+      lore:
+      - ''
+      - '&8✕ &fPo wyrzuceniu &eodpycha &fwszystkich graczy wokół'
+      - ''
+      - '&8✕ &7Przedmiot można trafić w &d&lᴍɪsᴛʏᴄᴢɴᴇᴊ sᴋʀᴢʏɴɪ'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+
+# Skonfiguruj lampion:
+lantern:
+  name: lantern
+  item:
+    material: LANTERN
+    item-meta:
+      display-name: '&#B0001C&lʟ&#BD0A26&lᴀ&#CA1330&lᴍ&#D81D3B&lᴘ&#E52645&lɪ&#F2304F&lᴏ&#FF3959&lɴ'
+      lore:
+      - ''
+      - '&8✕ &fPo użyciu utrzymujemy &cregenerację &fna kilka sekund'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &6ʜᴀʟʟᴏᴡᴇᴇɴ 2023'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+lanternEffect:
+  amplifier: 2
+  duration: 200
+  type: REGENERATION
+
+# Skonfiguruj kieł wampira:
+vampireTooth:
+  name: vampire-tooth
+  item:
+    material: IRON_NUGGET
+    item-meta:
+      display-name: '&#FFC2CC&lᴋ&#F8B8C1&lɪ&#F1AEB6&lᴇ&#EAA3AB&lʟ &#DC8F95&lᴡ&#D48589&lᴀ&#CD7B7E&lᴍ&#C67173&lᴘ&#BF6668&lɪ&#B85C5D&lʀ&#B15252&lᴀ'
+      lore:
+      - ''
+      - '&8✕ &fPo użyciu przez kilka sekund &cleczysz &fsię'
+      - '&8✕ &fo &c25% obrażeń &fzadanych przeciwnikow'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &6ʜᴀʟʟᴏᴡᴇᴇɴ 2023'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+vampireToothDuration:
+  seconds: 8
+  minutes: 0
+  hours: 0
+  days: 0
+
+# Skonfiguruj harry potter wand:
+harryPotterWand:
+  name: harry-potter-wand
+  item:
+    material: END_ROD
+    item-meta:
+      display-name: '&#493FFF&lʀ&#5146F4&ló&#594DE9&lż&#6054DE&lᴅ&#685BD3&lż&#7062C8&lᴋ&#7869BC&lᴀ
+        &#8777A6&lʜ&#8F7E9B&lᴀ&#978590&lʀ&#9F8C85&lʀ&#A6937A&lᴇ&#AE9A6F&lɢ&#B6A164&lᴏ
+        &#C6AF4E&lᴘ&#CDB643&lᴏ&#D5BD37&lᴛ&#DDC42C&lᴛ&#E5CB21&lᴇ&#ECD216&lʀ&#F4D90B&lᴀ'
+      lore:
+      - ''
+      - '&8✕ &fAktywny czar: &7Wingardium Leviosa'
+      - '&8✕ &fPo użyciu &eczaru&7, każdy gracz'
+      - '&8✕ &fwokół otrzyma &b&nefekt oślepienia'
+      - ''
+      - '&8✕ &7Przedmiot można trafić w &d&lᴍɪsᴛʏᴄᴢɴᴇᴊ sᴋʀᴢʏɴɪ'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+harryPotterWandEffects:
+- amplifier: 1
+  duration: 200
+  type: LEVITATION
+- amplifier: 0
+  duration: 80
+  type: BLINDNESS
+harryPotterWandRadius: 7
+
+# Skonfiguruj lucky block:
+luckyBlock:
+  name: lucky-block
+  item:
+    material: SPONGE
+    item-meta:
+      display-name: '&6&lLuckyBlock'
+      lore:
+      - '&8× &#D2D2D2Postaw na ziemi, a wypadnie &4Wartościowy item&#C4C1C1!'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+
+# Skonfiguruj stat-track:
+statTrack:
+  name: stat-track
+  item:
+    material: NAUTILUS_SHELL
+    item-meta:
+      display-name: '&#A7DBFF&lK&#9DD3FF&lu&#92CAFF&lp&#88C2FF&lo&#7EBAFF&ln &#69A9FF&ln&#5FA1FF&la
+        &#4A90FF&ln&#4088FF&la&#3680FF&ld&#2B77FF&la&#216FFF&ln&#2B77FF&li&#3680FF&le
+        &#4A90FF&lS&#5599FF&lt&#5FA1FF&la&#69A9FF&lt&#73B1FF&lT&#7EBAFF&lr&#88C2FF&la&#92CAFF&lc&#9DD3FF&lk&#A7DBFF&la'
+      lore:
+      - ''
+      - '&8✕ &7Użyj komendy &#4A90FF/stattrack&7, aby nadać'
+      - '&8✕ &7stattrack na &#ECA7FFprzedmiot który trzymasz &7w ręce. (narzędzie
+        lub miecz)'
+      - '&8✕ &7Pamiętaj, że musisz &#FF8787posiadać ten kupon &7w ekwipunku, jest
+        on &#FF8787jednorazowy&7.'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+
+# Skonfiguruj lore stat-tracku:
+statTrackLore:
+- '&8✕ &6Aktualny statrack przedmiotu: &e{stat}'
+- ''
+
+# Skonfiguruj uczieczke ducha:
+ghostEscape:
+  name: ghost-escape
+  item:
+    material: PHANTOM_MEMBRANE
+    item-meta:
+      display-name: '&#FFFFFF&lᴜ&#F7F7F7&lᴄ&#EFEFEF&lɪ&#E7E7E7&lᴇ&#DEDEDE&lᴄ&#D6D6D6&lᴢ&#CECECE&lᴋ&#C6C6C6&lᴀ
+        &#C6C6C6&lᴅ&#C6C6C6&lᴜ&#C6C6C6&lᴄ&#C6C6C6&lʜ&#C6C6C6&lᴀ'
+      lore:
+      - ''
+      - '&8✕ &fPo użyciu, wszyscy gracze wokół'
+      - '&8✕ &fzamieniają się w duchy na &75 &fsekund'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &6ʜᴀʟʟᴏᴡᴇᴇɴ 2023'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+ghostEscapeRadius: 7
+ghostEscapeEffect:
+  amplifier: 0
+  duration: 100
+  type: INVISIBILITY
+
+# Skonfiguruj mózg zombie:
+zombieBrain:
+  name: zombie-brain
+  item:
+    material: POPPED_CHORUS_FRUIT
+    item-meta:
+      display-name: '&#06AC1E&lᴍ&#38AB4B&ló&#6AA977&lᴢ&#9BA8A4&lɢ &#FFA5FD&lᴢ&#FFA5FD&lᴏ&#FFA5FD&lᴍ&#FFA5FD&lʙ&#FFA5FD&lɪ&#FFA5FD&lᴇ'
+      lore:
+      - ''
+      - '&8✕ &fPo użyciu, wszyscy &7gracze &fw obrębie'
+      - '&8✕ &fkilku kratek otrzymują efekt &8spowolnienia'
+      - '&8✕ &foraz efekt &enudności'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &6ʜᴀʟʟᴏᴡᴇᴇɴ 2023'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+zombieBrainRadius: 7
+zombieBrainEffects:
+- amplifier: 0
+  duration: 80
+  type: CONFUSION
+- amplifier: 1
+  duration: 200
+  type: SLOW
+
+# Skonfiguruj miotłe wiedźmy:
+witchBroom:
+  name: witch-broom
+  item:
+    material: IRON_NUGGET
+    item-meta:
+      display-name: '&#9502E0&lᴍ&#9002E0&lɪ&#8B02E0&lᴏ&#8602E0&lᴛ&#8002E0&lʟ&#7B02E0&lᴀ
+        &#7102E0&lᴡ&#7102E0&lɪ&#7102E0&lᴇ&#7102E0&lᴅ&#7102E0&lź&#7102E0&lᴍ&#7102E0&lʏ'
+      lore:
+      - ''
+      - '&8✕ &fPo użyciu wystrzelasz &9perłe &fktórą'
+      - '&8✕ &fdosiadasz po otrzymaniu &cobrażeń &fspadasz z niej'
+      - '&8✕ &fale również możesz z niej zejść kikając &7shift'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &6ʜᴀʟʟᴏᴡᴇᴇɴ 2023'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+
+# Skonfiguruj miksture zamrożenia:
+freezePotion:
+  name: freeze-potion
+  item:
+    material: POTION
+    item-meta:
+      display-name: '&#02B3E0&lᴍ&#10B9E3&lɪ&#1FBEE7&lᴋ&#2DC4EA&ls&#3BCAEE&lᴛ&#4ACFF1&lᴜ&#58D5F5&lʀ&#66DBF8&lᴀ
+        &#83E6FF&lᴢ&#83E6FF&lᴀ&#83E6FF&lᴍ&#83E6FF&lʀ&#83E6FF&lᴏ&#83E6FF&lż&#83E6FF&lᴇ&#83E6FF&lɴ&#83E6FF&lɪ&#83E6FF&lᴀ'
+      lore:
+      - ''
+      - '&8✕ &fPo wypicu jej wszyscy gracze w'
+      - '&8✕ &fobrębie kilku kratek &bzamarzają &fna kilka sekund'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+freezePotionRadius: 7
+
+# Skonfiguruj syrop miodowy:
+honeySyrup:
+  name: honey-syrup
+  item:
+    material: HONEY_BOTTLE
+    item-meta:
+      display-name: '&#02E035&ls&#1AE542&lʏ&#33EA4F&lʀ&#4BF05C&lᴏ&#63F569&lᴘ &#94FF83&lᴍ&#94FF83&lɪ&#94FF83&lᴏ&#94FF83&lᴅ&#94FF83&lᴏ&#94FF83&lᴡ&#94FF83&lʏ'
+      lore:
+      - ''
+      - '&8✕ &fPo wypicu &aregeneruje &fcałe zdrowie'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z &#FF9100&ls&#FF9B00&lᴛ&#FFA600&lᴀ&#FFB000&lʀ&#FFBA00&lᴇ&#FFC400&lɢ&#FFCF00&lᴏ
+        &#FFE300&lᴍ&#FFE300&lɪ&#FFE300&lɴ&#FFE300&lᴇ&#FFE300&ls&#FFE300&lᴛ&#FFE300&lᴀ&#FFE300&lʀ&#FFE300&lᴀ
+        2022'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+
+# Skonfiguruj super jabłko:
+superApple:
+  name: super-apple
+  item:
+    material: GOLDEN_APPLE
+    item-meta:
+      display-name: '&#FF00F8&ls&#FF00D7&lᴜ&#FF00B7&lᴘ&#FF0096&lᴇ&#FF0075&lʀ &#FF0034&lᴊ&#FF0034&lᴀ&#FF0034&lʙ&#FF0034&lʟ&#FF0034&lᴋ&#FF0034&lᴏ'
+      lore:
+      - ''
+      - '&8✕ &fPo sporzyciu otrzymujesz efekt &cregeneracji IV &fna 10 sekund'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z &#FF9100&ls&#FF9B00&lᴛ&#FFA600&lᴀ&#FFB000&lʀ&#FFBA00&lᴇ&#FFC400&lɢ&#FFCF00&lᴏ
+        &#FFE300&lᴍ&#FFE300&lɪ&#FFE300&lɴ&#FFE300&lᴇ&#FFE300&ls&#FFE300&lᴛ&#FFE300&lᴀ&#FFE300&lʀ&#FFE300&lᴀ
+        2022'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+superAppleEffect:
+  amplifier: 3
+  duration: 200
+  type: REGENERATION
+
+# Skonfiguruj nieskończoną wędkę:
+infinityRod:
+  name: infinity-rod
+  item:
+    material: FISHING_ROD
+    item-meta:
+      display-name: '&#00CEEA&lɴ&#00C9E0&lɪ&#00C4D6&lᴇ&#00BECD&ls&#00B9C3&lᴋ&#00B4B9&lᴏ&#00AFAF&lń&#00A9A6&lᴄ&#00A49C&lᴢ&#009F92&lᴏ&#009F92&lɴ&#009F92&lᴀ
+        &#009F92&lᴡ&#009F92&lę&#009F92&lᴅ&#009F92&lᴋ&#009F92&lᴀ'
+      lore:
+      - ''
+      - '&8✕ &fKiedy trafisz kogoś &9spławikiem &fmożesz go'
+      - '&8✕ &fprzyciągnąć do &bsiebie'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+
+# Skonfiguruj księge zaklęć wiedzy:
+spellBook:
+  name: spell-book
+  item:
+    material: BOOK
+    item-meta:
+      display-name: '&#AE0000&lᴋ&#9D1A07&ls&#8B330E&lɪ&#7A4D15&lᴇ&#68661C&lɢ&#578023&lᴀ
+        &#34B330&lᴢ&#23CC37&lᴀ&#11E63E&lᴋ&#00FF45&lʟ&#18F43D&lᴇ&#2FE936&lć &#5ED326&lᴡ&#76C71F&lɪ&#8DBC17&lᴇ&#A5B10F&lᴅ&#BCA608&lᴢ&#D49B00&lʏ'
+      lore:
+      - ''
+      - '&8✕ &fKlikając prawy, mamy możliwość &eżucenia &fklątwy'
+      - '&8✕ &ezatrucia &fna gracza w którego trafi &ewiązka'
+      - '&8✕ &fżuconego czaru'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &6ʜᴀʟʟᴏᴡᴇᴇɴ 2023'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+spellBookEffect:
+  amplifier: 2
+  duration: 200
+  type: POISON
+spellBookRadius: 7
+
+# Skonfiguruj podmuch zmian:
+blastOfChange:
+  name: blast-of-change
+  item:
+    material: SNOWBALL
+    item-meta:
+      display-name: '&b&lᴘᴏᴅᴍᴜᴄʜ ᴢᴍɪᴀɴʏ'
+      lore:
+      - ''
+      - '&8✕ &fRzuć w gracza &b&lᴘᴏᴅᴍᴜᴄʜ ᴢᴍɪᴀɴʏ'
+      - '&8✕ &faby zamienić się z &cgraczem &fmiejscem!'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+
+# Skonfiguruj miotłe:
+broom:
+  name: broom
+  item:
+    material: STICK
+    item-meta:
+      display-name: '&5&lᴍɪᴏᴛʟᴀ'
+      lore:
+      - ''
+      - '&8✕ &fPoleć za pomocą &5&lᴍɪᴏᴛʟᴀ'
+      - '&8✕ &fw wybrane mijsce do &d10 &fkratek'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+
+# Skonfiguruj zaklecie zycia:
+lifeSpell:
+  name: life-spell
+  item:
+    material: ENCHANTED_BOOK
+    item-meta:
+      display-name: '&fᴢᴀᴋʟᴇᴄɪᴇ &c&lżʏᴄɪᴀ'
+      lore:
+      - ''
+      - '&8✕ &fPo nałożeniu &bzaklęcia &fna część'
+      - '&8✕ &euzbrojenia &fdodaje ono &c2&4❤'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+lifeSpellLore:
+- '&7Życie I'
+
+# Skonfiguruj zaklecie zycia:
+speedSpell:
+  name: speed-spell
+  item:
+    material: ENCHANTED_BOOK
+    item-meta:
+      display-name: '&fᴢᴀᴋʟᴇᴄɪᴇ &b&lsᴢʏʙᴋᴏśᴄɪ'
+      lore:
+      - ''
+      - '&8✕ &fPo nałożeniu &bzaklęcia na część'
+      - '&8✕ &euzbrojenia &fdodaje ono zwiększoną'
+      - '&8✕ &9szybkość &fuderzeń na mieczu!'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+speedSpellLore:
+- '&7Szybkość I'
+
+# Skonfiguruj królicze uszy:
+bunnyEars:
+  name: bunny-ears
+  item:
+    material: RABBIT_FOOT
+    item-meta:
+      display-name: '&#FFF7E2ᴜ&#FEF8E5s&#FEF8E7ᴢ&#FDF9EAʏ &#FBFAEFᴋ&#FBFAF2ʀ&#FAFBF4ó&#F9FBF7ʟ&#F8FCFAɪ&#F8FCFCᴋ&#F7FDFFᴀ'
+      lore:
+      - ''
+      - '&8✕ &fPo uderzeniu przeciwnika, zostaje on &eobrócony'
+      - '&8✕ &fo &e180 stopni &foraz &aorzymuje blokadę skakania'
+      - ''
+      - '&8✕ &4&lUwaga &cPrzedmiot jest jednorazowy'
+      - ''
+      - '&8✕ &7Przedmiot pochodzi z eventu &aᴡɪᴇʟᴋᴀɴᴏᴄɴᴇɢᴏ 2025'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+bunnyEarsDuration:
+  seconds: 10
+  minutes: 0
+  hours: 0
+  days: 0
+
+# Skonfiguruj totem absorpcji:
+absorptionTotem:
+  name: absorption-totem
+  item:
+    material: TOTEM_OF_UNDYING
+    item-meta:
+      display-name: '&#F2FF5F&lᴛ&#F2FF5F&lᴏ&#F2FF5F&lᴛ&#F2FF5F&lᴇ&#F2FF5F&lᴍ &#F2FF5F&lᴀ&#F2FF5F&lʙ&#F2FF5F&ls&#F2FF5F&lᴏ&#F2FF5F&lʀ&#F2FF5F&lᴘ&#F2FF5F&lᴄ&#F2FF5F&lᴊ&#F2FF5F&lɪ'
+      lore:
+      - '&8✕ &fPo &cstracie &ftotemu mamy &a50% szans'
+      - '&8✕ &fna otrzymanie efektu &eabsorpcji 3'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+
+# Skonfiguruj totem absorpcji:
+chanceTotem:
+  name: chance-totem
+  item:
+    material: TOTEM_OF_UNDYING
+    item-meta:
+      display-name: '&#5FFF75&lᴛ&#5FFF75&lᴏ&#5FFF75&lᴛ&#5FFF75&lᴇ&#5FFF75&lᴍ &#5FFF75&ls&#5FFF75&lᴢ&#5FFF75&lᴀ&#5FFF75&lɴ&#5FFF75&ls&#5FFF75&lʏ'
+      lore:
+      - '&8✕ &fPo &cstracie &ftotemu mamy &a25% szans&f, że'
+      - '&8✕ &fwróci on do naszego ekwipunku!'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+
+# Skonfiguruj totem absorpcji:
+pushTotem:
+  name: push-totem
+  item:
+    material: TOTEM_OF_UNDYING
+    item-meta:
+      display-name: '&#98A0FF&lᴛ&#98A0FF&lᴏ&#98A0FF&lᴛ&#98A0FF&lᴇ&#98A0FF&lᴍ &#98A0FF&lᴏ&#98A0FF&lᴅ&#98A0FF&lᴇ&#98A0FF&lᴘ&#98A0FF&lᴄ&#98A0FF&lʜ&#98A0FF&lę&#98A0FF&lᴄ&#98A0FF&lɪ&#98A0FF&lᴀ'
+      lore:
+      - '&8✕ &fPo &cstracie &ftotemu mamy &a25% szans&f,'
+      - '&8✕ &fże &6odepchniemy &fwszystkich przeciwników dokoła nas'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+
+# Skonfiguruj totem absorpcji:
+bananaPeel:
+  name: banana-peel
+  item:
+    material: YELLOW_DYE
+    item-meta:
+      display-name: '&#FFE000&ls&#FFDC00&lᴋ&#FFD800&ló&#FFD400&lʀ&#FFD000&lᴋ&#FFCC00&lᴀ
+        &#FFC400&lᴏ&#FFC100&lᴅ &#FFB900&lʙ&#FFB500&lᴀ&#FFB100&lɴ&#FFAD00&lᴀ&#FFA900&lɴ&#FFA500&lᴀ'
+      lore:
+      - ' '
+      - '&8✕ &fPo uderzeniu przeciwnika, jego przedmioty'
+      - '&8✕ &fw ekwipunku zostają &ewymieszane'
+      - ' '
+      - '&8✕ &4&lUwaga! &cPrzedmiot jest jednorazowy'
+      - ' '
+      - '&8✕ &7Przedmiot pochodzi z eventu &cᴅᴢɪᴇń ᴅᴢɪᴇᴄᴋᴀ 2025'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+
+# Skonfiguruj totem absorpcji:
+voodooDoll:
+  name: voodoo-doll
+  item:
+    material: RABBIT_HIDE
+    item-meta:
+      display-name: '&#FFFDF1&lʟ&#F4F3E7&lᴀ&#EAE8DE&lʟ&#DFDED4&lᴇ&#D5D3CB&lᴄ&#CAC9C1&lᴢ&#C0BEB8&lᴋ&#B5B4AE&lᴀ
+        &#A09F9B&lᴠ&#959591&lᴏ&#8B8A88&lᴏ&#80807E&lᴅ&#767575&lᴏ&#6B6B6B&lᴏ'
+      lore:
+      - ' '
+      - '&8✕ &fPo użyciu, przez kilka sekund zadajemy &cobrażenia'
+      - '&8✕ &fkażdemu kto zdecyduje się nas uderzyć'
+      - ' '
+      - '&8✕ &7Przedmiot pochodzi z eventu &cᴅᴢɪᴇń ᴅᴢɪᴇᴄᴋᴀ 2025'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+
+# Skonfiguruj totem absorpcji:
+carousel:
+  name: carousel
+  item:
+    material: DAYLIGHT_DETECTOR
+    item-meta:
+      display-name: '&#FF4444&lᴋ&#EF5F5B&lᴀ&#DF7972&lʀ&#CF9489&lᴜ&#BFAF9F&lᴢ&#AFCAB6&lᴇ&#9FE4CD&lʟ&#8FFFE4&lᴀ'
+      lore:
+      - ' '
+      - '&8✕ &fPo uderzeniu przeciwnika otrzymuje on efekt karuzeli,'
+      - '&8✕ &fktóry będzie go obracał gdy tylko kogoś uderzy'
+      - ' '
+      - '&8✕ &7Przedmiot pochodzi z eventu &cᴅᴢɪᴇń ᴅᴢɪᴇᴄᴋᴀ 2025'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+
+# Skonfiguruj esencje ognia:
+fireEssence:
+  name: fire-essence
+  item:
+    material: ENCHANTED_BOOK
+    item-meta:
+      display-name: '&fᴢᴀᴋʟᴇᴄɪᴇ &b&lsᴢʏʙᴋᴏśᴄɪ'
+      lore:
+      - ''
+      - '&8✕ &fPo nałożeniu &bzaklęcia na część'
+      - '&8✕ &euzbrojenia &fdodaje ono zwiększoną'
+      - '&8✕ &9szybkość &fuderzeń na mieczu!'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+fireEssenceLore:
+- ''
+- '&7Esencja ognia I'
+
+# Skonfiguruj esencje regeneracji:
+regenerationEssence:
+  name: fire-essence
+  item:
+    material: ENCHANTED_BOOK
+    item-meta:
+      display-name: '&fᴢᴀᴋʟᴇᴄɪᴇ &b&lsᴢʏʙᴋᴏśᴄɪ'
+      lore:
+      - ''
+      - '&8✕ &fPo nałożeniu &bzaklęcia na część'
+      - '&8✕ &euzbrojenia &fdodaje ono zwiększoną'
+      - '&8✕ &9szybkość &fuderzeń na mieczu!'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+regenerationEssenceLore:
+- ''
+- '&7Esencja regeneracji I'
+
+# Skonfiguruj esencje amortyzacji:
+depreciationEssence:
+  name: depreciation-essence
+  item:
+    material: ENCHANTED_BOOK
+    item-meta:
+      display-name: '&fᴢᴀᴋʟᴇᴄɪᴇ &b&lsᴢʏʙᴋᴏśᴄɪ'
+      lore:
+      - ''
+      - '&8✕ &fPo nałożeniu &bzaklęcia na część'
+      - '&8✕ &euzbrojenia &fdodaje ono zwiększoną'
+      - '&8✕ &9szybkość &fuderzeń na mieczu!'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+depreciationEssenceLore:
+- ''
+- '&7Esencja amortyzacji I'
+
+# Skonfiguruj esencje szybkość:
+speedEssence:
+  name: speed-essence
+  item:
+    material: ENCHANTED_BOOK
+    item-meta:
+      display-name: '&fᴢᴀᴋʟᴇᴄɪᴇ &b&lsᴢʏʙᴋᴏśᴄɪ'
+      lore:
+      - ''
+      - '&8✕ &fPo nałożeniu &bzaklęcia na część'
+      - '&8✕ &euzbrojenia &fdodaje ono zwiększoną'
+      - '&8✕ &9szybkość &fuderzeń na mieczu!'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+speedEssenceLore:
+- ''
+- '&7Esencja szybkość I'
+
+# Skonfiguruj esencje withera:
+witherEssence:
+  name: wither-essence
+  item:
+    material: ENCHANTED_BOOK
+    item-meta:
+      display-name: '&fᴢᴀᴋʟᴇᴄɪᴇ &b&lsᴢʏʙᴋᴏśᴄɪ'
+      lore:
+      - ''
+      - '&8✕ &fPo nałożeniu &bzaklęcia na część'
+      - '&8✕ &euzbrojenia &fdodaje ono zwiększoną'
+      - '&8✕ &9szybkość &fuderzeń na mieczu!'
+      item-flags:
+      - HIDE_UNBREAKABLE
+  cmd: 0
+  blockedRegions: []
+witherEssenceLore:
+- ''
+- '&7Esencja withera I'
+noticeSeparator: ' &8:|: '
+
+# Skonfiguruj cooldowny:
+cooldowns:
+  bear-fur:
+    seconds: 0
+    minutes: 2
+    hours: 0
+    days: 0
+  cobweb-remover:
+    seconds: 15
+    minutes: 0
+    hours: 0
+    days: 0
+  hearth-absorption:
+    seconds: 0
+    minutes: 2
+    hours: 0
+    days: 0
+  bomb:
+    seconds: 0
+    minutes: 2
+    hours: 0
+    days: 0
+  dragon-firework:
+    seconds: 0
+    minutes: 0
+    hours: 0
+    days: 0
+  hedgehog-spikes:
+    seconds: 0
+    minutes: 2
+    hours: 0
+    days: 0
+  vampire-tooth:
+    seconds: 0
+    minutes: 3
+    hours: 0
+    days: 0
+  hook:
+    seconds: 0
+    minutes: 2
+    hours: 0
+    days: 0
+  skypvp-apple:
+    seconds: 0
+    minutes: 0
+    hours: 0
+    days: 0
+  pumpkin-grenade:
+    seconds: 0
+    minutes: 2
+    hours: 0
+    days: 0
+  love-for-dead:
+    seconds: 0
+    minutes: 1
+    hours: 0
+    days: 0
+  rubber:
+    seconds: 0
+    minutes: 2
+    hours: 0
+    days: 0
+  stick:
+    seconds: 0
+    minutes: 2
+    hours: 0
+    days: 0
+  pandora-box:
+    seconds: 0
+    minutes: 2
+    hours: 0
+    days: 0
+  teleport-bow:
+    seconds: 0
+    minutes: 3
+    hours: 0
+    days: 0
+  broom:
+    seconds: 0
+    minutes: 2
+    hours: 0
+    days: 0
+  ghost-escape:
+    seconds: 0
+    minutes: 3
+    hours: 0
+    days: 0
+  goat:
+    seconds: 240
+    minutes: 0
+    hours: 0
+    days: 0
+  teleport-snowball:
+    seconds: 0
+    minutes: 1
+    hours: 0
+    days: 0
+  regen-potion:
+    seconds: 0
+    minutes: 2
+    hours: 0
+    days: 0
+  trident-of-destroy:
+    seconds: 0
+    minutes: 2
+    hours: 0
+    days: 0
+  witch-wand:
+    seconds: 0
+    minutes: 2
+    hours: 0
+    days: 0
+  spell-book:
+    seconds: 0
+    minutes: 3
+    hours: 0
+    days: 0
+  piglin-axe:
+    seconds: 0
+    minutes: 2
+    hours: 0
+    days: 0
+  warden-heart:
+    seconds: 0
+    minutes: 2
+    hours: 0
+    days: 0
+  harry-potter-wand:
+    seconds: 0
+    minutes: 1
+    hours: 0
+    days: 0
+  curse-of-miner:
+    seconds: 0
+    minutes: 2
+    hours: 0
+    days: 0
+  santa-letters:
+    seconds: 0
+    minutes: 0
+    hours: 0
+    days: 0
+  voodoo-doll:
+    seconds: 0
+    minutes: 2
+    hours: 0
+    days: 0
+  magnifying-glass:
+    seconds: 0
+    minutes: 0
+    hours: 0
+    days: 0
+  witch-broom:
+    seconds: 0
+    minutes: 2
+    hours: 0
+    days: 0
+  block-grenade:
+    seconds: 0
+    minutes: 2
+    hours: 0
+    days: 0
+  carousel:
+    seconds: 0
+    minutes: 2
+    hours: 0
+    days: 0
+  zombie-brain:
+    seconds: 0
+    minutes: 2
+    hours: 0
+    days: 0
+  punch-grenade:
+    seconds: 0
+    minutes: 1
+    hours: 0
+    days: 0
+  sweet-apple:
+    seconds: 0
+    minutes: 0
+    hours: 0
+    days: 0
+  tornado:
+    seconds: 0
+    minutes: 1
+    hours: 0
+    days: 0
+  block-bow:
+    seconds: 0
+    minutes: 2
+    hours: 0
+    days: 0
+  escape-horus:
+    seconds: 0
+    minutes: 2
+    hours: 0
+    days: 0
+  lasso:
+    seconds: 0
+    minutes: 2
+    hours: 0
+    days: 0
+  freeze-potion:
+    seconds: 0
+    minutes: 2
+    hours: 0
+    days: 0
+  gingerbread:
+    seconds: 0
+    minutes: 0
+    hours: 0
+    days: 0
+  ice-wand:
+    seconds: 0
+    minutes: 5
+    hours: 0
+    days: 0
+  lantern:
+    seconds: 0
+    minutes: 2
+    hours: 0
+    days: 0
+  infinity-rod:
+    seconds: 0
+    minutes: 3
+    hours: 0
+    days: 0
+  golden-skull:
+    seconds: 0
+    minutes: 0
+    hours: 0
+    days: 0
+  yeti-eye:
+    seconds: 0
+    minutes: 5
+    hours: 0
+    days: 0
+  super-apple:
+    seconds: 0
+    minutes: 0
+    hours: 0
+    days: 0
+  poke-ball:
+    seconds: 180
+    minutes: 0
+    hours: 0
+    days: 0
+  honey-syrup:
+    seconds: 0
+    minutes: 2
+    hours: 0
+    days: 0
+
+# Skonfiguruj wiadomość actionbar z cooldownami:
+cooldownNoticeFormat: '&f{name} &8(&f{time}&8)'
+cooldownNoticeNames:
+  bear-fur: '&#A9FFFD&ls&#ACFFFD&lɪ&#AFFFFD&lᴇ&#B2FFFD&lʀ&#B5FFFD&ls&#B8FFFD&lᴄ &#BFFFFE&lɴ&#C2FFFE&lɪ&#C5FFFE&lᴇ&#C8FFFE&lᴅ&#CBFFFE&lᴢ&#CEFFFE&lᴡ&#D1FFFE&lɪ&#D4FFFE&lᴇ&#D7FFFE&lᴅ&#DAFFFE&lᴢ&#DDFFFE&lɪ&#E0FFFE&lᴀ
+    &#E6FFFE&lᴘ&#EAFFFF&lᴏ&#EDFFFF&lʟ&#F0FFFF&lᴀ&#F3FFFF&lʀ&#F6FFFF&lɴ&#F9FFFF&lᴇ&#FCFFFF&lɢ&#FFFFFF&lᴏ'
+  cobweb-remover: '&6&lUsuwacz Pajęczyn'
+  hearth-absorption: '&#5A5A5A&lᴡ&#605459&lᴄ&#674D58&lʜ&#6D4756&lʟ&#734055&lᴀ&#7A3A54&lɴ&#803353&lɪ&#872D52&lᴀ&#8D2750&lᴄ&#93204F&lᴢ
+    &#A0134D&ls&#A60D4B&lᴇ&#AD064A&lʀ&#B30049&lᴄ'
+  bomb: '&#FFD747&lʙ&#F3D359&lᴏ&#E7CF6C&lᴍ&#DBCB7E&lʙ&#CFC791&lᴏ&#C3C4A3&lɴ&#B6C0B5&lɪ&#AABCC8&lᴇ&#9EB8DA&lʀ&#92B4ED&lᴋ&#86B0FF&lᴀ'
+  dragon-firework: '&#8300FF&lS&#8900FC&lm&#8F00F9&lo&#9500F5&lc&#9C00F2&lz&#A200EF&la
+    &#AE00E9&lF&#B400E6&la&#BA00E2&lj&#C000DF&le&#C600DC&lr&#CD00D9&lw&#D300D6&le&#D900D2&lr&#DF00CF&lk&#E500CC&la'
+  hedgehog-spikes: '&#D89D2B&lᴋ&#DCA63C&lᴏ&#E1AE4D&lʟ&#E5B75E&lᴄ&#E9C06F&lᴇ &#F2D190&lᴊ&#F6DAA1&lᴇ&#FBE2B2&lż&#FFEBC3&lᴀ'
+  vampire-tooth: '&#FFC2CC&lᴋ&#F8B8C1&lɪ&#F1AEB6&lᴇ&#EAA3AB&lʟ &#DC8F95&lᴡ&#D48589&lᴀ&#CD7B7E&lᴍ&#C67173&lᴘ&#BF6668&lɪ&#B85C5D&lʀ&#B15252&lᴀ'
+  hook: '&#FF5757&lH&#FF3A3A&la&#FF1C1C&lk'
+  skypvp-apple: '&#FF4BE2&ls&#FF54E3&lʟ&#FF5DE5&lᴏ&#FF65E6&lᴅ&#FF6EE8&lᴋ&#FF77E9&lɪ&#FF80EA&lᴇ
+    &#FF91ED&lᴊ&#FF9AEE&lᴀ&#FFA3F0&lʙ&#FFABF1&lʟ&#FFB4F3&lᴋ&#FFBDF4&lᴏ'
+  pumpkin-grenade: '&#FFAB57&lᴅ&#FCA752&lʏ&#F9A24C&lɴ&#F59E47&lɪ&#F29A41&lᴏ&#EF953C&lɢ&#EC9136&lʟ&#E88D31&lᴏ&#E5892C&lᴡ&#E28426&lʏ
+    &#DB7C1B&lɢ&#D87716&lʀ&#D57310&lᴀ&#D26F0B&lɴ&#CE6A05&lᴀ&#CB6600&lᴛ'
+  love-for-dead: '&#B5EFFF&lᴍ&#BAF0F3&lɪ&#BFF1E8&lʟ&#C4F2DC&lᴏ&#CAF4D1&ls&#CFF5C5&lᴄ
+    &#D9F7AE&lɴ&#DEF8A2&lᴀ &#E8FA8B&lᴢ&#EEFC80&lᴀ&#F3FD74&lʙ&#F8FE69&lᴏ&#FDFF5D&lᴊ'
+  rubber: '&#FF76C2&lɢ&#FF8ECD&lᴜ&#FFA6D8&lᴍ&#FFBEE2&lᴋ&#FFD6ED&lᴀ'
+  stick: '&#6D5D3F&lʀ&#837252&ló&#998765&lᴢ&#AE9B77&lɢ&#C4B08A&lᴀ'
+  pandora-box: '&#7F00BC&lᴘ&#870FC1&lᴜ&#8E1FC6&ls&#962ECB&lᴢ&#9D3ED1&lᴋ&#A54DD6&lᴀ
+    &#B46CE0&lᴘ&#BC7CE5&lᴀ&#C48BEA&lɴ&#CB9BF0&lᴅ&#D3AAF5&lᴏ&#DABAFA&lʀ&#E2C9FF&lʏ'
+  teleport-bow: '&#576EFF&lʟ&#5D75FF&lᴜ&#627BFF&lᴋ &#6D89FF&lᴛ&#7390FF&lᴇ&#7996FF&lʟ&#7E9DFF&lᴇ&#84A4FF&lʀ&#89ABFF&lᴘ&#8FB1FF&lᴏ&#95B8FF&lᴛ&#9ABFFF&lᴀ&#A0C6FF&lᴄ&#A5CCFF&lᴊ&#ABD3FF&lɪ'
+  broom: '&5&lᴍɪᴏᴛʟᴀ'
+  ghost-escape: '&#FFFFFF&lᴜ&#F7F7F7&lᴄ&#EFEFEF&lɪ&#E7E7E7&lᴇ&#DEDEDE&lᴄ&#D6D6D6&lᴢ&#CECECE&lᴋ&#C6C6C6&lᴀ
+    &#C6C6C6&lᴅ&#C6C6C6&lᴜ&#C6C6C6&lᴄ&#C6C6C6&lʜ&#C6C6C6&lᴀ'
+  goat: '&#FF2D00&lᴋ&#F63700&lᴏ&#EE4000&lᴢ&#E54A00&lᴀ'
+  teleport-snowball: '&#7CA1FF&ls&#7FA5FF&lɴ&#81AAFF&lɪ&#84AEFF&lᴇ&#86B2FF&lż&#89B7FE&lᴋ&#8BBBFE&lᴀ
+    &#91C4FE&lᴛ&#93C8FE&lᴇ&#96CCFE&lʟ&#98D0FE&lᴇ&#9BD5FE&lᴘ&#9ED9FE&lᴏ&#A0DDFE&lʀ&#A3E2FD&lᴛ&#A5E6FD&lᴀ&#A8EAFD&lᴄ&#AAEFFD&lᴊ&#ADF3FD&lɪ'
+  regen-potion: '&#FF51EA&lᴍ&#F755EB&lɪ&#F059EC&lᴋ&#E85DED&ls&#E061EE&lᴛ&#D964F0&lᴜ&#D168F1&lʀ&#C96CF2&lᴀ
+    &#BA74F4&lᴏ&#B278F5&lᴅ&#AA7CF6&lᴍ&#A380F7&lʟ&#9B84F8&lᴏ&#9388F9&lᴅ&#8C8BFB&lᴢ&#848FFC&lᴇ&#7C93FD&lɴ&#7597FE&lɪ&#6D9BFF&lᴀ'
+  trident-of-destroy: '&#3AB4FF&lᴛ&#3DB5FF&lʀ&#41B6FF&ló&#44B7FF&lᴊ&#48B7FF&lᴢ&#4BB8FF&lᴀ&#4FB9FF&lʙ
+    &#56BBFF&lᴢ&#59BCFF&lɴ&#5CBCFF&lɪ&#60BDFF&ls&#63BEFF&lᴢ&#67BFFF&lᴄ&#6AC0FF&lᴢ&#6EC1FF&lᴇ&#71C1FF&lɴ&#75C2FF&lɪ&#78C3FF&lᴀ'
+  witch-wand: '&#5B7FFF&lʀ&#5786F4&ló&#538DE9&lż&#4F93DE&lᴅ&#4C9AD3&lż&#48A1C8&lᴋ&#44A8BD&lᴀ
+    &#3CB5A8&lᴡ&#38BC9D&lɪ&#34C392&lᴇ&#31CA87&lᴅ&#2DD07C&lź&#29D771&lᴍ&#25DE66&lʏ'
+  spell-book: '&#AE0000&lᴋ&#9D1A07&ls&#8B330E&lɪ&#7A4D15&lᴇ&#68661C&lɢ&#578023&lᴀ
+    &#34B330&lᴢ&#23CC37&lᴀ&#11E63E&lᴋ&#00FF45&lʟ&#18F43D&lᴇ&#2FE936&lć &#5ED326&lᴡ&#76C71F&lɪ&#8DBC17&lᴇ&#A5B10F&lᴅ&#BCA608&lᴢ&#D49B00&lʏ'
+  piglin-axe: '&#FF9C28&lT&#FFA132&lo&#FFA53C&lp&#FFAA46&ló&#FFAE4F&lr &#FFB763&lP&#FFBC6D&li&#FFC077&lg&#FFC581&ll&#FFC98A&li&#FFCE94&ln&#FFD29E&la'
+  warden-heart: '&#2C7A5B&ls&#2B7762&lᴇ&#2B7569&lʀ&#2A7271&lᴄ&#297078&lᴇ &#286B86&lᴡ&#27688D&lᴀ&#266594&lʀ&#25639C&lᴅ&#2560A3&lᴇ&#245EAA&lɴ&#235BB1&lᴀ'
+  harry-potter-wand: '&#493FFF&lʀ&#5146F4&ló&#594DE9&lż&#6054DE&lᴅ&#685BD3&lż&#7062C8&lᴋ&#7869BC&lᴀ
+    &#8777A6&lʜ&#8F7E9B&lᴀ&#978590&lʀ&#9F8C85&lʀ&#A6937A&lᴇ&#AE9A6F&lɢ&#B6A164&lᴏ
+    &#C6AF4E&lᴘ&#CDB643&lᴏ&#D5BD37&lᴛ&#DDC42C&lᴛ&#E5CB21&lᴇ&#ECD216&lʀ&#F4D90B&lᴀ'
+  curse-of-miner: '&#00BC08&lᴋ&#0EBD16&lʟ&#1DBF24&lᴀ&#2BC031&lᴛ&#39C23F&lᴡ&#48C34D&lᴀ
+    &#64C668&lɢ&#72C876&ló&#81C984&lʀ&#8FCB92&lɴ&#9DCC9F&lɪ&#ACCEAD&lᴋ&#BACFBB&lᴀ'
+  santa-letters: '&#A9CAFF&lʟ&#AFC4FA&lɪ&#B4BFF4&ls&#BAB9EF&lᴛ &#C6AEE4&lᴅ&#CBA8DF&lᴏ
+    &#D79DD4&lᴍ&#DD98CE&lɪ&#E292C9&lᴋ&#E88CC4&lᴏ&#EE87BE&lʟ&#F481B9&lᴀ&#F97CB3&lᴊ&#FF76AE&lᴀ'
+  voodoo-doll: '&#FFFDF1&lʟ&#F4F3E7&lᴀ&#EAE8DE&lʟ&#DFDED4&lᴇ&#D5D3CB&lᴄ&#CAC9C1&lᴢ&#C0BEB8&lᴋ&#B5B4AE&lᴀ
+    &#A09F9B&lᴠ&#959591&lᴏ&#8B8A88&lᴏ&#80807E&lᴅ&#767575&lᴏ&#6B6B6B&lᴏ'
+  magnifying-glass: '&#F6FFC5&lʟ&#E4FFC9&lᴜ&#D3FFCD&lᴘ&#C1FFD1&lᴀ &#9EFFDA&lᴏ&#8DFFDE&lś&#7BFFE2&lᴡ&#69FFE6&lɪ&#58FFEA&lᴇ&#46FFEE&lᴄ&#35FFF3&lᴇ&#23FFF7&lɴ&#12FFFB&lɪ&#00FFFF&lᴀ'
+  witch-broom: '&#9502E0&lᴍ&#9002E0&lɪ&#8B02E0&lᴏ&#8602E0&lᴛ&#8002E0&lʟ&#7B02E0&lᴀ
+    &#7102E0&lᴡ&#7102E0&lɪ&#7102E0&lᴇ&#7102E0&lᴅ&#7102E0&lź&#7102E0&lᴍ&#7102E0&lʏ'
+  block-grenade: '&#D6005F&lɢ&#D60059&lʀ&#D60053&lᴀ&#D6004D&lɴ&#D60047&lᴀ&#D60041&lᴛ
+    &#D60035&lᴜ&#D60030&lᴡ&#D6002A&lɪ&#D60024&lę&#D6001E&lᴢ&#D60018&lɪ&#D60012&lᴇ&#D6000C&lɴ&#D60006&lɪ&#D60000&lᴀ'
+  carousel: '&#FF4444&lᴋ&#EF5F5B&lᴀ&#DF7972&lʀ&#CF9489&lᴜ&#BFAF9F&lᴢ&#AFCAB6&lᴇ&#9FE4CD&lʟ&#8FFFE4&lᴀ'
+  zombie-brain: '&#06AC1E&lᴍ&#38AB4B&ló&#6AA977&lᴢ&#9BA8A4&lɢ &#FFA5FD&lᴢ&#FFA5FD&lᴏ&#FFA5FD&lᴍ&#FFA5FD&lʙ&#FFA5FD&lɪ&#FFA5FD&lᴇ'
+  punch-grenade: '&#E39400&lɢ&#E39200&lʀ&#E29100&lᴀ&#E28F00&lɴ&#E28D00&lᴀ&#E28B00&lᴛ
+    &#E18800&lᴏ&#E18600&lᴅ&#E18500&lᴇ&#E08300&lᴘ&#E08100&lᴄ&#E07F00&lʜ&#DF7E00&lɴ&#DF7C00&lɪ&#DF7A00&lᴇ&#DF7800&lᴄ&#DE7700&lɪ&#DE7500&lᴀ'
+  sweet-apple: '&#FF4BE2&ls&#FF54E3&lʟ&#FF5DE5&lᴏ&#FF65E6&lᴅ&#FF6EE8&lᴋ&#FF77E9&lɪ&#FF80EA&lᴇ
+    &#FF91ED&lᴊ&#FF9AEE&lᴀ&#FFA3F0&lʙ&#FFABF1&lʟ&#FFB4F3&lᴋ&#FFBDF4&lᴏ'
+  tornado: '&#BC4FFF&lᴛ&#C059FF&lᴏ&#C362FF&lʀ&#C76CFF&lɴ&#CB75FF&lᴀ&#CE7FFF&lᴅ&#D288FF&lᴏ'
+  block-bow: '&#FF5799&lʟ&#FF64A1&lᴜ&#FF71A9&lᴋ &#FF8BB8&lᴜ&#FF98C0&lᴡ&#FFA5C8&lɪ&#FFB1D0&lę&#FFBED8&lᴢ&#FFCBE0&lɪ&#FFD8E7&lᴇ&#FFE5EF&lɴ&#FFF2F7&lɪ&#FFFFFF&lᴀ'
+  escape-horus: '&#FF8AF6&lᴄ&#FB8DF2&lʜ&#F78FEF&lᴏ&#F292EB&lʀ&#EE94E7&lᴜ&#EA97E4&ls
+    &#E29CDD&lᴜ&#DD9FD9&lᴄ&#D9A1D5&lɪ&#D5A4D2&lᴇ&#D1A6CE&lᴄ&#CCA9CA&lᴢ&#C8ABC7&lᴋ&#C4AEC3&lɪ'
+  lasso: '&#FFDC5F&lʟ&#FFD555&lᴀ&#FFCF4C&ls&#FFC842&ls&#FFC138&lᴏ'
+  freeze-potion: '&#02B3E0&lᴍ&#10B9E3&lɪ&#1FBEE7&lᴋ&#2DC4EA&ls&#3BCAEE&lᴛ&#4ACFF1&lᴜ&#58D5F5&lʀ&#66DBF8&lᴀ
+    &#83E6FF&lᴢ&#83E6FF&lᴀ&#83E6FF&lᴍ&#83E6FF&lʀ&#83E6FF&lᴏ&#83E6FF&lż&#83E6FF&lᴇ&#83E6FF&lɴ&#83E6FF&lɪ&#83E6FF&lᴀ'
+  gingerbread: '&#FFB763&lᴘ&#FFBE71&lɪ&#FFC47F&lᴇ&#FFCB8D&lʀ&#FFD19B&lɴ&#FFD8A9&lɪ&#FFDEB7&lᴋ'
+  ice-wand: '&#5790FF&lʟ&#6298F9&lᴏ&#6CA1F2&lᴅ&#77A9EC&lᴏ&#82B2E6&lᴡ&#8CBADF&lᴀ &#A2CBD3&lʀ&#ADD3CD&lᴏ&#B7DBC6&lᴢ&#C2E4C0&lᴅ&#CDECBA&lᴢ&#D7F5B3&lᴋ&#E2FDAD&lᴀ'
+  lantern: '&#B0001C&lʟ&#BD0A26&lᴀ&#CA1330&lᴍ&#D81D3B&lᴘ&#E52645&lɪ&#F2304F&lᴏ&#FF3959&lɴ'
+  infinity-rod: '&#00CEEA&lɴ&#00C9E0&lɪ&#00C4D6&lᴇ&#00BECD&ls&#00B9C3&lᴋ&#00B4B9&lᴏ&#00AFAF&lń&#00A9A6&lᴄ&#00A49C&lᴢ&#009F92&lᴏ&#009F92&lɴ&#009F92&lᴀ
+    &#009F92&lᴡ&#009F92&lę&#009F92&lᴅ&#009F92&lᴋ&#009F92&lᴀ'
+  golden-skull: '&#989000&lᴢ&#A19800&lʟ&#A9A000&lᴏ&#B2A900&lᴛ&#BAB100&lᴀ &#CCC100&lᴄ&#D4C900&lᴢ&#DDD100&lᴀ&#E5DA00&ls&#EEE200&lᴢ&#F6EA00&lᴋ&#FFF200&lᴀ'
+  yeti-eye: '&#E351FF&lᴏ&#C36AE4&lᴋ&#A283CA&lᴏ &#61B495&lʏ&#41CD7A&lᴇ&#20E660&lᴛ&#00FF45&lɪ'
+  super-apple: '&#FF00F8&ls&#FF00D7&lᴜ&#FF00B7&lᴘ&#FF0096&lᴇ&#FF0075&lʀ &#FF0034&lᴊ&#FF0034&lᴀ&#FF0034&lʙ&#FF0034&lʟ&#FF0034&lᴋ&#FF0034&lᴏ'
+  poke-ball: '&c&lᴘᴏᴋᴇ&f&lʙᴀʟʟ'
+  honey-syrup: '&#02E035&ls&#1AE542&lʏ&#33EA4F&lʀ&#4BF05C&lᴏ&#63F569&lᴘ &#94FF83&lᴍ&#94FF83&lɪ&#94FF83&lᴏ&#94FF83&lᴅ&#94FF83&lᴏ&#94FF83&lᴡ&#94FF83&lʏ'
+
+# Skonfiguruj wiadomość actionbar z trwającymi przedmiotami:
+durationNoticeFormat: '&f{name} &8(&7do końca: &f{time}&8)'
+durationNoticeNames:
+  voodoo-doll: '&#FFFDF1&lʟ&#F4F3E7&lᴀ&#EAE8DE&lʟ&#DFDED4&lᴇ&#D5D3CB&lᴄ&#CAC9C1&lᴢ&#C0BEB8&lᴋ&#B5B4AE&lᴀ
+    &#A09F9B&lᴠ&#959591&lᴏ&#8B8A88&lᴏ&#80807E&lᴅ&#767575&lᴏ&#6B6B6B&lᴏ'
+  bear-fur: '&#A9FFFD&ls&#ACFFFD&lɪ&#AFFFFD&lᴇ&#B2FFFD&lʀ&#B5FFFD&ls&#B8FFFD&lᴄ &#BFFFFE&lɴ&#C2FFFE&lɪ&#C5FFFE&lᴇ&#C8FFFE&lᴅ&#CBFFFE&lᴢ&#CEFFFE&lᴡ&#D1FFFE&lɪ&#D4FFFE&lᴇ&#D7FFFE&lᴅ&#DAFFFE&lᴢ&#DDFFFE&lɪ&#E0FFFE&lᴀ
+    &#E6FFFE&lᴘ&#EAFFFF&lᴏ&#EDFFFF&lʟ&#F0FFFF&lᴀ&#F3FFFF&lʀ&#F6FFFF&lɴ&#F9FFFF&lᴇ&#FCFFFF&lɢ&#FFFFFF&lᴏ'
+  pumpkin-grenade: '&#FFAB57&lᴅ&#FCA651&lʏ&#F8A24B&lɴ&#F59D46&lɪ&#F19940&lᴏ&#EE943A&lʟ&#EA8F34&lᴏ&#E78B2E&lᴡ&#E38629&lʏ
+    &#DC7D1D&lɢ&#D97817&lʀ&#D57411&lᴀ&#D26F0C&lɴ&#CE6B06&lᴀ&#CB6600&lᴛ'
+  block-bow: '&#FF5799&lʟ&#FF64A1&lᴜ&#FF71A9&lᴋ &#FF8BB8&lᴜ&#FF98C0&lᴡ&#FFA5C8&lɪ&#FFB1D0&lę&#FFBED8&lᴢ&#FFCBE0&lɪ&#FFD8E7&lᴇ&#FFE5EF&lɴ&#FFF2F7&lɪ&#FFFFFF&lᴀ'
+  lasso: '&#FFDC5F&lʟ&#FFD555&lᴀ&#FFCF4C&ls&#FFC842&ls&#FFC138&lᴏ'
+  yeti-eye: '&#E351FF&lᴏ&#C36AE4&lᴋ&#A283CA&lᴏ &#61B495&lʏ&#41CD7A&lᴇ&#20E660&lᴛ&#00FF45&lɪ'
+  hearth-absorption: '&#5A5A5A&lᴡ&#605459&lᴄ&#674D58&lʜ&#6D4756&lʟ&#734055&lᴀ&#7A3A54&lɴ&#803353&lɪ&#872D52&lᴀ&#8D2750&lᴄ&#93204F&lᴢ
+    &#A0134D&ls&#A60D4B&lᴇ&#AD064A&lʀ&#B30049&lᴄ'
+  stick: '&#6D5D3F&lʀ&#837252&ló&#998765&lᴢ&#AE9B77&lɢ&#C4B08A&lᴀ'
+  bomb: '&#FFD747&lʙ&#F3D359&lᴏ&#E7CF6C&lᴍ&#DBCB7E&lʙ&#CFC791&lᴏ&#C3C4A3&lɴ&#B6C0B5&lɪ&#AABCC8&lᴇ&#9EB8DA&lʀ&#92B4ED&lᴋ&#86B0FF&lᴀ'
+  carousel: '&#FF4444&lᴋ&#EF5F5B&lᴀ&#DF7972&lʀ&#CF9489&lᴜ&#BFAF9F&lᴢ&#AFCAB6&lᴇ&#9FE4CD&lʟ&#8FFFE4&lᴀ'
+  curse-of-miner: '&#00BC08&lᴋ&#0EBD16&lʟ&#1DBF24&lᴀ&#2BC031&lᴛ&#39C23F&lᴡ&#48C34D&lᴀ
+    &#64C668&lɢ&#72C876&ló&#81C984&lʀ&#8FCB92&lɴ&#9DCC9F&lɪ&#ACCEAD&lᴋ&#BACFBB&lᴀ'
+  hedgehog-spikes: '&#D89D2B&lᴋ&#DCA63C&lᴏ&#E1AE4D&lʟ&#E5B75E&lᴄ&#E9C06F&lᴇ &#F2D190&lᴊ&#F6DAA1&lᴇ&#FBE2B2&lż&#FFEBC3&lᴀ'
+
+# Skonfiguruj efekty dla itemów w off-handzie:
+offHandItemsEffects:
+  sugar-cane:
+  - amplifier: 0
+    duration: 100
+    type: SATURATION
+
+# Skonfiguruj atrybuty dla itemów w off-handzie:
+offHandItemsAttributes:
+  sugar-cane:
+    GENERIC_MAX_HEALTH: 10
+
+# Skonfiguruj efekty dla napierśników:
+chestplateItemsEffects:
+  space-chestplate:
+  - amplifier: 1
+    duration: 100
+    type: INCREASE_DAMAGE
+  - amplifier: 0
+    duration: 100
+    type: SPEED
+
+# Skonfiguruj efekty dla butów:
+bootsItemsEffects:
+  sonic-boots:
+  - amplifier: 3
+    duration: 100
+    type: SPEED
+
+# Skonfiguruj dodatkowy lore potek:
+potionAdditionalLore:
+- ''
+- '&7Czas do końca: &f{time}'
+
+# Skonfiguruj zablokowane materialy:
+potionsBlockedMaterials:
+- STONE
+
+# Skonfiguruj potki:
+potionList:
+  durability-medium-potion:
+    item:
+      material: POTION
+      item-meta:
+        display-name: '&b&lѕʀᴇᴅɴɪ ᴇʟɪᴋѕɪʀ ᴡʏᴛʀᴢʏᴍᴀʟᴏѕᴄɪ'
+        lore:
+        - '&8✕ &7Czas trwania: &f14 dni'
+        - '&8✕ &7Po użyciu: &bBlokujesz &f3% &buderzeń od innych graczy'
+    cmd: 0
+    size: MEDIUM
+    type: DURABILITY
+    power: 3.0
+    time:
+      seconds: 0
+      minutes: 0
+      hours: 0
+      days: 14
+  memory-small-potion:
+    item:
+      material: POTION
+      item-meta:
+        display-name: '&e&lᴍᴀʟʏ ᴇʟɪᴋѕɪʀ ᴘᴀᴍɪᴇᴄɪ'
+        lore:
+        - '&8✕ &7Czas trwania: &f14 dni'
+        - '&8✕ &7Po użyciu: &eZachowujesz o &f5% &ewięcej &6przedmiotów po śmierci'
+    cmd: 0
+    size: SMALL
+    type: MEMORY
+    power: 5.0
+    time:
+      seconds: 0
+      minutes: 0
+      hours: 0
+      days: 14
+  health-big-potion:
+    item:
+      material: POTION
+      item-meta:
+        display-name: '&a&lᴏɢʀᴏᴍɴʏ ᴇʟɪᴋѕɪʀ ᴢʏᴄɪᴀ'
+        lore:
+        - '&8✕ &7Czas trwania: &f14 dni'
+        - '&8✕ &7Po użyciu: &aPowiększa twoje maksymalne życie o &f2&c❤'
+    cmd: 0
+    size: BIG
+    type: HEALTH
+    power: 2.0
+    time:
+      seconds: 0
+      minutes: 0
+      hours: 0
+      days: 14
+  strength-big-potion:
+    item:
+      material: POTION
+      item-meta:
+        display-name: '&c&lᴏɢʀᴏᴍɴʏ ᴇʟɪᴋѕɪʀ ѕɪʟʏ'
+        lore:
+        - '&8✕ &7Czas trwania: &f14 dni'
+        - '&8✕ &7Po użyciu: &cZadajesz większe obrażenia o &f4&c⚔'
+    cmd: 0
+    size: BIG
+    type: STRENGTH
+    power: 4.0
+    time:
+      seconds: 0
+      minutes: 0
+      hours: 0
+      days: 14
+  memory-big-potion:
+    item:
+      material: POTION
+      item-meta:
+        display-name: '&e&lᴏɢʀᴏᴍɴʏ ᴇʟɪᴋѕɪʀ ᴘᴀᴍɪᴇᴄɪ'
+        lore:
+        - '&8✕ &7Czas trwania: &f14 dni'
+        - '&8✕ &7Po użyciu: &eZachowujesz o &f25% &ewięcej &6przedmiotów po śmierci'
+    cmd: 0
+    size: BIG
+    type: MEMORY
+    power: 25.0
+    time:
+      seconds: 0
+      minutes: 0
+      hours: 0
+      days: 14
+  health-small-potion:
+    item:
+      material: POTION
+      item-meta:
+        display-name: '&a&lᴍᴀʟʏ ᴇʟɪᴋѕɪʀ ᴢʏᴄɪᴀ'
+        lore:
+        - '&8✕ &7Czas trwania: &f14 dni'
+        - '&8✕ &7Po użyciu: &aPowiększa twoje maksymalne życie o &f0.5&c❤'
+    cmd: 0
+    size: SMALL
+    type: HEALTH
+    power: 0.5
+    time:
+      seconds: 0
+      minutes: 0
+      hours: 0
+      days: 14
+  lucky-medium-potion:
+    item:
+      material: POTION
+      item-meta:
+        display-name: '&d&lѕʀᴇᴅɴɪ ᴇʟɪᴋѕɪʀ ѕᴢᴄᴢᴇѕᴄɪᴀ'
+        lore:
+        - '&8✕ &7Czas trwania: &f14 dni'
+        - '&8✕ &7Po użyciu: &dPosiadasz o &f25% &dwiększy drop z &5generatorów'
+    cmd: 0
+    size: MEDIUM
+    type: LUCKY
+    power: 25.0
+    time:
+      seconds: 0
+      minutes: 0
+      hours: 0
+      days: 14
+  strength-medium-potion:
+    item:
+      material: POTION
+      item-meta:
+        display-name: '&c&lѕʀᴇᴅɴɪ ᴇʟɪᴋѕɪʀ ѕɪʟʏ'
+        lore:
+        - '&8✕ &7Czas trwania: &f14 dni'
+        - '&8✕ &7Po użyciu: &cZadajesz większe obrażenia o &f2&c⚔'
+    cmd: 0
+    size: MEDIUM
+    type: STRENGTH
+    power: 2.0
+    time:
+      seconds: 0
+      minutes: 0
+      hours: 0
+      days: 14
+  memory-medium-potion:
+    item:
+      material: POTION
+      item-meta:
+        display-name: '&e&lѕʀᴇᴅɴɪ ᴇʟɪᴋѕɪʀ ᴘᴀᴍɪᴇᴄɪ'
+        lore:
+        - '&8✕ &7Czas trwania: &f14 dni'
+        - '&8✕ &7Po użyciu: &eZachowujesz o &f12% &ewięcej &6przedmiotów po śmierci'
+    cmd: 0
+    size: MEDIUM
+    type: MEMORY
+    power: 12.0
+    time:
+      seconds: 0
+      minutes: 0
+      hours: 0
+      days: 14
+  lucky-small-potion:
+    item:
+      material: POTION
+      item-meta:
+        display-name: '&d&lᴍᴀʟʏ ᴇʟɪᴋѕɪʀ ѕᴢᴄᴢᴇѕᴄɪᴀ'
+        lore:
+        - '&8✕ &7Czas trwania: &f14 dni'
+        - '&8✕ &7Po użyciu: &dPosiadasz o &f15% &dwiększy drop z &5generatorów'
+    cmd: 0
+    size: SMALL
+    type: LUCKY
+    power: 15.0
+    time:
+      seconds: 0
+      minutes: 0
+      hours: 0
+      days: 14
+  lucky-big-potion:
+    item:
+      material: POTION
+      item-meta:
+        display-name: '&d&lᴏɢʀᴏᴍɴʏ ᴇʟɪᴋѕɪʀ ѕᴢᴄᴢᴇѕᴄɪᴀ'
+        lore:
+        - '&8✕ &7Czas trwania: &f14 dni'
+        - '&8✕ &7Po użyciu: &dPosiadasz o &f50% &dwiększy drop z &5generatorów'
+    cmd: 0
+    size: BIG
+    type: LUCKY
+    power: 50.0
+    time:
+      seconds: 0
+      minutes: 0
+      hours: 0
+      days: 14
+  durability-small-potion:
+    item:
+      material: POTION
+      item-meta:
+        display-name: '&b&lᴍᴀʟʏ ᴇʟɪᴋѕɪʀ ᴡʏᴛʀᴢʏᴍᴀʟᴏѕᴄɪ'
+        lore:
+        - '&8✕ &7Czas trwania: &f14 dni'
+        - '&8✕ &7Po użyciu: &bBlokujesz &f2% &buderzeń od innych graczy'
+    cmd: 0
+    size: SMALL
+    type: DURABILITY
+    power: 2.0
+    time:
+      seconds: 0
+      minutes: 0
+      hours: 0
+      days: 4
+  strength-small-potion:
+    item:
+      material: POTION
+      item-meta:
+        display-name: '&c&lᴍᴀʟʏ ᴇʟɪᴋѕɪʀ ѕɪʟʏ'
+        lore:
+        - '&8✕ &7Czas trwania: &f14 dni'
+        - '&8✕ &7Po użyciu: &cZadajesz większe obrażenia o &f1&c⚔'
+    cmd: 0
+    size: SMALL
+    type: STRENGTH
+    power: 1.0
+    time:
+      seconds: 0
+      minutes: 0
+      hours: 0
+      days: 14
+  health-medium-potion:
+    item:
+      material: POTION
+      item-meta:
+        display-name: '&a&lѕʀᴇᴅɴɪ ᴇʟɪᴋѕɪʀ ᴢʏᴄɪᴀ'
+        lore:
+        - '&8✕ &7Czas trwania: &f14 dni'
+        - '&8✕ &7Po użyciu: &aPowiększa twoje maksymalne życie o &f1&c❤'
+    cmd: 0
+    size: MEDIUM
+    type: HEALTH
+    power: 1.0
+    time:
+      seconds: 0
+      minutes: 0
+      hours: 0
+      days: 14
+  durability-big-potion:
+    item:
+      material: POTION
+      item-meta:
+        display-name: '&b&lᴏɢʀᴏᴍɴʏ ᴇʟɪᴋѕɪʀ ᴡʏᴛʀᴢʏᴍᴀʟᴏѕᴄɪ'
+        lore:
+        - '&8✕ &7Czas trwania: &f14 dni'
+        - '&8✕ &7Po użyciu: &bBlokujesz &f6% &buderzeń od innych graczy'
+    cmd: 0
+    size: BIG
+    type: DURABILITY
+    power: 6.0
+    time:
+      seconds: 0
+      minutes: 0
+      hours: 0
+      days: 14
+
+# Skonfiguruj dane dla bazy danych:
+storageConfig:
+  # Dostępne typy bazy danych: FLAT, MONGO, MYSQL
+  backend: FLAT
+  # Prefix dla bazy danych:
+  prefix: ocodeminestaritems
+  # FLAT   : zostaw puste pole
+  # MONGO  : mongodb://localhost:27017/db
+  # MYSQL  : jdbc:mysql://localhost:3306/db?user=root&password=1234
+  uri: ''

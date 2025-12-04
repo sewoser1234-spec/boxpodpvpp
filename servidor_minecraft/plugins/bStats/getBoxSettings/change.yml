@@ -1,0 +1,293 @@
+change-item:
+  '7893':
+    priority: 1
+    from-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: RAW_GOLD
+      amount: 64
+    to-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: AMETHYST_SHARD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"ᴏᴅʟᴀᴍᴇᴋ
+          ᴀᴍᴇᴛʏѕᴛᴜ ❀1"}],"text":""}'
+        enchants:
+          DURABILITY: 10
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+  '1348':
+    priority: 1
+    from-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: DIAMOND
+      amount: 48
+    to-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: AMETHYST_SHARD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"ᴏᴅʟᴀᴍᴇᴋ
+          ᴀᴍᴇᴛʏѕᴛᴜ ❀1"}],"text":""}'
+        enchants:
+          DURABILITY: 10
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+  '4480':
+    priority: 1
+    from-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: EMERALD
+      amount: 32
+    to-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: AMETHYST_SHARD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"ᴏᴅʟᴀᴍᴇᴋ
+          ᴀᴍᴇᴛʏѕᴛᴜ ❀1"}],"text":""}'
+        enchants:
+          DURABILITY: 10
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+  '6770':
+    priority: 1
+    from-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: GREEN_GLAZED_TERRACOTTA
+    to-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: AMETHYST_SHARD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"ᴏᴅʟᴀᴍᴇᴋ
+          ᴀᴍᴇᴛʏѕᴛᴜ ❀1"}],"text":""}'
+        enchants:
+          DURABILITY: 10
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+  '6487':
+    priority: 1
+    from-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: GOLD_BLOCK
+      amount: 8
+    to-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: AMETHYST_SHARD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"ᴏᴅʟᴀᴍᴇᴋ
+          ᴀᴍᴇᴛʏѕᴛᴜ ❀1"}],"text":""}'
+        enchants:
+          DURABILITY: 10
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+  '3110':
+    priority: 1
+    from-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: DIAMOND_BLOCK
+      amount: 5
+    to-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: AMETHYST_SHARD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"ᴏᴅʟᴀᴍᴇᴋ
+          ᴀᴍᴇᴛʏѕᴛᴜ ❀1"}],"text":""}'
+        enchants:
+          DURABILITY: 10
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+  '4250':
+    priority: 1
+    from-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: EMERALD_BLOCK
+      amount: 4
+    to-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: AMETHYST_SHARD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"ᴏᴅʟᴀᴍᴇᴋ
+          ᴀᴍᴇᴛʏѕᴛᴜ ❀1"}],"text":""}'
+        enchants:
+          DURABILITY: 10
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+  '4799':
+    priority: 1
+    from-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: AMETHYST_SHARD
+      amount: 32
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"ᴏᴅʟᴀᴍᴇᴋ
+          ᴀᴍᴇᴛʏѕᴛᴜ ❀1"}],"text":""}'
+        enchants:
+          DURABILITY: 10
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+    to-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: NAUTILUS_SHELL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"ᴍᴜѕᴢʟᴀ
+          ɴᴇᴘᴛᴜɴᴀ ❀2"}],"text":""}'
+        enchants:
+          DURABILITY: 10
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+change-money:
+  '5688':
+    from-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: AMETHYST_SHARD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"ᴏᴅʟᴀᴍᴇᴋ
+          ᴀᴍᴇᴛʏѕᴛᴜ ❀1"}],"text":""}'
+        enchants:
+          DURABILITY: 10
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+    price: 1
+  '3729':
+    from-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: NAUTILUS_SHELL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"ᴍᴜѕᴢʟᴀ
+          ɴᴇᴘᴛᴜɴᴀ ❀2"}],"text":""}'
+        enchants:
+          DURABILITY: 10
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+    price: 32
+change-block:
+  '1':
+    from:
+      material: DIAMOND
+      amount: 9
+    to:
+      material: DIAMOND_BLOCK
+      amount: 1
+  '2':
+    from:
+      material: GOLD_INGOT
+      amount: 9
+    to:
+      material: GOLD_BLOCK
+      amount: 1
+

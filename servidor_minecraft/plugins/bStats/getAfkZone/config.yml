@@ -1,0 +1,63 @@
+# progress bar {bar}
+
+bar-format: '&8[{value}&8]'
+
+task-time: 1
+
+lang:
+  format: '&cCzas &f{time} &7 |  {bar}'
+  sub-title: '&a{value}%'
+  title: '&7'
+
+styles:
+  char: I
+  size: 100
+  no-active: '&7'
+  active: '&a'
+
+sec: ' {sec}s'
+min: ' {min}m'
+hour: ' {hour}h'
+day: '{day}d'
+
+
+format: '{d}{h}{m}{s}'
+afk:
+  afk:
+    first:
+      ==: org.bukkit.Location
+      world: world
+      x: 22.0
+      y: 144.0
+      z: 97.0
+      pitch: 0.0
+      yaw: 0.0
+    second:
+      ==: org.bukkit.Location
+      world: world
+      x: 26.0
+      y: 149.0
+      z: 93.0
+      pitch: 0.0
+      yaw: 0.0
+    reward:
+      commands:
+      - case give {player} &b&lAFK 1
+      permissions:
+        '1':
+          permission: afkzone.default
+          chance: 40
+        '2':
+          permission: afkzone.svip
+          chance: 50
+        '3':
+          permission: afkzone.gvip
+          chance: 60
+    time: 600
+    p-color: BLUE
+    p-style: SEGMENTED_20
+    boss-bar: true
+    action-bar: false
+    title: false
+    bar-name: '&3✦ &8| &b&nʟᴏꜱᴏᴡᴀɴɪᴇ ᴋʟᴜᴄᴢᴀ&f ʙᴇᴅᴢɪᴇ ᴢᴀ: &b{time} &8| &fꜱᴢᴀɴꜱᴀ: &b{chance}% &8| &3✦'
+

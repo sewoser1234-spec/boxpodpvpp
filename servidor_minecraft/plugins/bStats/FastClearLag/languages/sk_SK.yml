@@ -1,0 +1,38 @@
+# sk_SK translation by Optimal#7749
+
+prefix: '&c&lFastClearLag &c▎ &r'
+no-permissions: '&fNa tento príkaz nemáš dostatočné práva!'
+usage: '&fPouži &c/%label% %args%'
+reload: '&Úspešne si obnovil všetky konfiguračné súbory.'
+help:
+  head:
+    - '&4&l▎ &c&l FastClearLag &7&ood Gennaria'
+    - '&4&l▎ '
+  line-format: '&4&l▎ &c/%label% %args%'
+logs:
+  opening: '&fOtváram menu.'
+  empty: '&fŽiadne dostupné záznamy...'
+  menu:
+    title: '&7ClearLag záznamy'
+    item:
+      date-format: 'dd.MM.yyyy HH:mm:ss'
+      name: '&c&lZáznam #%id%'
+      lore:
+        - '&7%date%'
+        - ''
+        - '&fZmazané itemy: &c%items%'
+        - '&fZmazaní mobovia: &c%entities%'
+        - ''
+        - '&fTps pred zmazaním: &c%tps%'
+        - '&fOnline hráči: &c%players%'
+        - ''
+graph:
+  showing: '&fZobrazujem &c%type% &fgraf obsahujúci posledných &c%amount% záznamov&f.'
+  empty: '&fŽiadne dostupné záznamy... Graf nebolo možné vygenerovať.'
+  symbols:
+    data: '&c|'
+    empty: '&7|'
+clear:
+  all: '&fÚspešne si zmazal všetky veci.'
+  items: '&fÚspešne si zmazal všetky itemy na zemi.'
+  entities: '&fÚspešne si zmazal všetkých mobov.'

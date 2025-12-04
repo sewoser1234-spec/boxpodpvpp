@@ -1,0 +1,92 @@
+# /getchange <coins/money/reload/selector/region> - permission: getchange.admin
+# /getwymien [coins/money/bloki] - permission: getwymien.use
+# /ustawienia - permission: getboxsettings.use
+
+# type [ SQLITE, MYSQL ]
+database: SQLITE
+
+auto-sell:
+  enable: true
+  # co ile sekund ma sprawdzac itemy
+  time: 1
+
+sqlite:
+  name: "get_boxsettings"
+
+mysql:
+  host: localhost
+  username: root
+  password: ""
+  database: database
+  port: 3306
+  ssl: false
+
+action-bar: " {money_conv} {sell_money} &7/ ᴜѕᴛᴀᴡɪᴇɴɪᴀ"
+
+lang:
+  status-on: "&awłączone"
+  status-off: "&cwylacozne"
+  status-action-on: "&a&l✔"
+  status-action-off: "&c&l✖"
+  block-conv: "&6Bloki: {status}"
+  money_conv: "&7ᴡᴀʟᴜᴛᴀ: {status}"
+  sell_money: "&7ѕᴘʀᴢᴇᴅᴀᴢ ᴍᴏɴᴇᴛ: {status}"
+
+items:
+  BLOCK_CONV:
+    enable: false
+    slot: 20
+    material: DIAMOND_BLOCK
+    displayname: "&eAutomatyczne &6przerabianie &ena Bloki"
+    lore:
+      - "&8* &7Status: {status}"
+      - "&7"
+      - "&eKliknij, aby zmienic status"
+  MONEY_CONV:
+    enable: true
+    slot: 21
+    material: ANVIL
+    displayname: "&fAutomatyczna przemiana na &2Walute"
+    lore:
+      - "&8* &7Status: {status}"
+      - "&7"
+      - "&eKliknij, aby zmienic status"
+  SELL_MONEY:
+    enable: true
+    slot: 23
+    material: LANTERN
+    displayname: "&fAutomatyczne &fsprzedawanie &eMonet"
+    lore:
+      - "&8* &7Status: {status}"
+      - "&7"
+      - "&eKliknij, aby zmienic status"
+  ACTION_BAR:
+    enable: true
+    slot: 40
+    material: CLOCK
+    displayname: "&eWiadomosci &fActionbar"
+    lore:
+      - "&8* &7Status: {status}"
+      - "&7"
+      - "&eKliknij, aby zmienic status"
+
+inv:
+  size: 45
+  title: "                &f&lᴜѕᴛᴀᴡɪᴇɴɪᴀ"
+
+backgrounds:
+  '1':
+    material: WHITE_STAINED_GLASS_PANE
+    displayname: "&7"
+    lore: []
+    slots: [2,3,5,6,18,26,38,39,41,42]
+  '2':
+    material: LIME_STAINED_GLASS_PANE
+    displayname: "&7"
+    lore: []
+    slots: [0,8,36,44]
+  '3':
+    material: BLACK_STAINED_GLASS_PANE
+    displayname: "&7"
+    lore: []
+    slots: [1,7,9,17,27,35,37,43]

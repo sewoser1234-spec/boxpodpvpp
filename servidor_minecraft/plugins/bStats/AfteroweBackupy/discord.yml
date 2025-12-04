@@ -1,0 +1,16 @@
+# Czy integracja ma być włączona?
+enable: false
+# Link do webhooka
+# Aby stowrzyć webooka kliknij na kanał PPM -> edytuj kanał -> integracje -> tworzenie webhooka -> wklej link
+webhookLink: ''
+# Lista embedów
+restoreItems:
+  # Tytuł
+  # Zmienne: {PLAYER}, {ADMIN}, {DATE}, {REASON}, {BACKUP_DATA}, {DATA}, {NEW-LINE}
+  title: BACKUP
+  # Opis
+  # Zmienne: {PLAYER}, {ADMIN}, {DATE}, {REASON}, {BACKUP_DATA}, {DATA}, {NEW-LINE}
+  description: Administrator {ADMIN} przywrócił backupa graczowi {PLAYER} z dnia {BACKUP_DATA}
+    {NEW-LINE}Przywrócenie nastąpiło dnia {DATA}
+  # HEX kolor
+  color: '#f54242'

@@ -1,0 +1,73 @@
+system:
+  language: en_GB.yml
+  disabled-worlds:
+    - 'example_world'
+  types: #type of things to clear
+    items: true #clears all items on the ground
+    item-blacklist: #list of item which will not be cleared
+      - 'DIAMOND'
+      #- 'EMERALD'
+      #- 'STONE_PICKAXE'
+      # ......
+    entities: false # EXPERIMENTAL! clears all entities what was spawned in defined ticks limit
+    entity-list: #list of entities to clear
+      - 'ENDERMAN'
+    use-ticks-lived: false
+    max-entity-ticks-lived: 500 #ticks limit for entities
+  tnt: # tnt limiter
+    use: false
+    disable-all: false # Disabling only the effect and block breaking, but damage will stay
+    disable-destroy: false # Block destroy
+    drop-back: false # When you disable destroy, you can here set to drop back item from blocked tnt destroy
+    disable-items-break: false # Item damage
+    disable-damage: false # Player damage
+  arrows-despawn:
+    use: false
+    type: INVENTORY # INVENTORY (shooted arrow will get back to the shooters inv and despawns) or DESPAWN (shooted arrow will just despawn)
+    time: 3s
+  dropper: # dropper limiter
+    use: false
+    drop-every: 1s # It limits the dropping of things from the dropper for a certain time. Prevents lagging machines.
+  hopper: # dropper limiter
+    use: false
+    drop-every: 2s # It limits the moving of things from one dropper to others for a certain time. Prevents lagging machines.
+
+# The timer determines the recurring time when items on the ground and entities will be deleted.
+timer-settings:
+  # available values: s (seconds), m (minutes), h (hours), d (days)
+  # examples:
+  # - 5m (every 5 sminutes)
+  # - 1h+5m (every 1 hour and 5 minutes)
+  # - 5d+1h+5m (every 5 days, 1 hour and 5 minutes)
+  use: true
+  timer: 25m
+  countdown-actions:
+    '3s': # 3 seconds to clear
+      - '[[broadcast]] &7Czyszczenie itemów nastąpi za &f3 sekundy&c!'
+    '2s': # 2 seconds to clear
+      - '[[broadcast]] &7Czyszczenie itemów nastąpi za &f2 sekundy&c!'
+    '1s': # 1 second to clear
+      - '[[broadcast]] &7Czyszczenie itemów nastąpi za &f1 sekunde&c!'
+    'clear':
+      - '[[broadcast]] &7Wszystkie itemy z ziemi zostały &fwyczyszczone!'
+
+# Triggers allow you to send a request to delete items and entities when, for example, the value of tps drops
+triggers:
+  use: false
+  # available values: s (seconds), m (minutes), h (hours), d (days)
+  check-every: 5s
+  list:
+    example-tps-trigger: # trigger name
+      # available types: <, >, ==, <=, >=
+      type: '<'
+      intput: '%server_tps_1%' # supports placeholderAPI (if you want to use this trigger. You must install this placeholder with command /papi ecloud download Server)
+      output: '17.0'
+      actions:
+        - '[[broadcast]] <#ff4040>&l(ClearLag)</#b55959> &fAll items on ground have been &cremoved&f due the tps drop!%nl% <#ff4040>&l(ClearLag)</#b55959> &fSuccessfully removed &c%items% items &fand &c%entities% entities'
+
+logs:
+  use: true
+  file-settings:
+    file-name: 'system_logs'
+    max-logs-amount: 50
+

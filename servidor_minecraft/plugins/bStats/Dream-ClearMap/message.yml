@@ -1,0 +1,95 @@
+## Dream-ClearMap (Message-Config) ##
+# Dostepne type: (DO_NOT_SEND, CHAT, ACTION_BAR, SUBTITLE, TITLE, TITLE_SUBTITLE)
+command-usage:
+  type: CHAT
+  text: '&7Przyklady uzycia komendy: &c{label}'
+command-usage-help:
+  type: CHAT
+  text: '&f{usage} &8- &7{description}'
+command-usage-not-found:
+  type: CHAT
+  text: '&cNie znaleziono pasujacych do kryteriow komendy.'
+command-path-not-found:
+  type: CHAT
+  text: '&cTa komenda jest pusta lub nie posiadasz dostepu do niej.'
+command-no-permission:
+  type: CHAT
+  text: '&cNie posiadasz uprawnien.'
+command-not-player:
+  type: CHAT
+  text: '&cTa komende mozna tylko wykonac z poziomu gracza.'
+command-not-console:
+  type: CHAT
+  text: '&cTa komende mozna tylko wykonac z poziomu konsoli.'
+command-invalid-format:
+  type: CHAT
+  text: '&cPodano nieprawidlowy format argumentu komendy. ({input})'
+player-not-found:
+  type: CHAT
+  text: '&cPodanego gracza nie znaleziono.'
+world-not-found:
+  type: CHAT
+  text: '&cPodanego swiata nie znaleziono.'
+configs-reloaded:
+  type: CHAT
+  text: '&aPomyslnie przeladowano pliki konfiguracyjne ({time})'
+reload-error:
+  type: CHAT
+  text: '&cZnaleziono problem w konfiguracji: &6{error}'
+map-cleared:
+  type: CHAT
+  text: '&aMapa zostala wyczyszczona'
+wand-given:
+  type: CHAT
+  text: '&aOtrzymales rozdzke'
+set-region-first:
+  type: CHAT
+  text: '&cNajpierw ustaw region'
+region-saved:
+  type: CHAT
+  text: '&aPomyslnie zapisales nowy region'
+position-set:
+  type: CHAT
+  text: '&aPomyslnie ustawiono pozycje'
+region-already-exists:
+  type: CHAT
+  text: '&cRegion o tej nazwie juz istnieje'
+no-such-region:
+  type: CHAT
+  text: '&cRegion o tej nazwie nie istnieje'
+region-removed:
+  type: CHAT
+  text: '&aRegion zostal pomyslnie usuniety'
+map-clear-notice:
+  type: CHAT
+  text: '&aMapa zostanie wyczyszczona za {time}s'
+clear-map-list:
+  type: CHAT
+  text: '&a&lLista regionow:%NEWLINE% {regions}'
+no-regions-exist:
+  type: CHAT
+  text: '&cNa serwerze nie ma zadnych regionow'
+no-such-material:
+  type: CHAT
+  text: '&cNie ma takiego bloku'
+block-already-added:
+  type: CHAT
+  text: '&cTen blok znajduje sie juz na liscie'
+block-not-added:
+  type: CHAT
+  text: '&cTen blok nie znajduje sie na liscie'
+material-not-a-block:
+  type: CHAT
+  text: '&cTen material nie jest blokiem'
+block-added:
+  type: CHAT
+  text: '&aPomyslnie dodano blok do listy'
+block-removed:
+  type: CHAT
+  text: '&aPomyslnie usunieto blok z listy'
+time-changed:
+  type: CHAT
+  text: '&aPomyslnie zmieniono czas dla regionu {id}'
+# Ustaw jak bedzie wygladala informacja o regionie
+regionInfoTemplate: '&eID: {id}%NEWLINE%&2Pozycja 1: {minX}, {minY}, {minZ}%NEWLINE%&2Pozycja
+  2: {maxX}, {maxY}, {maxZ}'

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 188.146.142.28
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1761692459060
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1761692464190
+  login: 1761692438388
+money: '0'
+last-account-name: Szymon20152015
+lastlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: 25.47230994606827
+  y: 124.0
+  z: 132.55955385126944
+  yaw: 88.28373718261719
+  pitch: 3.7875752449035645
+logoutlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: 25.825032114799974
+  y: 145.0
+  z: 96.69999998807907
+  yaw: 148.17913818359375
+  pitch: 33.73526382446289

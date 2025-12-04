@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 86.63.91.182
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1761441292154
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1761492262387
+  login: 1761492074639
+money: '0'
+last-account-name: zbignie
+lastlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: 25.140997416828352
+  y: 124.0
+  z: 126.39538208147147
+  yaw: 62.19873046875
+  pitch: 18.299755096435547
+logoutlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: 2.568152230354155
+  y: 145.0
+  z: 104.16988128466227
+  yaw: -96.59716796875
+  pitch: 14.032707214355469

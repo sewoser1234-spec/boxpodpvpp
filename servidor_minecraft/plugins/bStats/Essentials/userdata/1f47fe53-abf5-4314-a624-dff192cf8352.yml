@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 188.33.34.33
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1762099012986
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1762276680096
+  login: 1762276628071
+money: '1193.0'
+last-account-name: oskarynkaa
+lastlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: 31.658912432012084
+  y: 124.0
+  z: 123.30000001192093
+  yaw: -138.3096923828125
+  pitch: 21.859455108642578
+logoutlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: 26.142362149724477
+  y: 146.54562256568
+  z: 112.16023808547148
+  yaw: -165.38311767578125
+  pitch: -5.984627723693848

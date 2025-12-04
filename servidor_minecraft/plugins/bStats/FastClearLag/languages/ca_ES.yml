@@ -1,0 +1,38 @@
+# ca_ES translation by Lucaaa#9826
+
+prefix: '&c&lFastClearLag &c▎ &r'
+no-permissions: '&f¡No tienes permiso para hacer eso!'
+usage: '&fUsa &c/%label% %args%'
+reload: '&fLa configuración ha sido recargada exitosamente.'
+help:
+  head:
+    - '&4&l▎ &c&l FastClearLag &7&opor Gennario'
+    - '&4&l▎ '
+  line-format: '&4&l▎ &c/%label% %args%'
+logs:
+  opening: '&fAbriendo el menú...'
+  empty: '&fNingún registro encontrado...'
+  menu:
+    title: '&7Registros de ClearLag'
+    item:
+      date-format: 'MM/dd/yyyy HH:mm:ss'
+      name: '&c&lRegistro #%id%'
+      lore:
+        - '&7%date%'
+        - ''
+        - '&fItems borrados: &c%items%'
+        - '&fMobs borrados: &c%entities%'
+        - ''
+        - '&fTPS antes de la eliminación: &c%tps%'
+        - '&fJugadores en línea: &c%players%'
+        - ''
+graph:
+  showing: '&fMostrando la gráfica de &c%type% que contiene los últimos &c%amount% registros&f.'
+  empty: '&fNingún registro encontrado... No puedo generar ninguna gráfica.'
+  symbols:
+    data: '&c|'
+    empty: '&7|'
+clear:
+  all: '&fTodas las cosas han sido borradas con éxito.'
+  items: '&fTodos los items en el suelo han sido borrados con éxito.'
+  entities: '&fTodas las entidades han sido borradas con éxito.'

@@ -1,0 +1,38 @@
+# en_GB translation by Džennário#6666
+
+prefix: '&c&lFastClearLag &c▎ &r'
+no-permissions: '&fYou don''t have permissions to do that!'
+usage: '&fUse &c/%label% %args%'
+reload: '&fSuccessfully reloaded configuration files.'
+help:
+  head:
+    - '&4&l▎ &c&l FastClearLag &7&oby Gennario'
+    - '&4&l▎ '
+  line-format: '&4&l▎ &c/%label% %args%'
+logs:
+  opening: '&fOpening menu...'
+  empty: '&fNo logs found...'
+  menu:
+    title: '&7ClearLag logs'
+    item:
+      date-format: 'MM/dd/yyyy HH:mm:ss'
+      name: '&c&lLog #%id%'
+      lore:
+        - '&7%date%'
+        - ''
+        - '&fCleared items: &c%items%'
+        - '&fCleared mobs: &c%entities%'
+        - ''
+        - '&fTps before clear: &c%tps%'
+        - '&fPlayers online: &c%players%'
+        - ''
+graph:
+  showing: '&fShowing &c%type% &fgraph containing lasted &c%amount% logs&f.'
+  empty: '&fNo logs found... I can''t generate any graph.'
+  symbols:
+    data: '&c|'
+    empty: '&7|'
+clear:
+  all: '&fSuccessfully force-cleared all things.'
+  items: '&fSuccessfully force-cleared all items on the ground.'
+  entities: '&fSuccessfully force-cleared all entities.'

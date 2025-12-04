@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 109.241.143.224
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1761662969844
+  login: 1761662615144
+money: '0'
+last-account-name: pro_goat12312
+lastlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: -51.5
+  y: 115.0
+  z: 43.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: 20.06643079272587
+  y: 124.0
+  z: 126.12515470652511
+  yaw: -89.05810546875
+  pitch: 3.977993965148926

@@ -1,0 +1,41 @@
+antylogout:
+  time: 15 # Czas walki w sekundach
+  start:
+    - "[BOSSBAR] &4⚔ &fᴘᴠᴘ &4%seconds%s ⚔"
+  #    - "[BOSSBAR] &7Jesteś podczas walki jeszcze przez: &c%seconds%s"
+  end:
+    - ""
+    - "[MSG] &aMożesz się już wylogować!"
+  settings:
+    # Naliczanie antylogoutu od obrazen od mobow
+    mobs: false
+    # Naliczanie antylogoutu od sniezek, jajek, strzal itp
+    projectile: true
+    # Naliczanie antylogoutu po rzuceniu perly
+    pearl: false
+    # Blokowanie otwierania enderchesta podczas walki
+    ender-chest: false
+    # Bossbar odliczajacy pozostaly czas do konca walki
+    bossbar-timer: true
+  commands:
+    whitelist:
+      - "msg"
+      - "r"
+  regions:
+    # Typ ochrony: BARRIER (szkło) lub KNOCK (odpychanie)
+    protection-type: "BARRIER"
+    # Lista zablokowanych regionów
+    blocked:
+      - "spawn"
+
+messages:
+  logout-during-fight: "&#FF0000%player% &#FF3131wylogował się podczas walki!"
+  antylogout-disabled: "&#FF0000Antylogout został wyłączony!"
+  antylogout-enabled: "&#00FF00Antylogout został włączony!"
+  config-reloaded: "&#00FF00Konfiguracja została przeładowana!"
+  no-permission: "&#FF0000Błąd! &#FF3131Nie masz uprawnień do tej komendy!"
+  invalid-usage: "&#FF0000Użycie: /adminantylogout <on|off|reload>"
+  unknown-option: "&#FF0000Nieznana opcja! Użyj: on, off lub reload"
+  cannot-enter-region: "&#FF0000Nie możesz wejść na ten region podczas walki!"
+  cannot-use-command: "&#FF0000Nie możesz używać tej komendy podczas walki!"
+  cannot-use-enderchest: "&#FF0000Nie możesz otwierać enderchestów podczas walki!"

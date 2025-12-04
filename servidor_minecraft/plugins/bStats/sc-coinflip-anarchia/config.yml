@@ -1,0 +1,121 @@
+# config.yml
+# Konfiguracja pluginu ServerCreators - CoinFlip z serwera anarchia.gg
+# Autor pluginu: yspar (ServerCreators owner)
+
+gui-titles:
+  main: "CoinFlip"
+  active-games: "Aktywne Gry CoinFlip"
+  your-games: "Twoje Gry CoinFlip"
+  coin-flip-animation: "&bRzut Monetą!"
+  winner-display: "&aZwycięzca!"
+
+main-gui:
+  items:
+    active-games:
+      name: "&aAktywne Gry"
+      lore:
+        - "&7Kliknij, aby zobaczyć aktywne gry."
+      slot: 10
+    your-games:
+      name: "&eTwoje Gry"
+      lore:
+        - "&7Kliknij, aby zobaczyć swoje gry."
+      slot: 13
+    create-game:
+      name: "&bStwórz Grę"
+      lore:
+        - "&7Maksymalnie 50% Twojego majątku."
+        - "&7Serwer pobiera 3% prowizji."
+      slot: 16
+    notifications:
+      on-name: "&aPowiadomienia: WŁĄCZONE"
+      on-lore:
+        - "&7Otrzymasz powiadomienia o:"
+        - "&7- utworzonych grach"
+        - "&7- wygranych grach"
+        - "&7Kliknij, aby wyłączyć."
+      off-name: "&cPowiadomienia: WYŁĄCZONE"
+      off-lore:
+        - "&7Nie będziesz otrzymywać powiadomień."
+        - "&7Kliknij, aby włączyć."
+      slot: 32
+    close-button:
+      name: "&cZamknij!"
+      lore:
+        - "&7Kliknij, aby zamknąć"
+      slot: 31
+
+active-games-gui:
+  items:
+    game-item:
+      name: "&fGra gracza: &a%player_name%" # %player_name% zostanie zastąpiony przez kod
+      lore:
+        - "&7Stawka: &e%bet_amount% &6monet" # %bet_amount% zostanie zastąpiony
+        - "&7Kliknij, aby dołączyć do gry!"
+    back-button:
+      name: "&7Powrót"
+      lore:
+        - "&fKliknij, aby wrócić do głównego menu."
+      offset: 5 # Odległość od końca GUI (np. 5 oznacza 5. slot od końca)
+
+your-games-gui:
+  items:
+    game-item:
+      # Materiał: PAPER lub SKULL
+      # W zależności od statusu użyj odpowiedniej nazwy
+      pending-name: "&fTwoja gra: &eoczekuje"
+      in-progress-name: "&fTwoja gra: &6w trakcie"
+      won-name: "&fTwoja gra: &aWYGRANA"
+      lost-name: "&fTwoja gra: &cPRZEGRANA"
+      cancelled-name: "&fTwoja gra: &7ANULOWANA"
+      lore:
+        - "&7Status: %status%" # %status% zostanie zastąpiony (np. Oczekuje, W trakcie, Wygrywana, Przegrana, Anulowana)
+        - "&7Stawka: &e%bet_amount% &6monet"
+        - "&7Przeciwnik: &f%opponent_name%" # Jeśli jest null, zostanie użyte "Brak"
+        - "&7Data: &f%date%"
+    back-button:
+      name: "&7Powrót"
+      lore:
+        - "&fKliknij, aby wrócić do głównego menu."
+      offset: 5
+
+sign-gui:
+  lines:
+    line0: ""
+    line1: "---------------"
+    line2: "^^^ Twoja Kwota ^^^"
+    line3: "&7Max 50% majatku, 3% prowizji"
+
+messages:
+  invalid-amount: "&cNieprawidłowa kwota! Wpisz liczbę."
+  amount-too-low: "&cKwota zakładu musi być większa od zera."
+  too-much-money: "&cNie możesz postawić więcej niż 50% swojego majątku! (Posiadasz: &f%player_balance%&c)"
+  not-enough-money: "&cNie masz wystarczająco pieniędzy! Potrzebujesz &f%needed_amount%&c."
+  game-created: "&aStworzono grę CoinFlip za &f%bet_amount%&a! Gra jest dostępna w 'Aktywnych Grach'."
+  sign-gui-error: "&cWystąpił błąd podczas otwierania tabliczki. Wersja serwera nie jest wspierana."
+  game-already-in-progress: "&cTa gra jest już w trakcie lub zakończona!"
+  cannot-join-own-game: "&cNie możesz dołączyć do własnej gry!"
+  not-enough-money-to-join: "&cNie masz wystarczająco pieniędzy, aby dołączyć! Potrzebujesz &f%needed_amount%&c."
+  game-joined: "&aDołączyłeś do gry CoinFlip!"
+  opponent-joined-creator: "&a%opponent_name% dołączył do Twojej gry CoinFlip!"
+  game-not-found: "&cTa gra już nie istnieje lub została anulowana."
+  game-identification-error: "&cWystąpił błąd podczas identyfikacji gry. Skontaktuj się z administracją."
+  opponent-disconnected-return-stake-creator: "&cTwój przeciwnik (&f%opponent_name%&c) wylogował się! Twoja stawka została zwrócona."
+  opponent-disconnected-return-stake-joiner: "&cTwój przeciwnik (&f%creator_name%&c) wylogował się! Twoja stawka została zwrócona."
+  coin-flip-ended: "&aRzut monetą zakończony!"
+  you-won: "&6Gratulacje! &aWygrałeś &f%winnings_amount%&&a!"
+  you-lost: "&cNiestety, przegrałeś. Może następnym razem!"
+  notifications-toggled: "&aPowiadomienia CoinFlip zostały &f%status%."
+
+notifications:
+  game-created: "&a%player_name%&c utworzył grę o &f%bet_amount%&a! Wpisz &a/coinflip&c aby dołączyć!"
+  game-won: "&f%winner_name%&c wygrał grę o &f%winnings_amount%&c!"
+
+timings:
+  animation-duration-seconds: 10 # Czas trwania animacji w sekundach
+  animation-interval-ticks: 5 # Co ile ticków zmieniać klatkę animacji
+  winner-display-duration-seconds: 3 # Czas wyświetlania ekranu zwycięzcy w sekundach
+
+game-settings:
+  tax-percentage: 0.03 # 3% prowizji (0.03 dla 3%)
+  max-bet-percentage: 0.50 # 50% maksymalnego zakładu (0.50 dla 50%)

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 176.221.125.241
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1761489526138
+  login: 1761489329334
+money: '1.0'
+last-account-name: nietoniee__s
+lastlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: -50.5
+  y: 104.0
+  z: 46.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: 53.116634560630644
+  y: 145.0
+  z: 101.52321776668778
+  yaw: 63.91480255126953
+  pitch: 26.501956939697266

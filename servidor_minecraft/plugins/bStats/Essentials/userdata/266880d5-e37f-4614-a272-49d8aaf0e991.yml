@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 188.146.135.154
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1761407342181
+  login: 1761406310088
+money: '0'
+last-account-name: Eronix_2117
+lastlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: -58.5
+  y: 103.0
+  z: 50.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: 14.708654434206425
+  y: 146.0
+  z: 115.29781975555944
+  yaw: 79.14093017578125
+  pitch: 28.34734344482422

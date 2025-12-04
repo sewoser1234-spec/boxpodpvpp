@@ -1,0 +1,38 @@
+# cs_CZ translation by Džennário#6666
+
+prefix: '&c&lFastClearLag &c▎ &r'
+no-permissions: '&fNemáš pravomoce k vykonání tohoto příkazu!'
+usage: '&fPoužij &c/%label% %args%'
+reload: '&fÚspěšně jsi obnovil všechny konfigurační soubory.'
+help:
+  head:
+    - '&4&l▎ &c&l FastClearLag &7&ood Gennaria'
+    - '&4&l▎ '
+  line-format: '&4&l▎ &c/%label% %args%'
+logs:
+  opening: '&fOtevírám menu.'
+  empty: '&fŽádné dostupné záznamy...'
+  menu:
+    title: '&7ClearLag záznamy'
+    item:
+      date-format: 'dd.MM.yyyy HH:mm:ss'
+      name: '&c&lZáznam #%id%'
+      lore:
+        - '&7%date%'
+        - ''
+        - '&fSmazáno itemů: &c%items%'
+        - '&fSmazáno zvířat: &c%entities%'
+        - ''
+        - '&fTps před mazáním: &c%tps%'
+        - '&fOnline hráčů: &c%players%'
+        - ''
+graph:
+  showing: '&fZobrazuji &c%type% &fgraf obsahující posleních &c%amount% záznamů&f.'
+  empty: '&fŽádné dostupné záznamy... Nelze vygenerovat žádný graf.'
+  symbols:
+    data: '&c|'
+    empty: '&7|'
+clear:
+  all: '&fÚspěšně jsi smazal všechny věci.'
+  items: '&fÚspěšně jsi smazal všechny itemy na zemi.'
+  entities: '&fÚspěšně jsi smazal všechny monstra.'

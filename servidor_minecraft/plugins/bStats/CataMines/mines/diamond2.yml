@@ -1,0 +1,56 @@
+Mine:
+  ==: de.c4t4lysm.catamines.utils.mine.mines.CuboidCataMine
+  name: diamond2
+  region:
+    type: CUBOID
+    world: world
+    p1:
+      ==: org.bukkit.Location
+      world: world
+      x: 1.0
+      y: 124.0
+      z: 200.0
+      pitch: 0.0
+      yaw: 0.0
+    p2:
+      ==: org.bukkit.Location
+      world: world
+      x: 6.0
+      y: 126.0
+      z: 205.0
+      pitch: 0.0
+      yaw: 0.0
+  composition:
+  - block: minecraft:diamond_ore
+    chance: 70.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:diamond_block
+    chance: 30.0
+    addLootTable: false
+    lootTable: []
+  resetMode: TIME
+  resetDelay: 260
+  countdown: 1
+  resetPercentage: 0.0
+  replaceMode: false
+  teleportPlayers: false
+  teleportPlayersToResetLocation: false
+  isStopped: false
+  warn:
+    warnHotbar: false
+    warnHotbarMessage: default
+    enableWarn: false
+    warnGlobal: false
+    warnMessage: default
+    resetMessage: default
+    warnSeconds:
+    - 600
+    - 300
+    - 60
+    - 20
+    - 5
+    warnDistance: 5
+  minEfficiencyLvl: 0
+  teleportLocation: null
+  teleportResetLocation: null

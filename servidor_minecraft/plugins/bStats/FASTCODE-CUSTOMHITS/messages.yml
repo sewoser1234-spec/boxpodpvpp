@@ -1,0 +1,37 @@
+# Wiadomosc o braku permisji (fastcode.customhits)
+noPermission:
+  typ: CHAT
+  wiadomosc: '&cNie posiadasz permisji!'
+# Poprawne uzycie
+correctUsage:
+  typ: CHAT
+  wiadomosc: '&8>> &fPoprawne użycie: &#ffb300{USAGE}'
+# Nie znaleziono podanego argumentu
+noArgument:
+  typ: CHAT
+  wiadomosc: '&cNie znaleziono podanego argumentu!'
+# Wiadomosc o przeladowaniu configu
+reloadedConfiguration:
+  typ: CHAT
+  wiadomosc: '&8>> &fKonfiguracja została &#ffb300przeładowana!'
+# Wiadomosc o przelaczeniu informacji o hitach
+switchInfo:
+  typ: CHAT
+  wiadomosc: '&8>> &fWiadomości developerskie o zadawanych &#ffb300obrażeniach &fzostały
+    {STATUS}'
+# Styl wiadomosci w funkcji info
+infoStyle:
+  typ: CHAT
+  wiadomosc: '&8>> &fGracz &c{ATTACKER} &fzadał obrażenia równe: &#ffb300{DAMAGE}'
+# Wiadomosc o zmianie zadawanych obrazen
+damageChanged:
+  typ: CHAT
+  wiadomosc: '&8>> &fZmieniłeś moc zadawanych &cobrażeń &fna siłę: &#ffb300{DAMAGE}'
+# Wiadomosc o blednym formacie
+noDouble:
+  typ: CHAT
+  wiadomosc: '&8>> &fWartość musi być w double czyli np: &8(&#ffb3001.0&8)'
+# Wiadomosc o resecie
+resetDamage:
+  typ: CHAT
+  wiadomosc: '&8>> &fObrażenia zostały zresetowane do &8(&#ffb3001.0&8)'

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 37.47.216.193
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1761419801102
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1761419831636
+  login: 1761419440536
+money: '0.0'
+last-account-name: ysigjr
+lastlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: 13.783466276771971
+  y: 124.0
+  z: 124.59645084619757
+  yaw: 111.25200653076172
+  pitch: 24.232513427734375
+logoutlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: 42.62016045796234
+  y: 145.0
+  z: 104.41305804710656
+  yaw: 99.40203094482422
+  pitch: -6.517489433288574

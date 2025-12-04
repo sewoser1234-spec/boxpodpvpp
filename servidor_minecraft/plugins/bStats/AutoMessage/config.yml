@@ -1,0 +1,18 @@
+settings:
+  delay: 180
+messages:
+  # To use RGB Hex Colours you can use this site, it's really easy to use. https://rgb.birdflop.com
+- '&a» &fAktualny ItemShop znajdziesz na &bhttps://vishop.pl/shop/14395/'
+- '&9» &fNasz Discord: &bhttps://discord.gg/ZWn5YWRfEX'
+
+prefix: ""
+
+sendMessagesInOrder: true
+messageSound: true
+
+
+#You need to always do this: sound name in CAPITALS  e.g. ENTITY_PLAYER_LEVELUP
+sound: 'ENTITY_PLAYER_LEVELUP'
+
+# last update - 02/06/2024
+# join my support discord server - https://discord.gg/5T9bFQC8HR

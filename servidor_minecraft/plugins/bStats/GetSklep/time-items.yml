@@ -1,0 +1,46 @@
+items:
+  '6911':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: PINK_CANDLE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"ᴋʟᴜᴄᴢ
+          "},{"bold":true,"italic":false,"color":"light_purple","text":"ᴍɪɴɪʙᴏx"}],"text":""}'
+        lore:
+        - '{"text":""}'
+        custom-model-data: 0
+        enchants:
+          DURABILITY: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+        PublicBukkitValues:
+          getcase:afac4db6-b12c-49cb-b256-4e54b8572c98: afac4db6-b12c-49cb-b256-4e54b8572c98
+    cost: 12.0
+    slot: 21
+  '7296':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: HONEYCOMB_BLOCK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"ɢɢʙᴏx"}],"text":""}'
+        lore:
+        - '{"text":""}'
+        custom-model-data: 0
+        enchants:
+          DURABILITY: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+        PublicBukkitValues:
+          getcase:7f3220b8-586a-47cc-9a3b-dd934c38c47e: 7f3220b8-586a-47cc-9a3b-dd934c38c47e
+    cost: 24.0
+    slot: 23

@@ -1,0 +1,55 @@
+## Dream-ClearMap (Main-Config) ##
+# Debug pokazuje dodatkowe informacje do konsoli. Lepiej wylaczyc. :P
+debug: true
+# Placeholder pozostalego czasu to "%dream-clearmap_time%"
+# Permisja na bypass usuwania itemow to "dream-clearmap.bypass"
+# Ustaw typ listy blokow (WHITELIST - tylko te bloki beda usuwane, BLACKLIST - te bloki nie beda usuwane)
+list-type: WHITELIST
+# Lista blokow
+block-list:
+- COBWEB
+- OAK_PLANKS
+- STRING
+# Lista koordynatow regionow w ktorych dziala plugin
+regions:
+- id: pvp1
+  clear-time: 3000
+  world: world
+  minx: -12.0
+  miny: 123.0
+  minz: 128.0
+  maxx: 60.0
+  maxy: 158.0
+  maxz: 219.0
+# Ustaw jak bedzie wygladala rozdzka do zaznaczania regionu
+wand-item-stack:
+  material: BLAZE_ROD
+  item-meta:
+    display-name: '&#fb7800&lM&#fb8100&la&#fc8a00&lg&#fc9300&li&#fc9b00&lc&#fca400&lz&#fdad00&ln&#fdb600&la
+      &#fdad00&lR&#fca400&ló&#fc9b00&lż&#fc9300&ld&#fc8a00&lż&#fb8100&lk&#fb7800&la'
+    lore:
+    - ''
+    - '&8» &fTen przedmiot pozwala stworzyć tobie region,'
+    - '&8» &fw którym bloki znikają co jakiś czas'
+# Lista sekund pozostalych do wyczyszczenia mapy w ktorych bedzie wysylana informacja na chat
+map-clear-notices:
+- 1
+- 2
+- 3
+- 5
+- 10
+- 20
+- 30
+- 60
+# Czy po wyczyszczeniu mapy gracze ktorzy sie w niej znajdowali maja byc teleportowani w ustawiona lokalizacje
+tp-on-clear: false
+# Ustaw lokalizacje gdzie beda teleportowani gracze przy clearowaniu mapy (dziala tylko gdy opcja wyzej jest na true)
+tp-location:
+  world-name: world
+  x: 0.0
+  y: 63.0
+  z: 0.0
+# Czy wiadomosci informujace za ile mapa bedzie wyczyszczona ma byc wysylana
+send-messages: false
+# Czy wiadomosc o wyczyszczeniu mapy ma byc wysylana
+send-map-clear-notice: false

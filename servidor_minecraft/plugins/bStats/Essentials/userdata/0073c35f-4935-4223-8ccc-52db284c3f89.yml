@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 83.20.5.228
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1761342413124
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1761342656379
+  login: 1761340503977
+money: '0'
+last-account-name: _S3TTY_
+lastlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: 29.27002751587069
+  y: 124.0
+  z: 123.30000001192093
+  yaw: -1.84759521484375
+  pitch: -2.0999341011047363
+logoutlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: 55.39508035641012
+  y: 124.0
+  z: 124.33174835414113
+  yaw: 65.05224609375
+  pitch: -2.6175127029418945

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 31.6.64.55
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1761675938695
+  login: 1761665159893
+money: '0'
+lastlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: -56.5
+  y: 105.0
+  z: 49.5
+  yaw: 0.0
+  pitch: 0.0
+last-account-name: baroch72
+logoutlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: 23.303217117680852
+  y: 144.0
+  z: 95.53456553766783
+  yaw: -20.4434814453125
+  pitch: -3.3005058765411377

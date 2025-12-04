@@ -1,0 +1,14 @@
+# MYSQL, SQLITE
+databaseType: "SQLITE"
+# Host serwera MySQL
+host: "localhost"
+# Nazwa użytkownika serwera MySQL
+username: "user"
+# Hasło do serwera MySQL
+password: "pass"
+# Nazwa bazy danych
+database: "database_name"
+# Port serwera MySQL
+port: "3306"
+# Używać SSL?
+ssl: false

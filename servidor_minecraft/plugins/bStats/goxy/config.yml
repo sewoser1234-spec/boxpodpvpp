@@ -1,0 +1,7 @@
+# Wygenerowany klucz w panelu, klucz musi być wygenerowany dla folderu lub serwera
+api:
+  token: r6BtesZk6ZQ8YBcESTHmnAzHIKjPeEiEgXD8q33YMxDzM4HN
+# Czy na chacie ma być wyświetlana informacja dla administracji o nowej wersji pluginu
+update-notifications: true
+server:
+  id: 9e7fb135-05f0-478f-b63f-17148a15b514

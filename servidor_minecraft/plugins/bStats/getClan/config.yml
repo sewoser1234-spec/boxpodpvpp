@@ -1,0 +1,103 @@
+# Language | Język  [PL, EN]
+# Language | Language selection [PL, EN]
+langType: "PL"
+# Napis na środku ekranu po śmierci
+# Show title after death
+titleAlert: true
+fadeIn: 10
+stay: 40
+fadeOut: 10
+# Time in seconds after which a hit counts as a kill
+# Czas po ilu sekundach o trafienie zalicza zabojstwo
+killCountDuration: 30
+# System punktacji
+# Points conversion system
+calcPoints: "{old_rating} + (30 * ({score} - (1 / (1 + pow(10, ({opponent_rating}\
+  \ - {old_rating}) / 400)))))"
+# Domyślna ilość punktów dla gracza
+# Default points for players
+defaultPoints: 1000
+# Limit sojusznikow dla klanu
+# Alliance limit for clans
+limitAlliance: 0
+# Czy ma być włączone pvp dla klanu
+# Enable clan PvP
+pvpClan: true
+# Czy ma być włączone pvp dla sojuszników
+# Enable alliance PvP
+pvpAlliance: true
+# Czy ma być włączona wiadomość po śmierci
+# Enable broadcast message after the death
+deathMessage: true
+# System Antiabuse (Nabijanie rankingu)
+# Anti-abuse system (Prevent ranking abuse)
+systemAntiabuse: true
+# Co ile sekund nadal mozna zabic tego samego gracza
+# Cooldown time in seconds for killing the same player
+cooldown: 300
+# Czy wlaczyc platne tworzenie klanu (true | false)
+# Enable paid clan creation (true | false)
+enablePayment: true
+# Jezeli opcja powyzej jest wlaczona to jaka metoda platnosci (ITEM|VAULT)
+# If the above option is enabled, specify payment method (ITEM|VAULT)
+costType: "VAULT"
+# Koszt - VAULT | ITEM
+# Cost - VAULT | ITEM
+costCreate: 10.0
+itemCost:
+  v: 3337
+  type: "STONE"
+# ilość osób potrzebnych do liczenia rankingu klanu
+membersRequiredForRanking: 3
+# co ma zwracac placeholder gdy klan nie posida tylu czonkow do liczenia pkt
+placeholderNeedMembers: "&eneed 3 users"
+# Limit osób w klanie
+# Clan member limit
+permissionLimitMember:
+  getclan.default: 4
+# Ograniczenia długości tagu klanu
+# Clan tag length restrictions
+clansTagLengthMin: 2
+clansTagLengthMax: 6
+colorOnlinePlayer: "&a"
+colorOfflinePlayer: "&7"
+# Gdy zastępca lidera nie jest ustawiony
+# When deputy leader is not set
+noneDeputy: "None"
+# Placeholder %getclan_user_has_clan% kiedy nie/posiadasz klanu
+# Placeholder %getclan_user_has_clan% when you have/not a clan
+hasNotClan: "false"
+hasClan: "true"
+# Placeholder FORMAT kiedy nie posiadasz TAGU klanu
+# Placeholder format when you don't have a clan TAG
+noneTag: "None"
+# Placeholder FORMAT kiedy nie posidasz punktów klanu
+# Placeholder format when you don't have clan points
+nonePointsClan: "None"
+# [%getclan_user_format_points%] Format dla punktów gracza
+# [%getclan_user_format_points%] Format for player points
+formatUserPoints: "&7[&f{points}&7]"
+# [%getclan_clan_format_points%] Format dla punktów klanu
+# [%getclan_clan_format_points%] Format for clan points
+formatClanPoints: "&7[&f{points}&7]"
+# [%getclan_clan_format_tag%] Format dla tagu
+# [%getclan_clan_format_tag%] Format for clan tag
+formatTag: "&7[&f{tag}&7]"
+# [%rel_getclan_tag%] Format dla sojuszników
+# [%rel_getclan_tag%] Format for alliances
+formatAlliance: "#147aff{tag}"
+# [%rel_getclan_tag%] Format dla członka z klanu
+# [%rel_getclan_tag%] Format for clan members
+formatMember: "#48ff05{tag}"
+# [%rel_getclan_tag%] Format normalny dla tagu | {tag} {player}
+# Normal format for tags | {tag} {player}
+formatNormal: "&c{tag}"
+# Format do wiadomości wysłanej do gildii | {tag} {player}
+# Format for messages sent to the clan | {tag} {player}
+formatClanMessage: "&6{player} -> ⚐ | &e{message}"
+# Format do wiadomości wysłanej do sojuszników | {tag} {player}
+# Format for messages sent to alliances | {tag} {player}
+formatAllianceMessage: "#006eff{player} -> ⚐ | #78d4ff{message}"
+noneClan: "None"
+translate:
+  STONE: "Kamień"

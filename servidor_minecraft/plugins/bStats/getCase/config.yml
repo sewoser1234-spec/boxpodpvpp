@@ -1,0 +1,58 @@
+# Sound when player doesn't have a key
+# List of sounds: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+noKeySound: ENTITY_VILLAGER_NO
+# Sound when opening a preview menu
+previewMenuSound: UI_BUTTON_CLICK
+# Sound during spin animation
+spinAnimationSound: UI_BUTTON_CLICK
+# Sound when receiving the reward
+rewardSound: ENTITY_PLAYER_LEVELUP
+# Enables opening all loot boxes with SHIFT + RIGHT_CLICK
+quickOpenEnabled: false
+# multi-case opening
+multiCaseEnabled: false
+# Use gradual key distribution to reduce lag (true) or distribute all keys at once (false)
+useGradualKeyDistribution: true
+# Number of players to receive keys per tick during gradual distribution
+playersPerTickForKeyDistribution: 5
+forceDisableFancyHolograms: false
+forceDisableDecentHolograms: false
+multiCaseOpening:
+  amount: 0
+  material: CHEST
+  name: '&7Multi-case Opening'
+  lore: []
+  unbreakable: false
+  glow: true
+  modelData: 0
+  extended: false
+  upgraded: false
+  fireworkFlicker: false
+  fireworkTrail: false
+  hideTooltip: false
+quickOpenItem:
+  amount: 0
+  material: TNT
+  name: '&4ᴏᴛᴡᴏʀᴢ ʙᴇᴢ ᴀɴɪᴍᴀᴄᴊɪ'
+  lore: []
+  unbreakable: false
+  glow: true
+  modelData: 0
+  extended: false
+  upgraded: false
+  fireworkFlicker: false
+  fireworkTrail: false
+  hideTooltip: false
+animatedOpenItem:
+  amount: 0
+  material: CHEST
+  name: '&6ᴏᴛᴡᴏʀᴢ ᴢ ᴀɴɪᴍᴀᴄᴊᴀ'
+  lore: []
+  unbreakable: false
+  glow: true
+  modelData: 0
+  extended: false
+  upgraded: false
+  fireworkFlicker: false
+  fireworkTrail: false
+  hideTooltip: false

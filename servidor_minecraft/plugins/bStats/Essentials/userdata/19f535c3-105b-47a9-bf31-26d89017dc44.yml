@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 109.243.71.141
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1761494801492
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1761495424754
+  login: 1761494798234
+money: '0'
+last-account-name: xoshnex
+lastlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: -8.42698957841888
+  y: 124.0
+  z: 123.86094578275672
+  yaw: -58.71352005004883
+  pitch: 17.293567657470703
+logoutlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: 25.69999998807907
+  y: 144.0000001
+  z: 94.30000001192093
+  yaw: 174.90577697753906
+  pitch: 27.39400291442871

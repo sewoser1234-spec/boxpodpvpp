@@ -1,0 +1,38 @@
+# zh_TW translation by GoodToDrink#1990
+
+prefix: '&c&lFastClearLag &c▎ &r'
+no-permissions: '&f你沒有權限來使用!'
+usage: '&f使用方式: &c/%label% %args%'
+reload: '&fSuccessfully reloaded configuration files.'
+help:
+  head:
+    - '&4&l▎ &c&l FastClearLag &7&oby Gennario'
+    - '&4&l▎ '
+  line-format: '&4&l▎ &c/%label% %args%'
+logs:
+  opening: '&f開啟菜單中...'
+  empty: '&f找無日志...'
+  menu:
+    title: '&7ClearLag日志'
+    item:
+      date-format: 'MM/dd/yyyy HH:mm:ss'
+      name: '&c&l日志 #%id%'
+      lore:
+        - '&7%date%'
+        - ''
+        - '&f清除的物品: &c%items%'
+        - '&f清除的怪物: &c%entities%'
+        - ''
+        - '&f清除前的TPS: &c%tps%'
+        - '&f上線玩家: &c%players%'
+        - ''
+graph:
+  showing: '&f顯示 &c%type% &f包含上個 &c%amount% 圖表的日志&f.'
+  empty: '&f找無日志... 我無法產出圖表.'
+  symbols:
+    data: '&c|'
+    empty: '&7|'
+clear:
+  all: '&f成功清除所有東西.'
+  items: '&f成功清除所有地上的物品.'
+  entities: '&f成功清除所有物體.'

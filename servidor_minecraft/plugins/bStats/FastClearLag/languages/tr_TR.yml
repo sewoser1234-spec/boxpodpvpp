@@ -1,0 +1,38 @@
+# tr_TR translation by BobyXigAligator#0829
+
+prefix: '&c&lFastClearLag &c▎ &r'
+no-permissions: '&f¡Bunu yapmak için iznin yok!'
+usage: '&fKullanım &c/%label% %args%'
+reload: '&fYapılandırma başarıyla yüklendi.'
+help:
+  head:
+    - '&4&l▎ &c&l Gennariodan FastClearLag'
+    - '&4&l▎ '
+  line-format: '&4&l▎ &c/%label% %args%'
+logs:
+  opening: '&fmenüyü açma...'
+  empty: '&fKayıt Bulunamadı...'
+  menu:
+    title: '&7ClearLag Günlükleri'
+    item:
+      date-format: 'MM/dd/yyyy HH:mm:ss'
+      name: '&c&lKayıt #%id%'
+      lore:
+        - '&7%date%'
+        - ''
+        - '&fsilinmiş öğeler: &c%items%'
+        - '&fMoblar silindi: &c%entities%'
+        - ''
+        - '&fKaldırmadan önce TPS: &c%tps%'
+        - '&fçevrimiçi oyuncular: &c%players%'
+        - ''
+graph:
+  showing: '&fMostrando la gráfica de &c%type% que contiene los últimos &c%amount% registros&f.'
+  empty: '&fNingún registro encontrado... No puedo generar ninguna gráfica.'
+  symbols:
+    data: '&c|'
+    empty: '&7|'
+clear:
+  all: '&fHer şey başarıyla silindi.'
+  items: '&fYerdeki tüm öğeler başarıyla silindi.'
+  entities: '&fTüm varlıklar başarıyla silindi.'

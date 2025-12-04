@@ -1,0 +1,48 @@
+# Permisja do uzycia /customenchant to: fastcode.ceadmin
+# Wiadomosc o braku permisji
+noPermission:
+  typ: CHAT
+  wiadomosc: '&CNie posiadasz permisji'
+# Wiadomosc o poprawnym uzyciu
+usage:
+  typ: CHAT
+  wiadomosc: '&8>> &fPoprawne uzycie: &6/ce [enchant] [moc]'
+# Wiadomosc o braku itemu w lapce
+errorItem:
+  typ: CHAT
+  wiadomosc: '&8>> &fWeź przedmiot do &6łapki!'
+# Wiadomosc o sukcesie
+success:
+  typ: CHAT
+  wiadomosc: '&8>> &fPrzedmiot został &6zaczarowany!'
+# Wiadomosc o braku enchantu
+errorEnchant:
+  typ: SUBTITLE
+  wiadomosc: '&fNie znaleziono takiego &6enchantu!'
+# Wygląd lore ochrony (w miejce mocy wstaw {POWER})
+ochronaLore:
+- '&#2d71f5[&#347bf6♥&#3b85f7] &#428ff8O&#4999f9c&#50a2fbh&#57acfcr&#5eb6fdo&#65c0fen&#6ccaffa
+  {POWER}'
+# Wygląd lore fortuny (w miejce mocy wstaw {POWER})
+fortunaLore:
+- '&#f5ed26[❄&#f6ee27] &#f7ef27S&#f8f028z&#f9f128c&#faf229z&#fbf32aę&#fcf42aś&#fdf52bc&#fef62bi&#fff72ce
+  {POWER}'
+# Wygląd lore ostrosci (w miejce mocy wstaw {POWER})
+ostroscLore:
+- '&#f53226[🪓&#f63b27] &#f84327O&#f94c28s&#fa5428t&#fb5d29r&#fd6529o&#fe6e2aś&#ff762ać
+  {POWER}'
+# Wygląd lore ogien (w miejce mocy wstaw {POWER})
+ogienLore:
+- '&#f5620f[🔥&#f66b11] &#f77513Z&#f77e16a&#f88818k&#f9911al&#fa9b1cę&#faa41ft&#fbae21y
+  &#fcb723o&#fdc125g&#fdca28i&#fed42ae&#ffdd2cń {POWER}'
+# Wygląd lore wydajnosc (w miejce mocy wstaw {POWER})
+wydajnoscLore:
+- '&#c232f5[☄&#c83ef5] &#ce4af5W&#d456f5y&#da62f5d&#e16ef6a&#e779f6j&#ed85f6n&#f391f6o&#f99df6ś&#ffa9f6ć
+  {POWER}'
+# Wygląd lore odrzut (w miejce mocy wstaw {POWER})
+odrzutLore:
+- '&7Tego nie zrobilem {POWER}'
+# Wygląd lore niezniszczalnosc (w miejce mocy wstaw {POWER})
+niezniszczalnoscLore:
+- '&#93f517[🛡&#95f621] &#97f62aN&#99f734i&#9bf73ee&#9cf847z&#9ef951n&#a0f95bi&#a2fa64s&#a4fa6ez&#a6fb77c&#a8fb81z&#aafc8ba&#abfd94l&#adfd9en&#affea8o&#b1feb1ś&#b3ffbbć
+  {POWER}'

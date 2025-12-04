@@ -1,0 +1,10 @@
+ogloszenie: "&b★ ψ &f&lɢᴏʟᴏѕᴢᴇɴɪᴇ&b ψ  ★"
+
+chat_format:
+  - "%ogloszenia_prefix%"
+  - ""
+  - "%ogloszenie%"
+  - ""
+  - "%ogloszenia_prefix%"
+
+announcement_sound: "ENTITY_EXPERIENCE_ORB_PICKUP"

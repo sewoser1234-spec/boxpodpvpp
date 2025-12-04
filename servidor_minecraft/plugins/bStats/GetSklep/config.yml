@@ -1,0 +1,220 @@
+# /getsklep <vault, time> <cena> <slot> - permission: getsklep.admin
+# /getsklep - permission: getsklep.use
+
+lang:
+  success-buy: "&aKupiono przedmioty za &2{price}"
+  no-money: "&cBy kupić ten przedmiot potrzebujesz jeszcze {need-money}"
+  no-item: "&cNie posiadasz &2{item}&c!"
+  success-sell: "&cSprzedano za $&4{money}"
+  success-sell-all: "&cSprzedano za $&4{money}"
+  no-points: "&cNie posiadasz wystarczającej ilości monet czasu!"
+
+# skrocony format waluty
+price-format: "{value}{symbol}"
+symbol:
+  mld: "MLD"
+  mln: "M"
+  tys: "k"
+  bilion: "B"
+  biliard: "BLD"
+  try: "TLD"
+
+points:
+  # co ile sekund ma sie otrzymac punkty
+  time: 600
+  # ilosc punktow jaka ma sie otrzymac po okreslonym czasie
+  value: 1
+
+extra-line:
+  vault:
+    - "&8x &6Kwota zakupu: &a{price}"
+    - "&8x &6Kwota sprzedazy: &c{price}"
+    - ""
+    - "&e&lINSTRUKCJA:"
+    - "&8x &7Kliknij &bLPM &7aby &akupic &7dany przedmiot!"
+    - "&8x &7Kliknij &bPPM &7aby &csprzedac &7dany przedmiot!"
+    - "&8x &7Kliknij &bPPM + SHIFT &7aby wszystko sprzedac!"
+  time:
+    - "&8x &6Koszt: &f{price} monet czasu"
+    - ""
+    - "&e&lINSTRUKCJA:"
+    - "&8x &7Kliknij &7aby &akupić przedmiot!"
+
+back:
+  material: BARRIER
+  displayname: "&cCofnij"
+  lore: []
+  slot: 40
+
+menu-confirm:
+  size: 45
+  title: "&0Kupowanie przedmiotu!"
+  back-slot: 39
+  # item z potwierdzeniem zakupu
+  confirm:
+    slot: 41
+    material: LIME_STAINED_GLASS_PANE
+    displayname: "&aZatwierdz zakup"
+    lore: []
+  # dodatkowe linie dodawane do itemku podczas kupowania
+  extra-line:
+    - "&7Ilosc: &f{amount}"
+    - "&6Cena: &f${price}"
+  # slot itemu ktory sie kupuje
+  item-buy-slot: 22
+  # lista stackow u gory w sklepie
+  # Pamietaj! ID musi byc LICZBA CALKOWITA
+  # Jest to mnoznik STACKOW
+  left:
+    set_1:
+      material: RED_STAINED_GLASS_PANE
+      displayname: "&cUstaw na 1"
+      lore: []
+      slot: 18
+    remove_16:
+      material: RED_STAINED_GLASS_PANE
+      displayname: "&cUsun 16"
+      lore: []
+      slot: 19
+    remove_1:
+      material: RED_STAINED_GLASS_PANE
+      displayname: "&cUsun 1"
+      lore: []
+      slot: 20
+  right:
+    add_1:
+      material: LIME_STAINED_GLASS_PANE
+      displayname: "&aDodaj 1"
+      lore: []
+      slot: 24
+    add_16:
+      material: LIME_STAINED_GLASS_PANE
+      displayname: "&aDodaj 16"
+      lore: []
+      slot: 25
+    set_64:
+      material: LIME_STAINED_GLASS_PANE
+      displayname: "&aUstaw na  64"
+      lore: []
+      slot: 26
+  stack:
+    2:
+      slot: 0
+      displayname: "&aUstaw na 2 stacki"
+      lore:
+        - "&7Kwota: &f{price}"
+    3:
+      slot: 1
+      displayname: "&aUstaw na 3 stacki"
+      lore:
+        - "&7Kwota: &f{price}"
+    4:
+      slot: 2
+      displayname: "&aUstaw na 4 stacki"
+      lore:
+        - "&7Kwota: &f{price}"
+    5:
+      slot: 3
+      displayname: "&aUstaw na 5 stackow"
+      lore:
+        - "&7Kwota: &f{price}"
+    6:
+      slot: 4
+      displayname: "&aUstaw na 6 stackow"
+      lore:
+        - "&7Kwota: &f{price}"
+    7:
+      slot: 5
+      displayname: "&aUstaw na 7 stackow"
+      lore:
+        - "&7Kwota: &f{price}"
+    8:
+      slot: 6
+      displayname: "&aUstaw na 8 stackow"
+      lore:
+        - "&7Kwota: &f{price}"
+    9:
+      slot: 7
+      displayname: "&aUstaw na 9 stackow"
+      lore:
+        - "&7Kwota: &f{price}"
+    10:
+      slot: 8
+      displayname: "&aUstaw na 10 stackow"
+      lore:
+        - "&7Kwota: &f{price}"
+shop:
+  main:
+    enable: true
+    size: 45
+    title: "                &f&lѕᴋʟᴇᴘ"
+    backgrounds:
+      '1':
+        material: LIME_STAINED_GLASS_PANE
+        displayname: "&7"
+        lore: []
+        slots: [0,8,36,44]
+      '2':
+        material: BLACK_STAINED_GLASS_PANE
+        displayname: "&7"
+        lore: []
+        slots: [1,7,9,17,27,35,37,43]
+      '3':
+        material: WHITE_STAINED_GLASS_PANE
+        displayname: "&7"
+        lore: []
+        slots: [2,3,5,6,18,26,38,39,41,42]
+    icon-vault:
+      slot: 21
+      item:
+        material: GRASS_BLOCK
+        displayname: "&f&lѕᴋʟᴇᴘ"
+        lore: []
+    icon-time:
+      slot: 23
+      item:
+        material: CLOCK
+        displayname: "&b&lѕᴋʟᴇᴘ ᴢᴀ ᴄᴢᴀѕ"
+        lore:
+          - "&8x &7Za każde &a10 minut &7gry na serwerze"
+          - "&8x &7otrzymujesz &61 monetę czasu&7."
+  vault:
+    enable: true
+    size: 45
+    title: "                &f&lѕᴋʟᴇᴘ"
+    backgrounds:
+      '1':
+        material: LIME_STAINED_GLASS_PANE
+        displayname: "&7"
+        lore: []
+        slots: [0,8,36,44]
+      '2':
+        material: BLACK_STAINED_GLASS_PANE
+        displayname: "&7"
+        lore: []
+        slots: [1,7,9,17,27,35,37,43]
+      '3':
+        material: WHITE_STAINED_GLASS_PANE
+        displayname: "&7"
+        lore: []
+        slots: [2,3,5,6,18,26,38,39,41,42]
+  time:
+    enable: true
+    size: 45
+    title: "        &b&lѕᴋʟᴇᴘ ᴢᴀ ᴄᴢᴀѕ"
+    backgrounds:
+      '1':
+        material: LIME_STAINED_GLASS_PANE
+        displayname: "&7"
+        lore: []
+        slots: [0,8,36,44]
+      '2':
+        material: BLACK_STAINED_GLASS_PANE
+        displayname: "&7"
+        lore: []
+        slots: [1,7,9,17,27,35,37,43]
+      '3':
+        material: WHITE_STAINED_GLASS_PANE
+        displayname: "&7"
+        lore: []
+        slots: [2,3,5,6,18,26,38,39,41,42]

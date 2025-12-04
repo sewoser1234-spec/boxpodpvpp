@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 79.186.133.140
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1761407298446
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1761408322851
+  login: 1761406746928
+money: '0'
+last-account-name: DroppedByEske
+lastlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: 11.714806821887702
+  y: 125.25220334025373
+  z: 125.23684176386428
+  yaw: 93.69171142578125
+  pitch: 6.0825114250183105
+logoutlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: 13.10464314753017
+  y: 124.0
+  z: 125.9210054661007
+  yaw: 11.767669677734375
+  pitch: 17.406877517700195

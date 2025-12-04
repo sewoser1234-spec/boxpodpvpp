@@ -1,0 +1,52 @@
+Mine:
+  ==: de.c4t4lysm.catamines.utils.mine.mines.CuboidCataMine
+  name: bezl1
+  region:
+    type: CUBOID
+    world: world
+    p1:
+      ==: org.bukkit.Location
+      world: world
+      x: 23.0
+      y: 114.0
+      z: 246.0
+      pitch: 0.0
+      yaw: 0.0
+    p2:
+      ==: org.bukkit.Location
+      world: world
+      x: 25.0
+      y: 116.0
+      z: 248.0
+      pitch: 0.0
+      yaw: 0.0
+  composition:
+  - block: minecraft:green_glazed_terracotta
+    chance: 100.0
+    addLootTable: false
+    lootTable: []
+  resetMode: TIME
+  resetDelay: 340
+  countdown: 164
+  resetPercentage: 0.0
+  replaceMode: false
+  teleportPlayers: false
+  teleportPlayersToResetLocation: false
+  isStopped: false
+  warn:
+    warnHotbar: false
+    warnHotbarMessage: default
+    enableWarn: false
+    warnGlobal: false
+    warnMessage: default
+    resetMessage: default
+    warnSeconds:
+    - 600
+    - 300
+    - 60
+    - 20
+    - 5
+    warnDistance: 5
+  minEfficiencyLvl: 0
+  teleportLocation: null
+  teleportResetLocation: null

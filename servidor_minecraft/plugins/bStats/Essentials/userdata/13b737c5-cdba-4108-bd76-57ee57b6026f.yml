@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 87.101.35.193
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1761933879934
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1761934095680
+  login: 1761933718440
+money: '57.0'
+last-account-name: artsta7
+lastlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: 21.96190759953194
+  y: 124.0
+  z: 125.24030293503634
+  yaw: -175.20921325683594
+  pitch: 23.624927520751953
+logoutlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: 28.144443488993836
+  y: 145.0
+  z: 106.34469338332146
+  yaw: -144.26446533203125
+  pitch: 9.367181777954102

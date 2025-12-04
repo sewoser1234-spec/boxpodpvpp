@@ -1,0 +1,9 @@
+##
+## oCode-MineStarItems (Data-Config) ##
+##
+smallGiftItems: []
+bigGiftItems: []
+smallPresentItems: []
+bigPresentItems: []
+luckyBlockItems: []
+locations: []

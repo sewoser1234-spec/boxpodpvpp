@@ -1,0 +1,38 @@
+# de_DE translation by Jonas L. | Minecoll_YT#0741
+
+prefix: '&c&lFastClearLag &c▎ &r'
+no-permissions: '&fDu hast keine Rechte dies zu tun!'
+usage: '&fNutze &c/%label% %args%'
+reload: '&fDie Konfigurations Dateien wurden erfolgreich neu geladen.'
+help:
+  head:
+    - '&4&l▎ &c&l FastClearLag &7&ovon Gennario'
+    - '&4&l▎ '
+  line-format: '&4&l▎ &c/%label% %args%'
+logs:
+  opening: '&fÖffne Menü...'
+  empty: '&fKeine Einträge gefunden...'
+  menu:
+    title: '&7ClearLag Einträge'
+    item:
+      date-format: 'dd/MM/yyyy HH:mm:ss'
+      name: '&c&lEintrag #%id%'
+      lore:
+        - '&7%date%'
+        - ''
+        - '&fEntfernte Gegenstände: &c%items%'
+        - '&fEntfernte Mobs: &c%entities%'
+        - ''
+        - '&fTPS davor: &c%tps%'
+        - '&fSpieler online: &c%players%'
+        - ''
+graph:
+  showing: '&fZeige &c%% &fDiagramm welches &c%amount% Einträge beinhaltet&f.'
+  empty: '&fEs konnte kein Diagramm erstellt werden, da keine Einträge existieren.'
+  symbols:
+    data: '&c|'
+    empty: '&7|'
+clear:
+  all: '&fEs wurde das Entfernen von allen Dingen erzwungen.'
+  items: '&fEs wurde das Entfernen von allen Gegenständen erzwungen.'
+  entities: '&fEs wurde das Entfernen von allen Entities erzwungen.'

@@ -1,0 +1,430 @@
+##
+## oCode-MineStarItems (Message-Config) ##
+## Dostępne typy wiadomości: NOTHING, CHAT, ACTIONBAR, SUBTITLE, TITLE, TITLE_SUBTITLE
+##
+duelStarted:
+  type: TITLE_SUBTITLE
+  message: '&7&lᴄᴇʟᴀ%NEWLINE%&fRozpocząłeś duela z &f{player}&7!'
+duelEnded:
+  type: TITLE_SUBTITLE
+  message: '&7&lᴄᴇʟᴀ%NEWLINE%&aZakończono duela!'
+someoneIsInDuel:
+  type: TITLE_SUBTITLE
+  message: '&7&lᴄᴇʟᴀ%NEWLINE%&fTy &7lub &fprzeciwnik &7już jest w duelu!'
+cantUseElytra:
+  type: TITLE_SUBTITLE
+  message: '&4&l❌%NEWLINE%&cNie możesz korzystać z &4elytry&c!'
+goatFailed:
+  type: TITLE_SUBTITLE
+  message: '&7&lᴄᴇʟᴀ%NEWLINE%&cNie udało ci się złapać gracza!'
+goatBlockEnded:
+  type: TITLE_SUBTITLE
+  message: '&7&lᴄᴇʟᴀ%NEWLINE%&cBlokada właśnie wygasła!'
+activeCooldown:
+  type: TITLE_SUBTITLE
+  message: '&4&l❌%NEWLINE%&cMożesz tego uzyć za: &4{time}&c!'
+iceWandUsage:
+  type: TITLE_SUBTITLE
+  message: '&#5790FF&lʟ&#6298F9&lᴏ&#6CA1F2&lᴅ&#77A9EC&lᴏ&#82B2E6&lᴡ&#8CBADF&lᴀ &#A2CBD3&lʀ&#ADD3CD&lᴏ&#B7DBC6&lᴢ&#C2E4C0&lᴅ&#CDECBA&lᴢ&#D7F5B3&lᴋ&#E2FDAD&lᴀ%NEWLINE%&7Przedmiot
+    został użyty!'
+hookUsage:
+  type: TITLE_SUBTITLE
+  message: '&#FF5757&lH&#FF3A3A&la&#FF1C1C&lk#%NEWLINE%&7Przedmiot został użyty!'
+infinityRodUsage:
+  type: TITLE_SUBTITLE
+  message: '&#00CEEA&lɴ&#00C9E0&lɪ&#00C4D6&lᴇ&#00BECD&ls&#00B9C3&lᴋ&#00B4B9&lᴏ&#00AFAF&lń&#00A9A6&lᴄ&#00A49C&lᴢ&#009F92&lᴏ&#009F92&lɴ&#009F92&lᴀ
+    &#009F92&lᴡ&#009F92&lę&#009F92&lᴅ&#009F92&lᴋ&#009F92&lᴀ%NEWLINE%&7Przedmiot został
+    użyty!'
+bearFurUsage:
+  type: TITLE_SUBTITLE
+  message: '&#A9FFFD&ls&#ACFFFD&lɪ&#AFFFFD&lᴇ&#B2FFFD&lʀ&#B5FFFD&ls&#B8FFFD&lᴄ &#BFFFFE&lɴ&#C2FFFE&lɪ&#C5FFFE&lᴇ&#C8FFFE&lᴅ&#CBFFFE&lᴢ&#CEFFFE&lᴡ&#D1FFFE&lɪ&#D4FFFE&lᴇ&#D7FFFE&lᴅ&#DAFFFE&lᴢ&#DDFFFE&lɪ&#E0FFFE&lᴀ
+    &#E6FFFE&lᴘ&#EAFFFF&lᴏ&#EDFFFF&lʟ&#F0FFFF&lᴀ&#F3FFFF&lʀ&#F6FFFF&lɴ&#F9FFFF&lᴇ&#FCFFFF&lɢ&#FFFFFF&lᴏ%NEWLINE%&7Przedmiot
+    został użyty!'
+rubberFurUsage:
+  type: TITLE_SUBTITLE
+  message: '&#FF76C2&lɢ&#FF8ECD&lᴜ&#FFA6D8&lᴍ&#FFBEE2&lᴋ&#FFD6ED&lᴀ%NEWLINE%&7Przedmiot
+    został użyty!'
+pandoraBoxUsage:
+  type: TITLE_SUBTITLE
+  message: '&#7F00BC&lᴘ&#870FC1&lᴜ&#8E1FC6&ls&#962ECB&lᴢ&#9D3ED1&lᴋ&#A54DD6&lᴀ &#B46CE0&lᴘ&#BC7CE5&lᴀ&#C48BEA&lɴ&#CB9BF0&lᴅ&#D3AAF5&lᴏ&#DABAFA&lʀ&#E2C9FF&lʏ%NEWLINE%&7Przedmiot
+    został użyty!'
+superAppleUsage:
+  type: TITLE_SUBTITLE
+  message: '&#FF00F8&ls&#FF00D7&lᴜ&#FF00B7&lᴘ&#FF0096&lᴇ&#FF0075&lʀ &#FF0034&lᴊ&#FF0034&lᴀ&#FF0034&lʙ&#FF0034&lʟ&#FF0034&lᴋ&#FF0034&lᴏ%NEWLINE%&7Przedmiot
+    został użyty!'
+escapeHorusUsage:
+  type: TITLE_SUBTITLE
+  message: '&#FF8AF6&lᴄ&#FB8DF2&lʜ&#F78FEF&lᴏ&#F292EB&lʀ&#EE94E7&lᴜ&#EA97E4&ls &#E29CDD&lᴜ&#DD9FD9&lᴄ&#D9A1D5&lɪ&#D5A4D2&lᴇ&#D1A6CE&lᴄ&#CCA9CA&lᴢ&#C8ABC7&lᴋ&#C4AEC3&lɪ%NEWLINE%&7Przedmiot
+    został użyty!'
+witchWandUsage:
+  type: TITLE_SUBTITLE
+  message: '&#5B7FFF&lʀ&#5786F4&ló&#538DE9&lż&#4F93DE&lᴅ&#4C9AD3&lż&#48A1C8&lᴋ&#44A8BD&lᴀ
+    &#3CB5A8&lᴡ&#38BC9D&lɪ&#34C392&lᴇ&#31CA87&lᴅ&#2DD07C&lź&#29D771&lᴍ&#25DE66&lʏ%NEWLINE%&7Przedmiot
+    został użyty!'
+witchBroomUsage:
+  type: TITLE_SUBTITLE
+  message: '&#9502E0&lᴍ&#9002E0&lɪ&#8B02E0&lᴏ&#8602E0&lᴛ&#8002E0&lʟ&#7B02E0&lᴀ &#7102E0&lᴡ&#7102E0&lɪ&#7102E0&lᴇ&#7102E0&lᴅ&#7102E0&lź&#7102E0&lᴍ&#7102E0&lʏ%NEWLINE%&7Przedmiot
+    został użyty!'
+freezePotionUsage:
+  type: TITLE_SUBTITLE
+  message: '&#02B3E0&lᴍ&#10B9E3&lɪ&#1FBEE7&lᴋ&#2DC4EA&ls&#3BCAEE&lᴛ&#4ACFF1&lᴜ&#58D5F5&lʀ&#66DBF8&lᴀ
+    &#83E6FF&lᴢ&#83E6FF&lᴀ&#83E6FF&lᴍ&#83E6FF&lʀ&#83E6FF&lᴏ&#83E6FF&lż&#83E6FF&lᴇ&#83E6FF&lɴ&#83E6FF&lɪ&#83E6FF&lᴀ%NEWLINE%&7Przedmiot
+    został użyty!'
+honeySyrupUsage:
+  type: TITLE_SUBTITLE
+  message: '&#02E035&ls&#1AE542&lʏ&#33EA4F&lʀ&#4BF05C&lᴏ&#63F569&lᴘ &#94FF83&lᴍ&#94FF83&lɪ&#94FF83&lᴏ&#94FF83&lᴅ&#94FF83&lᴏ&#94FF83&lᴡ&#94FF83&lʏ%NEWLINE%&7Przedmiot
+    został użyty!'
+spellBookUsage:
+  type: TITLE_SUBTITLE
+  message: '&#AE0000&lᴋ&#9D1A07&ls&#8B330E&lɪ&#7A4D15&lᴇ&#68661C&lɢ&#578023&lᴀ &#34B330&lᴢ&#23CC37&lᴀ&#11E63E&lᴋ&#00FF45&lʟ&#18F43D&lᴇ&#2FE936&lć
+    &#5ED326&lᴡ&#76C71F&lɪ&#8DBC17&lᴇ&#A5B10F&lᴅ&#BCA608&lᴢ&#D49B00&lʏ%NEWLINE%&7Przedmiot
+    został użyty!'
+harryPotterWandUsage:
+  type: TITLE_SUBTITLE
+  message: '&#493FFF&lʀ&#5146F4&ló&#594DE9&lż&#6054DE&lᴅ&#685BD3&lż&#7062C8&lᴋ&#7869BC&lᴀ
+    &#8777A6&lʜ&#8F7E9B&lᴀ&#978590&lʀ&#9F8C85&lʀ&#A6937A&lᴇ&#AE9A6F&lɢ&#B6A164&lᴏ
+    &#C6AF4E&lᴘ&#CDB643&lᴏ&#D5BD37&lᴛ&#DDC42C&lᴛ&#E5CB21&lᴇ&#ECD216&lʀ&#F4D90B&lᴀ%NEWLINE%&7Przedmiot
+    został użyty!'
+zombieBrainUsage:
+  type: TITLE_SUBTITLE
+  message: '&#06AC1E&lᴍ&#38AB4B&ló&#6AA977&lᴢ&#9BA8A4&lɢ &#FFA5FD&lᴢ&#FFA5FD&lᴏ&#FFA5FD&lᴍ&#FFA5FD&lʙ&#FFA5FD&lɪ&#FFA5FD&lᴇ%NEWLINE%&7Przedmiot
+    został użyty!'
+ghostEscapeUsage:
+  type: TITLE_SUBTITLE
+  message: '&#FFFFFF&lᴜ&#F7F7F7&lᴄ&#EFEFEF&lɪ&#E7E7E7&lᴇ&#DEDEDE&lᴄ&#D6D6D6&lᴢ&#CECECE&lᴋ&#C6C6C6&lᴀ
+    &#C6C6C6&lᴅ&#C6C6C6&lᴜ&#C6C6C6&lᴄ&#C6C6C6&lʜ&#C6C6C6&lᴀ%NEWLINE%&7Przedmiot został
+    użyty!'
+hearthAbsorption:
+  type: TITLE_SUBTITLE
+  message: '&#5A5A5A&lᴡ&#605459&lᴄ&#674D58&lʜ&#6D4756&lʟ&#734055&lᴀ&#7A3A54&lɴ&#803353&lɪ&#872D52&lᴀ&#8D2750&lᴄ&#93204F&lᴢ
+    &#A0134D&ls&#A60D4B&lᴇ&#AD064A&lʀ&#B30049&lᴄ%NEWLINE%&7&7Użyto tego &fprzedmiotu&7
+    na tobie!'
+hearthAbsorptionUsage:
+  type: TITLE_SUBTITLE
+  message: '&#5A5A5A&lᴡ&#605459&lᴄ&#674D58&lʜ&#6D4756&lʟ&#734055&lᴀ&#7A3A54&lɴ&#803353&lɪ&#872D52&lᴀ&#8D2750&lᴄ&#93204F&lᴢ
+    &#A0134D&ls&#A60D4B&lᴇ&#AD064A&lʀ&#B30049&lᴄ%NEWLINE%&7Przedmiot został użyty!'
+curseOfMiner:
+  type: TITLE_SUBTITLE
+  message: '&#00BC08&lᴋ&#0EBD16&lʟ&#1DBF24&lᴀ&#2BC031&lᴛ&#39C23F&lᴡ&#48C34D&lᴀ &#64C668&lɢ&#72C876&ló&#81C984&lʀ&#8FCB92&lɴ&#9DCC9F&lɪ&#ACCEAD&lᴋ&#BACFBB&lᴀ%NEWLINE%&7Użyto
+    tego &fprzedmiotu&7 na tobie!'
+curseOfMinerUsage:
+  type: TITLE_SUBTITLE
+  message: '&#00BC08&lᴋ&#0EBD16&lʟ&#1DBF24&lᴀ&#2BC031&lᴛ&#39C23F&lᴡ&#48C34D&lᴀ &#64C668&lɢ&#72C876&ló&#81C984&lʀ&#8FCB92&lɴ&#9DCC9F&lɪ&#ACCEAD&lᴋ&#BACFBB&lᴀ%NEWLINE%&7Przedmiot
+    został użyty!'
+tridentOfDestroy:
+  type: TITLE_SUBTITLE
+  message: '&#3AB4FF&lᴛ&#3DB5FF&lʀ&#41B6FF&ló&#44B7FF&lᴊ&#48B7FF&lᴢ&#4BB8FF&lᴀ&#4FB9FF&lʙ
+    &#56BBFF&lᴢ&#59BCFF&lɴ&#5CBCFF&lɪ&#60BDFF&ls&#63BEFF&lᴢ&#67BFFF&lᴄ&#6AC0FF&lᴢ&#6EC1FF&lᴇ&#71C1FF&lɴ&#75C2FF&lɪ&#78C3FF&lᴀ%NEWLINE%&7Użyto
+    tego &fprzedmiotu&7 na tobie!'
+tridentOfDestroyUsage:
+  type: TITLE_SUBTITLE
+  message: '&#3AB4FF&lᴛ&#3DB5FF&lʀ&#41B6FF&ló&#44B7FF&lᴊ&#48B7FF&lᴢ&#4BB8FF&lᴀ&#4FB9FF&lʙ
+    &#56BBFF&lᴢ&#59BCFF&lɴ&#5CBCFF&lɪ&#60BDFF&ls&#63BEFF&lᴢ&#67BFFF&lᴄ&#6AC0FF&lᴢ&#6EC1FF&lᴇ&#71C1FF&lɴ&#75C2FF&lɪ&#78C3FF&lᴀ%NEWLINE%&7Przedmiot
+    został użyty!'
+piglinAxe:
+  type: TITLE_SUBTITLE
+  message: '&#FF9C28&lT&#FFA132&lo&#FFA53C&lp&#FFAA46&ló&#FFAE4F&lr &#FFB763&lP&#FFBC6D&li&#FFC077&lg&#FFC581&ll&#FFC98A&li&#FFCE94&ln&#FFD29E&l%NEWLINE%&7Użyto
+    tego &fprzedmiotu&7 na tobie!'
+piglinAxeUsage:
+  type: TITLE_SUBTITLE
+  message: '&#FF9C28&lT&#FFA132&lo&#FFA53C&lp&#FFAA46&ló&#FFAE4F&lr &#FFB763&lP&#FFBC6D&li&#FFC077&lg&#FFC581&ll&#FFC98A&li&#FFCE94&ln&#FFD29E&l%NEWLINE%&7Przedmiot
+    został użyty!'
+spaceChestplate:
+  type: TITLE_SUBTITLE
+  message: '&2&l✔%NEWLINE%&aZablokowano atak!'
+bomb:
+  type: TITLE_SUBTITLE
+  message: '&4&lBOMBA!%NEWLINE%&cWyrzuć ją z ekwipunku'
+bombUsage:
+  type: TITLE_SUBTITLE
+  message: '&#FFD747&lʙ&#F3D359&lᴏ&#E7CF6C&lᴍ&#DBCB7E&lʙ&#CFC791&lᴏ&#C3C4A3&lɴ&#B6C0B5&lɪ&#AABCC8&lᴇ&#9EB8DA&lʀ&#92B4ED&lᴋ&#86B0FF&lᴀ%NEWLINE%&7Przedmiot
+    został użyty!'
+bombEnded:
+  type: TITLE_SUBTITLE
+  message: '&4&lBOMBA!%NEWLINE%&cNie udało ci się rozbroić bomby!'
+bombDropped:
+  type: TITLE_SUBTITLE
+  message: '&2&l✔%NEWLINE%&aRozbroiłeś bombe!'
+lasso:
+  type: TITLE_SUBTITLE
+  message: '&#FFDC5F&lʟ&#FFD555&lᴀ&#FFCF4C&ls&#FFC842&ls&#FFC138&lᴏ%NEWLINE%&7Użyto
+    na &ftobie &7lasso!'
+lassoUsage:
+  type: TITLE_SUBTITLE
+  message: '&#FFDC5F&lʟ&#FFD555&lᴀ&#FFCF4C&ls&#FFC842&ls&#FFC138&lᴏ%NEWLINE%&7Przedmiot
+    został użyty!'
+lassoEnded:
+  type: TITLE_SUBTITLE
+  message: '&#FFDC5F&lʟ&#FFD555&lᴀ&#FFCF4C&ls&#FFC842&ls&#FFC138&lᴏ%NEWLINE%&7Jesteś
+    &fjuż &7wolny!'
+pumpkinGrenadeDropped:
+  type: TITLE_SUBTITLE
+  message: '&#FFAB57&lᴅ&#FCA752&lʏ&#F9A24C&lɴ&#F59E47&lɪ&#F29A41&lᴏ&#EF953C&lɢ&#EC9136&lʟ&#E88D31&lᴏ&#E5892C&lᴡ&#E28426&lʏ
+    &#DB7C1B&lɢ&#D87716&lʀ&#D57310&lᴀ&#D26F0B&lɴ&#CE6A05&lᴀ&#CB6600&lᴛ%NEWLINE%&aWyrzuciłeś
+    dyniową bombę!'
+pumpkinGrenadeEnded:
+  type: TITLE_SUBTITLE
+  message: '&#FFAB57&lᴅ&#FCA752&lʏ&#F9A24C&lɴ&#F59E47&lɪ&#F29A41&lᴏ&#EF953C&lɢ&#EC9136&lʟ&#E88D31&lᴏ&#E5892C&lᴡ&#E28426&lʏ
+    &#DB7C1B&lɢ&#D87716&lʀ&#D57310&lᴀ&#D26F0B&lɴ&#CE6A05&lᴀ&#CB6600&lᴛ%NEWLINE%&cDyniowy
+    granat wybuchł!'
+gingerbreadUsage:
+  type: TITLE_SUBTITLE
+  message: '&#FFB763&lᴘ&#FFBE71&lɪ&#FFC47F&lᴇ&#FFCB8D&lʀ&#FFD19B&lɴ&#FFD8A9&lɪ&#FFDEB7&lᴋ%NEWLINE%&7Przedmiot
+    został użyty!'
+tornadoUsage:
+  type: TITLE_SUBTITLE
+  message: '&#BC4FFF&lᴛ&#C059FF&lᴏ&#C362FF&lʀ&#C76CFF&lɴ&#CB75FF&lᴀ&#CE7FFF&lᴅ&#D288FF&lᴏ%NEWLINE%&7Przedmiot
+    został użyty!'
+sweetAppleSuccess:
+  type: TITLE_SUBTITLE
+  message: '&#FF4BE2&ls&#FF54E3&lʟ&#FF5DE5&lᴏ&#FF65E6&lᴅ&#FF6EE8&lᴋ&#FF77E9&lɪ&#FF80EA&lᴇ
+    &#FF91ED&lᴊ&#FF9AEE&lᴀ&#FFA3F0&lʙ&#FFABF1&lʟ&#FFB4F3&lᴋ&#FFBDF4&lᴏ%NEWLINE%&7Pomyślnie
+    &Fużyto &7słodkiego jabłka!'
+skypvpAppleSuccess:
+  type: TITLE_SUBTITLE
+  message: '&#FF4BE2&ls&#FF54E3&lʟ&#FF5DE5&lᴏ&#FF65E6&lᴅ&#FF6EE8&lᴋ&#FF77E9&lɪ&#FF80EA&lᴇ
+    &#FF91ED&lᴊ&#FF9AEE&lᴀ&#FFA3F0&lʙ&#FFABF1&lʟ&#FFB4F3&lᴋ&#FFBDF4&lᴏ%NEWLINE%&7Pomyślnie
+    &Fużyto &7słodkiego jabłka!'
+pokeBallSuccess:
+  type: TITLE_SUBTITLE
+  message: '&4&lᴍᴀɢ&b&lɴᴇᴛᴏ%NEWLINE%&aPomyślnie użyto ᴍᴀɢɴᴇᴛᴏ!'
+pokeBallFailed:
+  type: TITLE_SUBTITLE
+  message: '&4&lᴍᴀɢ&b&lɴᴇᴛᴏ%NEWLINE%&aNiepowodzenie użycia ᴍᴀɢɴᴇᴛᴏ!'
+magnifyingGlassUsage:
+  type: CHAT
+  message: |-
+    &c{player} &7posiada &f{totems} totemów &7i &f{apples} koxów&7!
+    &8▶ &4hełm &cprzeciwnika&8: &4{helmet_usage} &czużycia
+    &8▶ &4napierśnik &cprzeciwnika&8: &4{chestplate_usage} &czużycia
+    &8▶ &4spodnie &cprzeciwnika&8: &4{leggings_usage} &czużycia
+    &8▶ &4buty &cprzeciwnika&8: &4{boots_usage} &czużycia
+bunnyEars:
+  type: TITLE_SUBTITLE
+  message: '&#FFF7E2ᴜ&#FEF8E5s&#FEF8E7ᴢ&#FDF9EAʏ &#FBFAEFᴋ&#FBFAF2ʀ&#FAFBF4ó&#F9FBF7ʟ&#F8FCFAɪ&#F8FCFCᴋ&#F7FDFFᴀ%NEWLINE%&7Użyto
+    tego &fprzedmiotu&7 na tobie!'
+bunnyEarsUsage:
+  type: TITLE_SUBTITLE
+  message: '&#FFF7E2ᴜ&#FEF8E5s&#FEF8E7ᴢ&#FDF9EAʏ &#FBFAEFᴋ&#FBFAF2ʀ&#FAFBF4ó&#F9FBF7ʟ&#F8FCFAɪ&#F8FCFCᴋ&#F7FDFFᴀ%NEWLINE%&7Przedmiot
+    został użyty!'
+durationEnded:
+  type: SUBTITLE
+  message: '&cPrzedmiot wygasł &8(&4{name}&8)&c!'
+provideCooldown:
+  type: SUBTITLE
+  message: '&aWprowadź na chat cooldown!'
+cooldownChanged:
+  type: CHAT
+  message: '&aZmieniono cooldown!'
+provideRegion:
+  type: SUBTITLE
+  message: '&aWprowadź na chat region!'
+regionAdded:
+  type: CHAT
+  message: '&aDodano region!'
+provideChance:
+  type: SUBTITLE
+  message: '&aWprowadź na chat szansę!'
+chanceAdded:
+  type: CHAT
+  message: '&aDodano szansę!'
+numberIsNotValid:
+  type: SUBTITLE
+  message: '&aWprowadzona liczba nie jest liczbą!'
+luckyBlockOpened:
+  type: TITLE_SUBTITLE
+  message: '&6&lLuckyBlock%NEWLINE%&7Właśnie &fzostał &7otworzony!'
+smallPresentOpened:
+  type: TITLE_SUBTITLE
+  message: '&#FF676B&lᴍ&#FF7474&lᴀ&#FF817D&lʟ&#FF8E86&lʏ &#FFA898&lᴘ&#FFB4A0&lʀ&#FFC1A9&lᴇ&#FFCEB2&lᴢ&#FFDBBB&lᴇ&#FFE8C4&lɴ&#FFF5CD&lᴛ%NEWLINE%&7Właśnie
+    &fzostał &7otworzony!'
+bigPresentOpened:
+  type: TITLE_SUBTITLE
+  message: '&#FFC400&lᴅ&#FFC003&lᴜ&#FFBC07&lż&#FFB90A&lʏ &#FFB111&lᴘ&#FFAD14&lʀ&#FFAD14&lᴇ&#FFAD14&lᴢ&#FFAD14&lᴇ&#FFAD14&lɴ&#FFAD14&lᴛ%NEWLINE%&7Właśnie
+    &fzostał &7otworzony!'
+smallGiftOpened:
+  type: TITLE_SUBTITLE
+  message: '&#FEFC8D&lᴍ&#FEFC94&lᴀ&#FEFC9B&lʟ&#FEFDA2&lʏ &#FEFDB0&lᴜ&#FFFDB8&lᴘ&#FFFDBF&lᴏ&#FFFDC6&lᴍ&#FFFECD&lɪ&#FFFED4&lɴ&#FFFEDB&lᴇ&#FFFEE2&lᴋ%NEWLINE%&7Właśnie
+    &fzostał &7otworzony!'
+quiverOpened:
+  type: TITLE_SUBTITLE
+  message: '&#FF67AF&lᴋ&#FD62A9&lᴏ&#FB5CA2&lʟ&#F9579C&lᴄ&#F75195&lᴢ&#F54C8F&lᴀ&#F34688&lɴ
+    &#EF3C7C&lᴢ&#ED3675&lᴇ &#E92B68&ls&#E72662&lᴛ&#E5215C&lʀ&#E31B55&lᴢ&#E1164F&lᴀ&#DF1048&lʟ&#DD0B42&lᴀ&#DB053B&lᴍ&#D90035&lɪ%NEWLINE%&7Właśnie
+    &fzostał &7otworzony!'
+bigGiftOpened:
+  type: TITLE_SUBTITLE
+  message: '&#EF9EFF&lᴅ&#F0A6FF&lᴜ&#F2AEFF&lż&#F3B6FF&lʏ &#F6C6FF&lᴜ&#F7CEFF&lᴘ&#F8D6FF&lᴏ&#FADEFF&lᴍ&#FBE6FF&lɪ&#FCEEFF&lɴ&#FEF6FF&lᴇ&#FFFEFF&lᴋ%NEWLINE%&7Właśnie
+    &fzostał &7otworzony!'
+heartUsed:
+  type: SUBTITLE
+  message: '&c+1&4&l❤'
+heartLimit:
+  type: TITLE_SUBTITLE
+  message: '&4&l❌%NEWLINE%&cNie możesz użyć więcej niż {limit}!'
+upgradedHeartUsed:
+  type: SUBTITLE
+  message: '&e+1&6&l❤!'
+upgradedHeartMin:
+  type: TITLE_SUBTITLE
+  message: '&4&l❌%NEWLINE%&cMusisz mieć minimum {min} serc!'
+heartsReset:
+  type: TITLE_SUBTITLE
+  message: '&2&l✔%NEWLINE%&aZresetowałeś serca dla &2{player}&a!'
+stick:
+  type: TITLE_SUBTITLE
+  message: '&#6D5D3F&lʀ&#837252&ló&#998765&lᴢ&#AE9B77&lɢ&#C4B08A&lᴀ%NEWLINE%&cNie
+    możesz używać elytry!'
+stickUsage:
+  type: TITLE_SUBTITLE
+  message: '&#6D5D3F&lʀ&#837252&ló&#998765&lᴢ&#AE9B77&lɢ&#C4B08A&lᴀ%NEWLINE%&7Przedmiot
+    został użyty!'
+glorySwordUsage:
+  type: NOTHING
+  message: ''
+hedgehogSpikesUsage:
+  type: TITLE_SUBTITLE
+  message: '&#D89D2B&lᴋ&#DCA63C&lᴏ&#E1AE4D&lʟ&#E5B75E&lᴄ&#E9C06F&lᴇ &#F2D190&lᴊ&#F6DAA1&lᴇ&#FBE2B2&lż&#FFEBC3&lᴀ%NEWLINE%&7Przedmiot
+    został użyty!'
+cupidBowFailed:
+  type: TITLE_SUBTITLE
+  message: '&4&l❌%NEWLINE%&cTutaj nie możesz użyć tego łuku!'
+cupidBowWrongArrow:
+  type: TITLE_SUBTITLE
+  message: '&4&l❌%NEWLINE%&cPotrzebujesz strzały miłosnej!'
+attackBlocked:
+  type: TITLE_SUBTITLE
+  message: '&2&l✔%NEWLINE%&aAtak został zablokowany!'
+activeHigher:
+  type: TITLE_SUBTITLE
+  message: '&4&l❌%NEWLINE%&cPosiadasz aktywny eliksir o wyższej wartości!'
+potionActivated:
+  type: TITLE_SUBTITLE
+  message: '&2&l✔%NEWLINE%&aAktywowano eliksir!'
+loveForDeadUsage:
+  type: TITLE_SUBTITLE
+  message: '&#B5EFFF&lᴍ&#BAF0F3&lɪ&#BFF1E8&lʟ&#C4F2DC&lᴏ&#CAF4D1&ls&#CFF5C5&lᴄ &#D9F7AE&lɴ&#DEF8A2&lᴀ
+    &#E8FA8B&lᴢ&#EEFC80&lᴀ&#F3FD74&lʙ&#F8FE69&lᴏ&#FDFF5D&lᴊ%NEWLINE%&7Przedmiot został
+    użyty!'
+regenPotionUsage:
+  type: TITLE_SUBTITLE
+  message: '&#FF51EA&lᴍ&#F755EB&lɪ&#F059EC&lᴋ&#E85DED&ls&#E061EE&lᴛ&#D964F0&lᴜ&#D168F1&lʀ&#C96CF2&lᴀ
+    &#BA74F4&lᴏ&#B278F5&lᴅ&#AA7CF6&lᴍ&#A380F7&lʟ&#9B84F8&lᴏ&#9388F9&lᴅ&#8C8BFB&lᴢ&#848FFC&lᴇ&#7C93FD&lɴ&#7597FE&lɪ&#6D9BFF&lᴀ%NEWLINE%&7Przedmiot
+    został użyty!'
+blockBowEnded:
+  type: TITLE_SUBTITLE
+  message: '&2&l✔%NEWLINE%&aZostałeś uwolniony!'
+dropEmpty:
+  type: TITLE_SUBTITLE
+  message: '&4&l❌%NEWLINE%&cDrop jest pusty!'
+doNotHaveItem:
+  type: TITLE_SUBTITLE
+  message: '&4&l❌%NEWLINE%&cNie masz wymaganego przedmiotu!'
+wrongItem:
+  type: TITLE_SUBTITLE
+  message: '&4&l❌%NEWLINE%&cNie możesz nałożyć stattraku na ten przedmiot!'
+provideName:
+  type: SUBTITLE
+  message: '&aWprowadź nową nazwę na chat!'
+provideCmd:
+  type: SUBTITLE
+  message: '&aWprowadź nową model date na chat!'
+provideValue:
+  type: SUBTITLE
+  message: '&aWprowadź wartość na chat!'
+provideLoreLine:
+  type: SUBTITLE
+  message: '&aWprowadź nową linię opisu na chat!'
+provideGoatSize:
+  type: SUBTITLE
+  message: '&aWprowadź nowy rozmiar na chat!'
+provideGoatDuration:
+  type: SUBTITLE
+  message: '&aWprowadź nowy czas na chat!'
+locationSet:
+  type: TITLE_SUBTITLE
+  message: '&2&l✔%NEWLINE%&aUstawiłeś lokalizację!'
+locationRemove:
+  type: TITLE_SUBTITLE
+  message: '&4&l❌%NEWLINE%&cUsunąłeś lokalizację!'
+locationNotFound:
+  type: TITLE_SUBTITLE
+  message: '&4&l❌%NEWLINE%&cNie ma tutaj ustawionej lokalizacji!'
+invalidBlock:
+  type: TITLE_SUBTITLE
+  message: '&4&l❌%NEWLINE%&cNie możesz tutaj ustawić!'
+luckyBlockGivePlayer:
+  type: TITLE_SUBTITLE
+  message: '&6&lLuckyBlock%NEWLINE%&fOtrzymałeś &7X{count} &fluckyblocków!'
+luckyBlockGiveAll:
+  type: TITLE_SUBTITLE
+  message: '&6&lLuckyBlock%NEWLINE%&fAdministrator &c{player} &frozdał każdemu &7X{count}
+    &fluckyblocków!'
+luckyBlockGiveRandom:
+  type: TITLE_SUBTITLE
+  message: '&6&lLuckyBlock%NEWLINE%&fLuckyblocka dostał gracz... &7{player}&f!'
+smallGiftGivePlayer:
+  type: TITLE_SUBTITLE
+  message: '&#FEFC8D&lᴍ&#FEFC94&lᴀ&#FEFC9B&lʟ&#FEFDA2&lʏ &#FEFDB0&lᴜ&#FFFDB8&lᴘ&#FFFDBF&lᴏ&#FFFDC6&lᴍ&#FFFECD&lɪ&#FFFED4&lɴ&#FFFEDB&lᴇ&#FFFEE2&lᴋ%NEWLINE%&fOtrzymałeś
+    &7X{count} &fmałych upominków!'
+smallGiftGiveAll:
+  type: TITLE_SUBTITLE
+  message: '&#FEFC8D&lᴍ&#FEFC94&lᴀ&#FEFC9B&lʟ&#FEFDA2&lʏ &#FEFDB0&lᴜ&#FFFDB8&lᴘ&#FFFDBF&lᴏ&#FFFDC6&lᴍ&#FFFECD&lɪ&#FFFED4&lɴ&#FFFEDB&lᴇ&#FFFEE2&lᴋ%NEWLINE%&fAdministrator
+    &c{player} &frozdał każdemu &7X{count} &fmałych upominków!'
+smallGiftGiveRandom:
+  type: TITLE_SUBTITLE
+  message: '&#FEFC8D&lᴍ&#FEFC94&lᴀ&#FEFC9B&lʟ&#FEFDA2&lʏ &#FEFDB0&lᴜ&#FFFDB8&lᴘ&#FFFDBF&lᴏ&#FFFDC6&lᴍ&#FFFECD&lɪ&#FFFED4&lɴ&#FFFEDB&lᴇ&#FFFEE2&lᴋ%NEWLINE%&fMały
+    upominek dostał gracz... &7{player}&f!'
+bigGiftGivePlayer:
+  type: TITLE_SUBTITLE
+  message: '&#EF9EFF&lᴅ&#F0A6FF&lᴜ&#F2AEFF&lż&#F3B6FF&lʏ &#F6C6FF&lᴜ&#F7CEFF&lᴘ&#F8D6FF&lᴏ&#FADEFF&lᴍ&#FBE6FF&lɪ&#FCEEFF&lɴ&#FEF6FF&lᴇ&#FFFEFF&lᴋ%NEWLINE%&fOtrzymałeś
+    &7X{count} &fdużych upominków!'
+bigGiftGiveAll:
+  type: TITLE_SUBTITLE
+  message: '&#EF9EFF&lᴅ&#F0A6FF&lᴜ&#F2AEFF&lż&#F3B6FF&lʏ &#F6C6FF&lᴜ&#F7CEFF&lᴘ&#F8D6FF&lᴏ&#FADEFF&lᴍ&#FBE6FF&lɪ&#FCEEFF&lɴ&#FEF6FF&lᴇ&#FFFEFF&lᴋ%NEWLINE%&fAdministrator
+    &c{player} &frozdał każdemu &7X{count} &fdużych upominków!'
+bigGiftGiveRandom:
+  type: TITLE_SUBTITLE
+  message: '&#EF9EFF&lᴅ&#F0A6FF&lᴜ&#F2AEFF&lż&#F3B6FF&lʏ &#F6C6FF&lᴜ&#F7CEFF&lᴘ&#F8D6FF&lᴏ&#FADEFF&lᴍ&#FBE6FF&lɪ&#FCEEFF&lɴ&#FEF6FF&lᴇ&#FFFEFF&lᴋ%NEWLINE%&fDuży
+    upominek dostał gracz... &7{player}&f!'
+smallPresentGivePlayer:
+  type: TITLE_SUBTITLE
+  message: '&#FF676B&lᴍ&#FF7474&lᴀ&#FF817D&lʟ&#FF8E86&lʏ &#FFA898&lᴘ&#FFB4A0&lʀ&#FFC1A9&lᴇ&#FFCEB2&lᴢ&#FFDBBB&lᴇ&#FFE8C4&lɴ&#FFF5CD&lᴛ%NEWLINE%&fOtrzymałeś
+    &7X{count} &fmałych prezentów!'
+smallPresentGiveAll:
+  type: TITLE_SUBTITLE
+  message: '&#FF676B&lᴍ&#FF7474&lᴀ&#FF817D&lʟ&#FF8E86&lʏ &#FFA898&lᴘ&#FFB4A0&lʀ&#FFC1A9&lᴇ&#FFCEB2&lᴢ&#FFDBBB&lᴇ&#FFE8C4&lɴ&#FFF5CD&lᴛ%NEWLINE%&fAdministrator
+    &c{player} &frozdał każdemu &7X{count} &fmałych prezentów!'
+smallPresentGiveRandom:
+  type: TITLE_SUBTITLE
+  message: '&#FF676B&lᴍ&#FF7474&lᴀ&#FF817D&lʟ&#FF8E86&lʏ &#FFA898&lᴘ&#FFB4A0&lʀ&#FFC1A9&lᴇ&#FFCEB2&lᴢ&#FFDBBB&lᴇ&#FFE8C4&lɴ&#FFF5CD&lᴛ%NEWLINE%&fMały
+    prezent dostał gracz... &7{player}&f!'
+bigPresentGivePlayer:
+  type: TITLE_SUBTITLE
+  message: '&#FFC400&lᴅ&#FFC003&lᴜ&#FFBC07&lż&#FFB90A&lʏ &#FFB111&lᴘ&#FFAD14&lʀ&#FFAD14&lᴇ&#FFAD14&lᴢ&#FFAD14&lᴇ&#FFAD14&lɴ&#FFAD14&lᴛ%NEWLINE%&fOtrzymałeś
+    &7X{count} &fdużych prezentów!'
+bigPresentGiveAll:
+  type: TITLE_SUBTITLE
+  message: '&#FFC400&lᴅ&#FFC003&lᴜ&#FFBC07&lż&#FFB90A&lʏ &#FFB111&lᴘ&#FFAD14&lʀ&#FFAD14&lᴇ&#FFAD14&lᴢ&#FFAD14&lᴇ&#FFAD14&lɴ&#FFAD14&lᴛ%NEWLINE%&fAdministrator
+    &c{player} &frozdał każdemu &7X{count} &fdużych prezentów!'
+bigPresentGiveRandom:
+  type: TITLE_SUBTITLE
+  message: '&#FFC400&lᴅ&#FFC003&lᴜ&#FFBC07&lż&#FFB90A&lʏ &#FFB111&lᴘ&#FFAD14&lʀ&#FFAD14&lᴇ&#FFAD14&lᴢ&#FFAD14&lᴇ&#FFAD14&lɴ&#FFAD14&lᴛ%NEWLINE%&fDuży
+    prezent dostał gracz... &7{player}&f!'
+broomFailed:
+  type: TITLE_SUBTITLE
+  message: '&5&lᴍɪᴏᴛʟᴀ%NEWLINE%&fNie możesz przelecieć więcej niż &d10 &fkratek!'
+broomUsage:
+  type: TITLE_SUBTITLE
+  message: '&5&lᴍɪᴏᴛʟᴀ%NEWLINE%&fUdało ci się &dprzelecieć&f!'
+blastOfChangeTarget:
+  type: TITLE_SUBTITLE
+  message: '&b&lᴘᴏᴅᴍᴜᴄʜ ᴢᴍɪᴀɴʏ%NEWLINE%&fGracz &b{player} &fzamienił się z tobą miejscem!'
+blastOfChangePlayer:
+  type: TITLE_SUBTITLE
+  message: '&b&lᴘᴏᴅᴍᴜᴄʜ ᴢᴍɪᴀɴʏ%NEWLINE%&fUdało ci się &bzamienić &fmiejsce!'
+actionbarToggle:
+  type: SUBTITLE
+  message: '&7Przełączono actionbar na &f{status}'
+reload:
+  type: TITLE_SUBTITLE
+  message: '&2&l♻%NEWLINE%&aOdświeżono konfigurację!'

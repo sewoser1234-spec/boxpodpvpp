@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 213.108.159.162
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1761381443652
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1761381669980
+  login: 1761381646627
+money: '0.0'
+last-account-name: HugoKiss
+lastlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: 32.61586573958142
+  y: 124.0
+  z: 125.37313515158526
+  yaw: 8.0631103515625
+  pitch: 29.480924606323242
+logoutlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: 24.751380176966332
+  y: 145.0
+  z: 105.80153285471239
+  yaw: -0.197998046875
+  pitch: -8.91749382019043

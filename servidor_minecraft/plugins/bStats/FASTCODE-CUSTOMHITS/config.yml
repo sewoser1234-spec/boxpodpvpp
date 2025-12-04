@@ -1,0 +1,4 @@
+# Czy każda osoba z permisją fastcode.customhits ma widzieć powiadomienia o mocy zadawanych obrażeń
+infoStatus: false
+# Aktualna moc zadawanych obrażeń, defaultowo jest to 1.0
+powerDamage: 1.7

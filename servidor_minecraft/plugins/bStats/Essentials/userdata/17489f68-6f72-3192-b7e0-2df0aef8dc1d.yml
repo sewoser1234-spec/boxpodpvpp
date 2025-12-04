@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1760447930137
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1760459866479
+  login: 1760459995049
+money: '623.54'
+last-account-name: wood_S6WO___
+lastlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: 29.30000001192093
+  y: 119.0
+  z: 158.95455329134305
+  yaw: -100.62310791015625
+  pitch: 28.366966247558594
+logoutlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: 35.66617187051612
+  y: 133.19868012583257
+  z: 186.6308287884309
+  yaw: 14.120513916015625
+  pitch: 9.781939506530762

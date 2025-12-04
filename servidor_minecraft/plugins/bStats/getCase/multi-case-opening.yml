@@ -1,0 +1,115 @@
+inventorySelection:
+  size: 27
+  title: '&0selection multi-case'
+  refreshInterval: -1
+  cancelClicks: true
+  decorations: []
+selectionCase:
+  1:
+    enabled: false
+    item:
+      amount: 1
+      material: CHEST
+      name: Open 1
+      lore: []
+      unbreakable: false
+      glow: false
+      modelData: 0
+      extended: false
+      upgraded: false
+      fireworkFlicker: false
+      fireworkTrail: false
+      hideTooltip: false
+    slots:
+    - 10
+    disposed: false
+  2:
+    enabled: false
+    item:
+      amount: 1
+      material: CHEST
+      name: Open 2
+      lore: []
+      unbreakable: false
+      glow: false
+      modelData: 0
+      extended: false
+      upgraded: false
+      fireworkFlicker: false
+      fireworkTrail: false
+      hideTooltip: false
+    slots:
+    - 11
+    disposed: false
+  3:
+    enabled: false
+    item:
+      amount: 1
+      material: CHEST
+      name: Open 3
+      lore: []
+      unbreakable: false
+      glow: false
+      modelData: 0
+      extended: false
+      upgraded: false
+      fireworkFlicker: false
+      fireworkTrail: false
+      hideTooltip: false
+    slots:
+    - 12
+    disposed: false
+  4:
+    enabled: false
+    item:
+      amount: 1
+      material: CHEST
+      name: Open 4
+      lore: []
+      unbreakable: false
+      glow: false
+      modelData: 0
+      extended: false
+      upgraded: false
+      fireworkFlicker: false
+      fireworkTrail: false
+      hideTooltip: false
+    slots:
+    - 14
+    disposed: false
+  5:
+    enabled: false
+    item:
+      amount: 1
+      material: CHEST
+      name: Open 5
+      lore: []
+      unbreakable: false
+      glow: false
+      modelData: 0
+      extended: false
+      upgraded: false
+      fireworkFlicker: false
+      fireworkTrail: false
+      hideTooltip: false
+    slots:
+    - 15
+    disposed: false
+  6:
+    enabled: false
+    item:
+      amount: 1
+      material: CHEST
+      name: Open 6
+      lore: []
+      unbreakable: false
+      glow: false
+      modelData: 0
+      extended: false
+      upgraded: false
+      fireworkFlicker: false
+      fireworkTrail: false
+      hideTooltip: false
+    slots:
+    - 16
+    disposed: false

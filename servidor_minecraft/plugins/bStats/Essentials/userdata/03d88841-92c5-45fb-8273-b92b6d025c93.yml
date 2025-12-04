@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 37.109.147.23
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1761405720527
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1761406705433
+  login: 1761405417084
+money: '0'
+last-account-name: NIKtpl
+lastlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: 8.975299289883653
+  y: 124.0
+  z: 125.7714022503846
+  yaw: -87.7222900390625
+  pitch: 15.867459297180176
+logoutlocation:
+  world: 16479555-9663-4146-9ddf-c89754e1dd7d
+  world-name: world
+  x: -6.753457529791745
+  y: 124.0
+  z: 126.38978806290481
+  yaw: -87.2470703125
+  pitch: -6.575387954711914
